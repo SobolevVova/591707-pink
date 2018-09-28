@@ -1,12 +1,215 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p>
+<head>
+  <meta charset="UTF-8">
+  <title>Пинк</title>
+</head>
 
-  </body>
+<body>
+  <header class="page-header">
+    <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="75" height="22" alt="Пинк">
+      </a>
+    <nav class="main-navigation">
+      <button class="main-navigation__toggle" type="button"></button>
+      <div class="main-navigation__wrapper">
+        <ul class="main-navigation__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a href="#">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html" title="Переход на страницу фотографий">Фотография</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html" title="Переход на страницу конкурс">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="https://htmlacademy.ru/intensive/adaptive" title="Переходна страницу HTML Academy">HTML Academy</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main">
+
+    <h1 class="visually-hidden">Пинк</h1>
+
+    <section class="intro-app">
+      <h2 class="visually-hidden">Приложения</h2>
+      <div class="intro-app__wrapper-img">
+      </div>
+      <div class="intro-app__wrapper">
+        <div class="intro-app__link">
+          <a class="button button--app" href="#" title="Переход на itunes">Скачать приложение</a>
+        </div>
+        <div class="intro-app__list">
+          <a class="intro-app__item" href="https://www.apple.com/itunes/" title="Переход на itunes">
+            <img src="img/logo-apple.svg" width="47" height="57" alt="логотип Apple">
+          </a>
+          <a class="intro-app__item" href="https://play.google.com/store" title="Переход на google play">
+            <img src="img/logo-android.svg" width="43" height="48" alt="логотип Android">
+          </a>
+          <a class="intro-app__item" href="https://www.microsoft.com/en-us/store/appsvnext/windows" title="Переход на microsoft play">
+            <img src="img/logo-microsoft.svg" width="43" height="48" alt="логотип Microsoft">
+          </a>
+        </div>
+        <p class="intro-app__text">
+          Доступно для iPhone, iPad, Android,
+        </p>
+        <p class="intro-app__text">
+          Windows Phone, OS X, Windows 8
+        </p>
+      </div>
+    </section>
+
+    <section class="information-app">
+      <h2 class="visually-hidden">Информация</h2>
+      <div class="information-app__texts">
+        <p class="information-app__text">
+          Устали от серости мегаполиса?
+        </p>
+        <p class="information-app__subtext">
+          Нам есть, что вам предложить!
+        </p>
+      </div>
+      <div class="information-app__draw">
+        <div class="information-app__wrapper">
+          <ul class="information-app__list">
+            <li class="information-app__item">
+              <h2 class="information-app__item-title">
+                Поднимает настроение
+              </h2>
+              <p>
+                Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+              </p>
+            </li>
+            <li class="information-app__item">
+              <h2 class="information-app__item-title">
+                Меняет мир вокруг
+              </h2>
+              <p>
+                Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+              </p>
+            </li>
+            <li class="information-app__item">
+              <h2 class="information-app__item-title">
+                Заводит новых друзей
+              </h2>
+              <p>
+                Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="information-app__imgs">
+          <img src="img/iphone.png" width="158" height="322" alt="розовый экран">
+        </div>
+      </div>
+    </section>
+
+    <section class="comments">
+      <h2 class="visually-hidden">Отзывы</h2>
+      <div class="comments__wrapper slider">
+        <div class="comments__list slider__list">
+          <blockquote class="comments__item slider__item">
+            <cite class="comments__name">
+              Николай Петров
+            </cite>
+            <p class="comments__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
+          </blockquote>
+          <blockquote class="comments__item slider__item">
+
+          </blockquote>
+          <blockquote class="comments__item slider__item">
+
+          </blockquote>
+        </div>
+        <div class="slider__toggles-wrapper">
+          <ul class="comments__toggles slider__toggles">
+            <li class="slider__toggle slider__toggle--active"></li>
+            <li class="slider__toggle"></li>
+            <li class="slider__toggle"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="price">
+      <h2 class="visually-hidden">Цена</h2>
+      <div class="price__fon slider">
+        <div class="slider__table">
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th class="price-table__value price-table__value-hit">
+                  Стандарт
+                  <span>3,99 USD</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="price-table__filter price-table__filter--visible">
+                  Розовый фильтр
+                </td>
+              </tr>
+              <tr>
+                <td class="price-table__filter price-table__filter--yes">
+                  Смайлики
+                </td>
+              </tr>
+              <tr>
+                <td class="price-table__filter price-table__filter--yes">
+                  Комментарии
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="price__toggle-wrapper slider__toggle--wrapper">
+            <ul class="price__toggle slider__toggles">
+              <li class="slider__toggle"></li>
+              <li class="slider__toggle slider__toggle--active"></li>
+              <li class="slider__toggle"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <h2 class="visually-hidden">Контакты</h2>
+      <h4 class="contacts__title">
+        Остались вопросы?<br>
+        Свяжитесь с нами!
+      </h4>
+      <div class="contacts__list">
+        <div class="contacts__item">
+          <b>Звоните:</b>
+          <a class="contacts__item--phone" href="tel:+7(812)555-66-66">
+            <span>+7 (812) 555-66-66</span>
+          </a>
+        </div>
+        <div class="contacts__item">
+          <b>Пишите:</b>
+          <span class="contacts__item--email">mail@htmlacademy.ru</span>
+        </div>
+        <div class="contacts__item">
+          <b>Приезжайте в гости:</b>
+          <span class="contacts__item--address">
+            ул. Большая <br />
+            Конюшенная, 19/8
+          </span>
+        </div>
+      </div>
+      <div class="contacts__map">
+        Карта
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
