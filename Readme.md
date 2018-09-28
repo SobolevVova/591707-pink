@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [ВладимирСоболев](https://up.htmlacademy.ru/adaptive/15/user/591707).
-* Наставник:[Макс Пушкарёв](https://up.htmlacademy.ru/adaptive/15/user/87167).
+* * Студент: [Владимир Соболев](https://up.htmlacademy.ru/adaptive/15/user/591707).
+* Наставник: [Макс Пушкарёв](https://up.htmlacademy.ru/adaptive/15/user/87167).
 
 
 **Обратите внимание, что папка с вашими исходными файлами — `source/`.**
