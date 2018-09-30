@@ -9,14 +9,14 @@
 <body>
   <header class="page-header">
     <a class="page-header__logo">
-        <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="75" height="22" alt="Пинк">
-      </a>
+      <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="75" height="22" alt="Пинк">
+    </a>
     <nav class="main-navigation">
       <button class="main-navigation__toggle" type="button"></button>
       <div class="main-navigation__wrapper">
         <ul class="main-navigation__list site-list">
           <li class="site-list__item site-list__item--active">
-            <a href="#">Главная</a>
+            <a href="#" title="Главная страница">Главная</a>
           </li>
           <li class="site-list__item">
             <a href="photo.html" title="Переход на страницу фотографий">Фотография</a>
@@ -38,8 +38,6 @@
 
     <section class="intro-app">
       <h2 class="visually-hidden">Приложения</h2>
-      <div class="intro-app__wrapper-img">
-      </div>
       <div class="intro-app__wrapper">
         <div class="intro-app__link">
           <a class="button button--app" href="#" title="Переход на itunes">Скачать приложение</a>
@@ -70,7 +68,7 @@
         <p class="information-app__text">
           Устали от серости мегаполиса?
         </p>
-        <p class="information-app__subtext">
+        <p class="information-app__text">
           Нам есть, что вам предложить!
         </p>
       </div>
@@ -81,7 +79,7 @@
               <h2 class="information-app__item-title">
                 Поднимает настроение
               </h2>
-              <p>
+              <p class="information-app__item-text">
                 Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
               </p>
             </li>
@@ -89,7 +87,7 @@
               <h2 class="information-app__item-title">
                 Меняет мир вокруг
               </h2>
-              <p>
+              <p class="information-app__item-text">
                 Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
               </p>
             </li>
@@ -97,13 +95,13 @@
               <h2 class="information-app__item-title">
                 Заводит новых друзей
               </h2>
-              <p>
+              <p class="information-app__item-text">
                 Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
               </p>
             </li>
           </ul>
         </div>
-        <div class="information-app__imgs">
+        <div class="information-app__img">
           <img src="img/iphone.png" width="158" height="322" alt="розовый экран">
         </div>
       </div>
@@ -122,10 +120,20 @@
             </p>
           </blockquote>
           <blockquote class="comments__item slider__item">
-
+            <cite class="comments__name">
+              Николай Петров
+            </cite>
+            <p class="comments__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
           </blockquote>
           <blockquote class="comments__item slider__item">
-
+            <cite class="comments__name">
+              Николай Петров
+            </cite>
+            <p class="comments__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
           </blockquote>
         </div>
         <div class="slider__toggles-wrapper">
@@ -140,67 +148,53 @@
 
     <section class="price">
       <h2 class="visually-hidden">Цена</h2>
-      <div class="price__fon slider">
-        <div class="slider__table">
-          <table class="price-table">
-            <thead>
-              <tr>
-                <th class="price-table__value price-table__value-hit">
-                  Стандарт
-                  <span>3,99 USD</span>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="price-table__filter price-table__filter--visible">
-                  Розовый фильтр
-                </td>
-              </tr>
-              <tr>
-                <td class="price-table__filter price-table__filter--yes">
-                  Смайлики
-                </td>
-              </tr>
-              <tr>
-                <td class="price-table__filter price-table__filter--yes">
-                  Комментарии
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="price__toggle-wrapper slider__toggle--wrapper">
-            <ul class="price__toggle slider__toggles">
-              <li class="slider__toggle"></li>
-              <li class="slider__toggle slider__toggle--active"></li>
-              <li class="slider__toggle"></li>
-            </ul>
+      <div class="price__table slider">
+        <div class="price__title price__title--hit">
+          Стандарт
+          <span class="price__cost">3,99 USD</span>
+        </div>
+        <div class="price__wrapper">
+          <div class="price__column price__column--yes">
+            Розовый фильтр
           </div>
+          <div class="price__column price__column--yes">
+            Смайлики
+          </div>
+          <div class="price__column price__column--no">
+            Комментарии
+          </div>
+        </div>
+        <div class="price__toggle-wrapper slider__toggle--wrapper">
+          <ul class="price__toggle slider__toggles">
+            <li class="slider__toggle"></li>
+            <li class="slider__toggle slider__toggle--active"></li>
+            <li class="slider__toggle"></li>
+          </ul>
         </div>
       </div>
     </section>
 
     <section class="contacts">
       <h2 class="visually-hidden">Контакты</h2>
-      <h4 class="contacts__title">
-        Остались вопросы?<br>
+      <p class="contacts__title">
+        Остались вопросы?
         Свяжитесь с нами!
-      </h4>
+      </p>
       <div class="contacts__list">
         <div class="contacts__item">
-          <b>Звоните:</b>
-          <a class="contacts__item--phone" href="tel:+7(812)555-66-66">
+          <b class="contacts__title">Звоните:</b>
+          <a class="contacts__content" href="tel:+7(812)555-66-66">
             <span>+7 (812) 555-66-66</span>
           </a>
         </div>
         <div class="contacts__item">
-          <b>Пишите:</b>
-          <span class="contacts__item--email">mail@htmlacademy.ru</span>
+          <b class="contacts__title">Пишите:</b>
+          <a class="contacts__content">mail@htmlacademy.ru</a>
         </div>
         <div class="contacts__item">
-          <b>Приезжайте в гости:</b>
-          <span class="contacts__item--address">
-            ул. Большая <br />
+          <b class="contacts__title">Приезжайте в гости:</b>
+          <span class="contacts__content contacts__content--address">
+            ул. Большая
             Конюшенная, 19/8
           </span>
         </div>
