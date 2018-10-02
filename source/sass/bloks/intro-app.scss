@@ -1,0 +1,29 @@
+.intro-app {
+  background-image: url("../img/bg-back-mobile@1px.jpg");
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+.intro-app__wrapper {
+  background-color: #1d2631;
+}
+
+.intro-app__link {
+  text-align: center;
+}
+
+.intro-app__link a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.intro-app__text {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+.main-navigation__wrapper {
+  background-color: #283645;
+}
+
+.main-navigation__list {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #000000;
+  list-style: none;
+}
+
+.site-list__item {
+  border-top: 1px solid #485461;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+}
+
+.site-list__item a {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

@@ -1,0 +1,32 @@
+.price {
+  background-color: #f2f2f2;
+}
+
+.price__table {
+  display: table;
+  border-collapse: collapse;
+}
+
+.price__title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  background-color: #283645;
+}
+
+.price__cost {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: lighter;
+  color: #ffffff;
+  text-align: center;
+}
+
+.price__column {
+  line-height: 30px;
+  color: #283645;
+  text-transform: uppercase;
+}
