@@ -1,0 +1,51 @@
+.forms__title-wrapper {
+  background-image: url("../img/bg-back-mobile@1px.jpg");
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+.forms__title {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.forms__text {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.form__wrapper {
+  background-color: #f2f2f2;
+}
+
+.button-form {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #2aab6d;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+}
+
+.form__field {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form__required {
+  color: #d22856;
+}

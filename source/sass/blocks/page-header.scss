@@ -21,4 +21,12 @@
   line-height: 32px;
   font-weight: bold;
   text-transform: uppercase;
+
+  &:hover {
+    color: #d22856;
+  }
+
+  &:active {
+    color: rgba(210, 40, 86, 0.3);
+  }
 }

@@ -13,10 +13,23 @@
 }
 
 .intro-app__link a {
+  display: block;
   color: #ffffff;
   text-decoration: none;
   font-size: 18px;
   line-height: 18px;
+  font-weight: 700;
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #d22856;
+  }
+
+  &:active {
+    color: rgba(210, 40, 86, 0.3);
+  }
 }
 
 .intro-app__text {
