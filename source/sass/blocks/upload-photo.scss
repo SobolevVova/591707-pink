@@ -33,11 +33,29 @@
 .upload-photo__button-submit {
   border: 3px solid #d22856;
   color: #d22856;
+
+  &:hover {
+    background-color: #d22856;
+    color: #ffffff;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
 }
 
 .upload-photo__button-reset {
   border: 3px solid #dddfe0;
   color: #dddfe0;
+
+  &:hover {
+    opacity: 0.3;
+  }
+
+  &:active {
+    background-color: #283645;
+    color: rgba(255, 255, 255, 0.3);
+  }
 }
 
 .upload-form__list--crop path {

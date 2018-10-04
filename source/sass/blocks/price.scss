@@ -8,6 +8,7 @@
 }
 
 .price__title {
+  display: block;
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
@@ -26,7 +27,12 @@
 }
 
 .price__column {
-  line-height: 30px;
-  color: #283645;
-  text-transform: uppercase;
+  display: table-cell;
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-bottom: none;
+}
+
+.price__slot {
+  border-bottom: 2px solid #e5e5e5;
 }
