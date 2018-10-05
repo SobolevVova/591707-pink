@@ -4,16 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <title>Пинк</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="page-header">
-    <a class="page-header__logo">
-      <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Пинк">
-    </a>
-    <nav class="main-navigation">
+    <div class="page-header__top">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Пинк">
+      </a>
       <button class="main-navigation__toggle" type="button"></button>
+    </div>
+    <nav class="main-navigation">
       <div class="main-navigation__wrapper">
         <ul class="main-navigation__list site-list">
           <li class="site-list__item site-list__item--active">
@@ -107,7 +110,7 @@
         </div>
         <div class="information-app__img">
           <picture>
-            <img src="img/iphone-screen-mobile@1x.png" width="158" height="322" alt="розовый экран">
+            <img src="img/iphone-screen-mobile@1x.png" alt="розовый экран">
           </picture>
         </div>
       </div>
@@ -118,25 +121,25 @@
       <div class="comments__wrapper slider">
         <div class="comments__list slider__list">
           <blockquote class="comments__item slider__item">
-            <cite class="comments__name">
+            <b class="comments__name">
               Николай Петров
-            </cite>
+            </b>
             <p class="comments__text">
               «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
             </p>
           </blockquote>
-          <blockquote class="comments__item slider__item">
-            <cite class="comments__name">
+          <blockquote class="comments__item slider__item slider__item--hidden">
+            <b class="comments__name">
               Николай Петров
-            </cite>
+            </b>
             <p class="comments__text">
               «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
             </p>
           </blockquote>
-          <blockquote class="comments__item slider__item">
-            <cite class="comments__name">
+          <blockquote class="comments__item slider__item slider__item--hidden">
+            <b class="comments__name">
               Николай Петров
-            </cite>
+            </b>
             <p class="comments__text">
               «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
             </p>
@@ -155,8 +158,34 @@
     <section class="price">
       <h2 class="visually-hidden">Цена</h2>
       <div class="price__table slider">
-        <div class="price__column price__column--first"></div>
-        <div class="price__column"></div>
+        <div class="price__column price__column--first">
+          <div class="price__title">
+          </div>
+          <div class="price__slot">
+            Розовый фильтр
+          </div>
+          <div class="price__slot">
+            Смайлики
+          </div>
+          <div class="price__slot">
+            Коментарии
+          </div>
+        </div>
+        <div class="price__column">
+          <div class="price__title">
+            База
+            <span class="price__cost">1,99 usd</span>
+          </div>
+          <div class="price__slot price__slot--yes">
+            Розовый фильтр
+          </div>
+          <div class="price__slot price__slot--no">
+            Смайлики
+          </div>
+          <div class="price__slot price__slot--no">
+            Коментарии
+          </div>
+        </div>
         <div class="price__column">
           <div class="price__title price__title--hit">
             Стандарт
@@ -168,17 +197,31 @@
           <div class="price__slot price__slot--yes">
             Смайлики
           </div>
+          <div class="price__slot price__slot--yes">
+            Коментарии
+          </div>
+        </div>
+        <div class="price__column">
+          <div class="price__title">
+            Анлим
+            <span class="price__cost">9,99 usd</span>
+          </div>
+          <div class="price__slot price__slot--yes">
+            Розовый фильтр
+          </div>
+          <div class="price__slot price__slot--yes">
+            Смайлики
+          </div>
           <div class="price__slot price__slot--no">
             Коментарии
           </div>
         </div>
-        <div class="price__column"></div>
       </div>
       <div class="price__toggle-wrapper slider__toggle--wrapper">
         <ul class="price__toggle slider__toggles">
-          <li class="slider__toggle"></li>
+          <li class="slider__toggle slider__toggle--gray"></li>
           <li class="slider__toggle slider__toggle--active"></li>
-          <li class="slider__toggle"></li>
+          <li class="slider__toggle slider__toggle--gray"></li>
         </ul>
       </div>
     </section>

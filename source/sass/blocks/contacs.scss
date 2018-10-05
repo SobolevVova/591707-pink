@@ -1,8 +1,12 @@
 .contacts__text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
   font-size: 24px;
-  color: #283645;
   font-weight: lighter;
   text-align: center;
+  color: #283645;
+  background-color: #ffffff;
 }
 
 .contacts__list {
@@ -16,7 +20,16 @@
 }
 
 .contacts__content {
+  display: block;
   font-size: 24px;
   font-weight: lighter;
   color: #d22856;
+}
+
+.contacts__item {
+  margin-bottom: 25px;
+}
+
+.contacts__content--address {
+  width: 298px;
 }

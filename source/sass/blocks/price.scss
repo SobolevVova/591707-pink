@@ -1,14 +1,26 @@
 .price {
+  padding-top: 91px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  padding-bottom: 22px;
   background-color: #f2f2f2;
 }
 
 .price__table {
+  overflow-x: auto;
   display: table;
+  width: 100%;
+  overflow: hidden;
   border-collapse: collapse;
+}
+
+.price__column--first {
+  font-size: 0;
 }
 
 .price__title {
   display: block;
+  padding-top: 18px;
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
@@ -35,4 +47,12 @@
 
 .price__slot {
   border-bottom: 2px solid #e5e5e5;
+}
+
+.price__toggle {
+  padding-left: 13px;
+}
+
+.slider__toggle--gray {
+  border: 3px solid #f2f2f2;
 }

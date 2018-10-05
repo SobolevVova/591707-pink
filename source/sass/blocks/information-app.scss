@@ -1,3 +1,7 @@
+.information-app {
+  margin-top: 45px;
+}
+
 .information-app__texts {
   color: #283645;
   background-color: #ffffff;
@@ -6,25 +10,36 @@
 .information-app__text {
   margin: 0;
   padding: 0;
+  margin-bottom: 30px;
   font-size: 24px;
   font-weight: lighter;
   text-align: center;
 }
 
 .information-app__draw {
+  height: 800px;
+  margin-bottom: 45px;
   background-color: #f2f2f2;
 }
 
 .information-app__list {
   margin: 0;
   padding: 0;
+  padding-top: 90px;
   text-align: center;
   list-style: none;
+}
+
+.information-app__item {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 34px;
 }
 
 .information-app__item-title {
   margin: 0;
   padding: 0;
+  margin-bottom: 12px;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
