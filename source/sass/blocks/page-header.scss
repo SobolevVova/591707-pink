@@ -6,12 +6,48 @@
 }
 
 .page-header__top {
+  position: relative;
   display: flex;
   justify-content: space-between;
   padding: 20px;
   padding-bottom: 25px;
   line-height: 0;
   background-color: #283645;
+}
+
+.main-navigation__toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 0;
+  border: none;
+  width: 50px;
+  height: 30px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -3px;
+    width: 30px;
+    height: 5px;
+    background-color: #ffffff;
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -3px;
+    width: 30px;
+    height: 5px;
+    background-color: #ffffff;
+    transform: rotate(-45deg);
+  }
 }
 
 // @media (min-width: 660px) {

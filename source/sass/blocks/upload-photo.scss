@@ -12,8 +12,19 @@
 
 .upload-photo__form {
   padding: 20px;
-  padding-bottom: 120px;
+  padding-bottom: 40px;
   background-color: #f2f2f2;
+}
+
+.upload-form__img {
+  margin-bottom: 40px;
+}
+
+.upload-form__lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
 }
 
 .upload-form__list {
@@ -24,7 +35,37 @@
   background-color: #f2f2f2;
 }
 
+.upload-form__control {
+  position: relative;
+  border-bottom: 1px solid #dddfe0;
+}
+
+.upload-form__scale {
+  width: 240px;
+  height: 2px;
+  margin: 0 auto;
+  margin-bottom: 34px;
+  background-color: #283645;
+}
+
+.upload-form__toggle {
+  position: absolute;
+  right: 40px;
+  top: -5px;
+  height: 10px;
+  width: 10px;
+  background-color: #f2f2f2;
+  border: 2px solid #d22856;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.form-btn {
+  padding-top: 28px;
+}
+
 .upload-photo__button {
+  padding: 15px 0;
   font-size: 18px;
   line-height: 18px;
   font-weight: bold;
@@ -60,8 +101,4 @@
     background-color: #283645;
     color: rgba(255, 255, 255, 0.3);
   }
-}
-
-.upload-form__list--crop path {
-  fill: #d22856;
 }
