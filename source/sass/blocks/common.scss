@@ -43,7 +43,8 @@ input[type="radio"].visually-hidden {
 }
 
 .inner-page {
-  min-width: 320px;
+  width: 320px;
+  margin: 0 auto;
   font-size: 14px;
   line-height: 30px;
   font-family: "Open Sans", "Arial", sans-serif;
@@ -53,7 +54,8 @@ input[type="radio"].visually-hidden {
 }
 
 .inner {
-  min-width: 320px;
+  width: 320px;
+  margin: 0 auto;
   font-size: 14px;
   line-height: 30px;
   font-family: "Open Sans", "Arial", sans-serif;

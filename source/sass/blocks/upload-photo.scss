@@ -1,6 +1,8 @@
 .upload-photo__text {
+  margin: 0;
+  background-color: #ffffff;
   color: #283645;
-  font-weight: 4400;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -9,6 +11,8 @@
 }
 
 .upload-photo__form {
+  padding: 20px;
+  padding-bottom: 120px;
   background-color: #f2f2f2;
 }
 

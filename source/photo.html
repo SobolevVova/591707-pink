@@ -10,11 +10,13 @@
 <body class="inner">
 
   <header class="page-header">
-    <a class="page-header__logo" href="index.html">
-      <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Пинк">
-    </a>
-    <nav class="main-navigation">
+    <div class="page-header__top">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Пинк">
+      </a>
       <button class="main-navigation__toggle" type="button"></button>
+    </div>
+    <nav class="main-navigation">
       <div class="main-navigation__wrapper">
         <ul class="main-navigation__list site-list">
           <li class="site-list__item">
@@ -37,7 +39,9 @@
   <main>
 
     <section class="photo photo--internal photo--closed">
-      <h1 class="photo__title">Фотографии пользователей</h1>
+      <div class="photo__title--wrapper">
+        <h1 class="photo__title">Фотографии пользователей</h1>
+      </div>
       <div class="photo__wrapper-text">
         <p class="photo__text">
           Взгляните на фотографии, которые выкладывают пользователи!
@@ -47,18 +51,20 @@
 
       <ul class="photo__list">
         <li class="photo__item photo__img--panorama">
-          <a class="photo__img" href="#">
-            <img src="img/panorama-mobile@1x.jpg" width="320" height="137" alt="Мобильный телефон">
-          </a>
-          <div class="photo__description">
-            <p class="photo__descriptive">
-              <b class="photo__name">Анна</b>
-              <span>(5 минут назад)</span>
-            </p>
-            <p class="photo__book">
-              Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!
-            </p>
-            <a class="photo__like">Нравится:215</a>
+          <div class="photo__item--wrapper">
+            <a class="photo__img" href="#">
+              <img src="img/panorama-mobile@1x.jpg" width="320" height="137" alt="Мобильный телефон">
+            </a>
+            <div class="photo__description">
+              <p class="photo__descriptive">
+                <b class="photo__name">Анна</b>
+                <span>(5 минут назад)</span>
+              </p>
+              <p class="photo__book">
+                Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!
+              </p>
+              <a class="photo__like">Нравится:215</a>
+            </div>
           </div>
         </li>
         <li class="photo__item">
@@ -157,7 +163,10 @@
     <section class="upload-photo">
       <h2 class="visually-hidden">Загрузка фотографий</h2>
       <p class="upload-photo__text">
-        Затмите их всех! Выкладывайте все, что накопилось в телефоне!
+        Затмите их всех!
+      </p>
+      <p class="upload-photo__text">
+        Выкладывайте все, что накопилось в телефоне!
       </p>
       <form class="upload-photo__form upload-form" action="https://echo.htmlacademy.ru" method="post">
         <div class="upload-form__img">
