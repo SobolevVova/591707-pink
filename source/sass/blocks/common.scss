@@ -10,6 +10,20 @@ body {
   color: #283645;
 }
 
+@media (min-width: 660px) {
+  body {
+    width: 620px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 960px) {
+  body {
+    width: 940px;
+    margin: 0 auto;
+  }
+}
+
 a {
   text-decoration: none;
 }
@@ -50,6 +64,20 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
 }
 
+@media (min-width: 660px) {
+  .page-main {
+    width: 620px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 960px) {
+  .page-main {
+    width: 940px;
+    margin: 0 auto;
+  }
+}
+
 .inner-page {
   width: 320px;
   margin: 0 auto;
@@ -61,6 +89,20 @@ input[type="radio"].visually-hidden {
   color: #283645;
 }
 
+@media (min-width: 660px) {
+  .inner-page {
+    width: 620px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 960px) {
+  .inner-page {
+    width: 940px;
+    margin: 0 auto;
+  }
+}
+
 .inner {
   width: 320px;
   margin: 0 auto;
@@ -70,4 +112,18 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   background-color: #ffffff;
   color: #283645;
+}
+
+@media (min-width: 660px) {
+  .inner {
+    width: 620px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 960px) {
+  .inner {
+    width: 940px;
+    margin: 0 auto;
+  }
 }

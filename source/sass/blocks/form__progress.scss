@@ -11,14 +11,6 @@
   text-transform: uppercase;
 }
 
-.form__progress-label {
-  padding-left: 90px;
-  display: block;
-  font-size: 18px;
-  color: #283645;
-  cursor: pointer;
-}
-
 .form__progress-input + .form__progress-label {
   position: relative;
   padding-left: 90px;
@@ -52,6 +44,14 @@
   border-bottom: 2px solid #d22856;
   border-left: 2px solid #d22856;
   transform: rotate(-45deg);
+}
+
+.form__progress-input + .form__progress-label:hover::before {
+  border: 2px solid #283645;
+}
+
+.form__progress-input + .form__progress-label:active::before {
+  border: 2px solid #d22856;
 }
 
 .form__progress-content {

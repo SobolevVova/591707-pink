@@ -5,6 +5,17 @@
   background-position: 2px -61px;
 }
 
+@media (min-width: 660px) {
+  .intro-app {
+    background-color: #283645;
+    background-image: url("../img/bg-back-mobile@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: 2px -61px;
+    width: 620px;
+    margin: 0 auto;
+  }
+}
+
 .intro-app picture {
   display: block;
   width: 304px;

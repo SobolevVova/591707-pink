@@ -50,12 +50,16 @@ input[type="radio"] {
 
 .button-form {
   display: block;
+  width: 280px;
+  height: 63px;
+  margin: 0 auto;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
   background-color: #2aab6d;
   color: #ffffff;
   border: none;
+  outline: 0;
   border-radius: 3px;
 
   &:hover {
@@ -70,6 +74,7 @@ input[type="radio"] {
 .form__field {
   margin: 0;
   padding: 0;
+  margin-top: 35px;
   text-transform: uppercase;
   text-align: center;
 }
