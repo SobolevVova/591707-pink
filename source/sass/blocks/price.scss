@@ -6,16 +6,35 @@
   background-color: #f2f2f2;
 }
 
+@media (min-width: 660px) {
+  .price {
+    width: 100%;
+    padding-bottom: 33px;
+  }
+}
+
 .price__table {
-  overflow-x: auto;
   display: table;
   width: 100%;
-  overflow: hidden;
   border-collapse: collapse;
 }
 
+@media (min-width: 660px) {
+  .price__table {
+    width: 620px;
+    margin: 37px auto;
+  }
+}
+
 .price__column--first {
-  font-size: 0;
+  display: none;
+}
+
+@media (min-width: 660px) {
+  .price__column--first {
+    display: table-cell;
+    border-left: none;
+  }
 }
 
 .price__title {
@@ -40,9 +59,16 @@
 
 .price__column {
   display: table-cell;
+  width: 30%;
   background-color: #ffffff;
   border: 2px solid #e5e5e5;
   border-bottom: none;
+}
+
+@media (min-width: 660px) {
+  .price__column {
+    width: 25px;
+  }
 }
 
 .price__slot {

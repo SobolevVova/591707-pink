@@ -7,6 +7,12 @@
   background-color: #ffffff;
 }
 
+@media (min-width: 660px) {
+  .information-app__texts {
+    width: 620px;
+  }
+}
+
 .information-app__text {
   margin: 0;
   padding: 0;
@@ -16,10 +22,34 @@
   text-align: center;
 }
 
+@media (min-width: 660px) {
+  .information-app__text {
+    margin: 0;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .information-app__text:last-child {
+    padding-bottom: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
 .information-app__draw {
   height: 800px;
   margin-bottom: 45px;
   background-color: #f2f2f2;
+}
+
+@media (min-width: 660px) {
+  .information-app__draw {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 510px;
+    width: 620px;
+  }
 }
 
 .information-app__list {
@@ -28,6 +58,15 @@
   padding-top: 90px;
   text-align: center;
   list-style: none;
+}
+
+@media (min-width: 660px) {
+  .information-app__list {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    text-align: left;
+  }
 }
 
 .information-app__item {

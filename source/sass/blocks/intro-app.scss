@@ -7,11 +7,20 @@
 
 @media (min-width: 660px) {
   .intro-app {
-    background-color: #283645;
-    background-image: url("../img/bg-back-mobile@1x.jpg");
-    background-repeat: no-repeat;
-    background-position: 2px -61px;
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+    background-position: -198px -94px;
+    background-size: 975px auto;
     width: 620px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 960px) {
+  .intro-app {
+    background-image: url("../img/bg-back-desktop@1x.jpg");
+    background-position: -219px 23px;
+    background-size: 1161px auto;
+    width: 940px;
     margin: 0 auto;
   }
 }
@@ -21,6 +30,12 @@
   width: 304px;
   height: 237px;
   padding-top: 110px;
+}
+
+@media (min-width: 660px) {
+  .intro-app picture {
+    height: 350px;
+  }
 }
 
 .intro-app__wrapper {
