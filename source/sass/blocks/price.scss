@@ -1,0 +1,60 @@
+.price {
+  display: none;
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
+}
+
+.price__column--first {
+  display: none;
+}
+
+.price__table {
+  display: table;
+  width: 100%;
+  margin-bottom: 42px;
+  border-collapse: collapse;
+}
+
+.price__title {
+  display: block;
+  padding: 18px;
+  background-color: #283645;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+}
+
+.price__column {
+  display: table-cell;
+  width: 30%;
+}
+
+.price__slot {
+  padding: 15px;
+  padding-left: 22px;
+  color: #283645;
+  white-space: nowrap;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+}
+
+.price__cost {
+  display: block;
+  padding-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.price__toggle {
+  padding-left: 13px;
+}
+
+.slider__toggle--gray {
+  border: 3px solid #f2f2f2;
+}

@@ -1,0 +1,149 @@
+.photo__title--wrapper {
+  background-color: #283645;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: 2px -61px;
+}
+
+@media (min-width: 660px) {
+  .photo__title--wrapper {
+    background-color: #283645;
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: -281px -115px;
+    background-size: 1195px auto;
+  }
+}
+
+
+.photo__title {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-top: 37px;
+  padding-bottom: 70px;
+  margin-bottom: 55px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media (min-width: 660px) {
+  .photo__title {
+    padding-bottom: 162px;
+    padding-top: 54px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+.photo__text {
+  margin: 0;
+  padding: 50px 35px;
+  text-align: center;
+  color: #283645;
+}
+
+@media (min-width: 660px) {
+  .photo__text {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 75px;
+    font-size: 18px;
+  }
+}
+
+.photo__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  list-style: none;
+}
+
+@media (min-width: 660px) {
+  .photo__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.photo__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 660px) {
+  .photo__item:first-child {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 660px) {
+  .photo__item {
+    width: 300px;
+  }
+}
+
+.photo__img--reiew {
+  display: block;
+  height: 137px;
+}
+
+.photo__img {
+  height: 180px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.photo__description {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+.photo__descriptive {
+  display: flex;
+  align-items: baseline;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.photo__name {
+  display: block;
+  margin: 0;
+  margin-right: 5px;
+  color: #283645;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.photo__name span {
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.photo__book {
+  display: block;
+  margin: 0;
+  padding-left: 10px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283645;
+}
+
+.photo__like {
+  padding-left: 40px;
+  font-size: 12px;
+  line-height: 24px;
+  color: #d22856;
+  text-transform: uppercase;
+}

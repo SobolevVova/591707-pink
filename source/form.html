@@ -4,16 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Пинк-форма</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="inner-page">
 
   <header class="page-header">
-    <a class="page-header__logo" href="index.html">
-      <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="75" height="22" alt="Пинк">
-    </a>
-    <nav class="main-navigation">
+    <div class="page-header__top">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Пинк">
+      </a>
       <button class="main-navigation__toggle" type="button"></button>
+    </div>
+    <nav class="main-navigation">
       <div class="main-navigation__wrapper">
         <ul class="main-navigation__list site-list">
           <li class="site-list__item">
@@ -33,14 +37,14 @@
     </nav>
   </header>
 
-  <main class="inner-page">
-    <section class="forms">
-      <div class="forms__title-wrapper">
-        <h1 class="forms__title">
+  <main>
+    <section class="page-form">
+      <div class="page-form__title-wrapper">
+        <h1 class="page-form__title">
           Конкурс на самое безбашенное путешествие с Пинк
         </h1>
       </div>
-      <p class="forms__text">
+      <p class="page-form__text">
         Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
       </p>
       <form class="form" action="https://echo.htmlacademy.ru" method="post">
@@ -94,7 +98,7 @@
         </div>
 
         <fieldset class="form__fieldset form__information">
-          <div class="form__information-contact">
+          <div class="form__information-telephone">
             <label class="form__information-label" for="number">Номер телефона</label>
             <input class="form__information-input" type="tel" id="number" placeholder="Номер, пожалуйста">
           </div>
