@@ -5,14 +5,16 @@
   background-position: 2px -61px;
 }
 
-.photo__item--wrapper .photo__img {
-  display: block;
-  height: 137px;
+@media (min-width: 660px) {
+  .photo__title--wrapper {
+    background-color: #283645;
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: -281px -115px;
+    background-size: 1195px auto;
+  }
 }
 
-.photo__img {
-  height: 180px;
-}
 
 .photo__title {
   margin: 0;
@@ -27,11 +29,29 @@
   text-align: center;
 }
 
+@media (min-width: 660px) {
+  .photo__title {
+    padding-bottom: 162px;
+    padding-top: 54px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
 .photo__text {
   margin: 0;
   padding: 50px 35px;
   text-align: center;
   color: #283645;
+}
+
+@media (min-width: 660px) {
+  .photo__text {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 75px;
+    font-size: 18px;
+  }
 }
 
 .photo__list {
@@ -43,12 +63,43 @@
   list-style: none;
 }
 
+@media (min-width: 660px) {
+  .photo__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 .photo__item {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
 }
 
+@media (min-width: 660px) {
+  .photo__item:first-child {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 660px) {
+  .photo__item {
+    width: 300px;
+  }
+}
+
+.photo__img--reiew {
+  display: block;
+  height: 137px;
+}
+
+.photo__img {
+  height: 180px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .photo__description {
   display: flex;

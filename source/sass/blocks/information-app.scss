@@ -5,10 +5,8 @@
 .information-app__texts {
   color: #283645;
   background-color: #ffffff;
-}
 
-@media (min-width: 660px) {
-  .information-app__texts {
+  @media (min-width: 660px) {
     width: 620px;
   }
 }
@@ -20,30 +18,26 @@
   font-size: 24px;
   font-weight: lighter;
   text-align: center;
-}
 
-@media (min-width: 660px) {
-  .information-app__text {
+  @media (min-width: 660px) {
     margin: 0;
     font-size: 40px;
     line-height: 48px;
   }
+}
 
-  .information-app__text:last-child {
-    padding-bottom: 40px;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
+.information-app__text:last-child {
+  padding-bottom: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .information-app__draw {
   height: 800px;
   margin-bottom: 45px;
   background-color: #f2f2f2;
-}
 
-@media (min-width: 660px) {
-  .information-app__draw {
+  @media (min-width: 660px) {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -58,10 +52,8 @@
   padding-top: 90px;
   text-align: center;
   list-style: none;
-}
 
-@media (min-width: 660px) {
-  .information-app__list {
+  @media (min-width: 660px) {
     display: flex;
     flex-direction: column;
     width: 360px;
