@@ -49,6 +49,18 @@
   margin-bottom: 25px;
 }
 
+@media (min-width: 660px) {
+  .contacts__item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 660px) {
+  .contacts__item--first {
+    margin-bottom: 35px;
+  }
+}
+
 .contacts__content--address {
   width: 298px;
 }
