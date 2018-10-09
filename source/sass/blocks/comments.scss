@@ -16,7 +16,6 @@
   text-align: center;
 }
 
-
 .comments__item {
   display: flex;
   flex-direction: column;
@@ -28,7 +27,6 @@
     padding-top: 90px;
   }
 }
-
 
 .slider__item--hidden {
   display: none;
@@ -43,7 +41,7 @@
 
 .comments__text {
   width: 300px;
-  padding-left: 10px;
+  padding-left: 32px;
   margin: 0;
   color: #283645;
 
@@ -65,10 +63,10 @@
 }
 
 .slider__toggles {
-  margin: auto;
   display: flex;
   justify-content: space-around;
   width: 60px;
+  margin-left: 120px;
 }
 
 .slider__toggle {

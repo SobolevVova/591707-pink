@@ -18,8 +18,8 @@
   padding: 0;
   padding-left: 20px;
   padding-top: 37px;
-  padding-bottom: 70px;
-  margin-bottom: 55px;
+  padding-bottom: 110px;
+  margin-bottom: 10px;
   font-size: 24px;
   font-weight: 300;
   color: #ffffff;
@@ -35,7 +35,7 @@
 
 .photo__text {
   margin: 0;
-  padding: 50px 35px;
+  padding: 50px 54px;
   text-align: center;
   color: #283645;
 
@@ -52,6 +52,7 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
+  margin-bottom: 25px;
   background-color: #ffffff;
   list-style: none;
 
@@ -79,15 +80,18 @@
   }
 }
 
+.photo__img--panorama img {
+  width: 100%;
+}
+
 .photo__img--reiew {
   display: block;
-  height: 137px;
+  height: 154px;
 }
 
 .photo__img {
   height: 180px;
-  padding-left: 20px;
-  padding-right: 20px;
+  text-align: center;
 }
 
 .photo__description {

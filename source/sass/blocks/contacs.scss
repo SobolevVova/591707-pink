@@ -1,6 +1,7 @@
 .contacts__text {
   margin: 0;
-  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 40px;
   font-size: 24px;
   font-weight: lighter;
@@ -56,5 +57,6 @@
 }
 
 .contacts__content--address {
-  width: 298px;
+  padding-left: 35px;
+  padding-right: 35px;
 }

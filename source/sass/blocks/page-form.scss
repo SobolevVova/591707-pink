@@ -7,7 +7,8 @@
 
 .page-form__title {
   margin: 0;
-  padding-left: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 37px;
   padding-bottom: 50px;
   margin-bottom: 50px;
@@ -20,65 +21,8 @@
 .page-form__text {
   margin: 0;
   padding: 0;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
   margin-bottom: 50px;
   text-align: center;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  width: 320px;
-  margin: 0 auto;
-}
-
-.form__fieldset {
-  padding: 0;
-  margin: 0;
-  border: none;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  display: none;
-}
-
-.form__wrapper {
-  background-color: #f2f2f2;
-}
-
-.button-form {
-  display: block;
-  width: 280px;
-  height: 63px;
-  margin: 0 auto;
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  background-color: #2aab6d;
-  color: #ffffff;
-  border: none;
-  outline: 0;
-  border-radius: 3px;
-
-  &:hover {
-    background-color: #1c9b5e;
-  }
-
-  &:active {
-    color: rgba(255, 255, 255, 0.3);
-  }
-}
-
-.form__field {
-  margin: 0;
-  padding: 0;
-  margin-top: 35px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.form__required {
-  color: #d22856;
 }

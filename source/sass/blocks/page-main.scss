@@ -1,12 +1,12 @@
 .page-main {
-  width: 320px;
+  width: auto;
   margin: auto;
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
 
   @media (min-width: 660px) {
-    width: 620px;
+    width: auto;
     margin: 0 auto;
   }
 

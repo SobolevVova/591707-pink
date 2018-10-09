@@ -1,13 +1,15 @@
 .upload-photo__text {
   margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: #ffffff;
   color: #283645;
   font-weight: 400;
   text-align: center;
 }
 
-.upload-photo {
-  background-color: #f2f2f2;
+.upload-photo__text--phone {
+  margin-bottom: 30px;
 }
 
 .upload-photo__form {
@@ -18,12 +20,15 @@
 
 .upload-form__img {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .upload-form__lists {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 280px;
+  margin-left: 13px;
   margin-bottom: 40px;
 }
 
@@ -50,7 +55,7 @@
 
 .upload-form__toggle {
   position: absolute;
-  right: 40px;
+  right: 66px;
   top: -5px;
   height: 10px;
   width: 10px;
@@ -65,7 +70,8 @@
 }
 
 .upload-photo__button {
-  padding: 15px 0;
+  padding: 18px 0;
+  margin-left: 20px;
   font-size: 18px;
   line-height: 18px;
   font-weight: bold;
