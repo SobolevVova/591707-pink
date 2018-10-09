@@ -46,8 +46,10 @@
   color: #283645;
 
   @media (min-width: 660px) {
-    width: 600px;
+    width: auto;
     margin-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
     font-size: 18px;
   }
 }
@@ -67,6 +69,10 @@
   justify-content: space-around;
   width: 60px;
   margin-left: 120px;
+
+  @media (min-width: 660px) {
+    margin: auto;
+  }
 }
 
 .slider__toggle {

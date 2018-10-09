@@ -40,8 +40,8 @@
   color: #283645;
 
   @media (min-width: 660px) {
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 75px;
     font-size: 18px;
   }
@@ -86,7 +86,7 @@
 
 .photo__img--reiew {
   display: block;
-  height: 154px;
+  height: 164px;
 }
 
 .photo__img {
@@ -100,6 +100,11 @@
   margin: 0 20px;
   background-color: #f2f2f2;
   box-sizing: border-box;
+
+  @media (min-width: 660px) {
+    padding: 0 6px 46px 15px;
+    margin: 0 10px;
+  }
 }
 
 .photo__descriptive {
