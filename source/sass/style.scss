@@ -1,10 +1,13 @@
 @import "../../node_modules/normalize-scss/sass/_normalize.scss";
+@import "blocks/button.scss";
 @import "blocks/clock.scss";
 @import "blocks/comments.scss";
 @import "blocks/contacs.scss";
 @import "blocks/form.scss";
-@import "blocks/information-app.scss";
-@import "blocks/intro-app.scss";
+@import "blocks/information.scss";
+@import "blocks/inner-page.scss";
+@import "blocks/inner.scss";
+@import "blocks/intro.scss";
 @import "blocks/modal-error.scss";
 @import "blocks/modal-ok.scss";
 @import "blocks/page-footer.scss";

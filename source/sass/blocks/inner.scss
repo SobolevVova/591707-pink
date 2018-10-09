@@ -1,0 +1,20 @@
+.inner {
+  width: 320px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: normal;
+  background-color: #ffffff;
+  color: #283645;
+
+  @media (min-width: 660px) {
+    width: 620px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 960px) {
+    width: 940px;
+    margin: 0 auto;
+  }
+}

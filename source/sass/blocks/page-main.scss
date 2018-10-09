@@ -1,0 +1,17 @@
+.page-main {
+  width: 320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+
+  @media (min-width: 660px) {
+    width: 620px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 960px) {
+    width: 940px;
+    margin: 0 auto;
+  }
+}

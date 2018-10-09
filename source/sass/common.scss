@@ -8,17 +8,13 @@ body {
   font-weight: normal;
   background-color: #ffffff;
   color: #283645;
-}
 
-@media (min-width: 660px) {
-  body {
+  @media (min-width: 660px) {
     width: 620px;
     margin: 0 auto;
   }
-}
 
-@media (min-width: 960px) {
-  body {
+  @media (min-width: 960px) {
     width: 940px;
     margin: 0 auto;
   }
@@ -31,14 +27,6 @@ a {
 img {
   max-width: 100%;
   height: auto;
-}
-
-.button {
-  width: 280px;
-  margin: 10px auto;
-  border: 3px solid #ffffff;
-  border-radius: 50px;
-  text-align: center;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -54,76 +42,4 @@ input[type="radio"].visually-hidden {
   white-space: nowrap;
   border: 0;
   clip-path: inset(100%);
-}
-
-.page-main {
-  width: 320px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
-}
-
-@media (min-width: 660px) {
-  .page-main {
-    width: 620px;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 960px) {
-  .page-main {
-    width: 940px;
-    margin: 0 auto;
-  }
-}
-
-.inner-page {
-  width: 320px;
-  margin: 0 auto;
-  font-size: 14px;
-  line-height: 30px;
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-weight: normal;
-  background-color: #ffffff;
-  color: #283645;
-}
-
-@media (min-width: 660px) {
-  .inner-page {
-    width: 620px;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 960px) {
-  .inner-page {
-    width: 940px;
-    margin: 0 auto;
-  }
-}
-
-.inner {
-  width: 320px;
-  margin: 0 auto;
-  font-size: 14px;
-  line-height: 30px;
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-weight: normal;
-  background-color: #ffffff;
-  color: #283645;
-}
-
-@media (min-width: 660px) {
-  .inner {
-    width: 620px;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 960px) {
-  .inner {
-    width: 940px;
-    margin: 0 auto;
-  }
 }

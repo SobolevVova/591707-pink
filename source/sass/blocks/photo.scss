@@ -3,11 +3,8 @@
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: 2px -61px;
-}
 
-@media (min-width: 660px) {
-  .photo__title--wrapper {
-    background-color: #283645;
+  @media (min-width: 660px) {
     background-image: url("../img/bg-back-tablet@1x.jpg");
     background-repeat: no-repeat;
     background-position: -281px -115px;
@@ -27,10 +24,8 @@
   font-weight: 300;
   color: #ffffff;
   text-align: center;
-}
 
-@media (min-width: 660px) {
-  .photo__title {
+  @media (min-width: 660px) {
     padding-bottom: 162px;
     padding-top: 54px;
     font-size: 50px;
@@ -43,10 +38,8 @@
   padding: 50px 35px;
   text-align: center;
   color: #283645;
-}
 
-@media (min-width: 660px) {
-  .photo__text {
+  @media (min-width: 660px) {
     padding-left: 90px;
     padding-right: 90px;
     padding-bottom: 75px;
@@ -61,10 +54,8 @@
   padding: 0;
   background-color: #ffffff;
   list-style: none;
-}
 
-@media (min-width: 660px) {
-  .photo__list {
+  @media (min-width: 660px) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -75,18 +66,16 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+
+  @media (min-width: 660px) {
+    width: 300px;
+  }
 }
 
 @media (min-width: 660px) {
   .photo__item:first-child {
     width: 100%;
     margin-bottom: 40px;
-  }
-}
-
-@media (min-width: 660px) {
-  .photo__item {
-    width: 300px;
   }
 }
 
