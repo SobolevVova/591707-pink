@@ -15,9 +15,10 @@
   }
 
   @media (min-width: 960px) {
-    background-image: url("../img/bg-back-desktop@1x.jpg");
-    background-position: -219px 23px;
-    background-size: 1161px auto;
+    background-image: url("../img/iphone-hand-desktop@1x.png"), url("../img/bg-back-desktop@1x.jpg");
+    background-position: 411px 176px, -219px 23px;
+    background-size: 716px 439px, cover;
+    padding-top: 615px;
   }
 }
 
@@ -42,6 +43,11 @@
     margin-left: 43px;
     background-color: transparent;
   }
+
+  @media (min-width: 960px) {
+    top: 146px;
+    margin-left: 329px;
+  }
 }
 
 .intro-app__title {
@@ -56,6 +62,14 @@
     line-height: 48px;
     font-weight: 300;
     text-align: center;
+  }
+
+  @media (min-width: 960px) {
+    display: inline-block;
+    width: 250px;
+    margin-left: 29px;
+    font-size: 50px;
+    line-height: 62px;
   }
 }
 
@@ -99,4 +113,8 @@
   line-height: 24px;
   color: #ffffff;
   text-align: center;
+
+  @media (min-width: 960px) {
+    font-size: 18px;
+  }
 }
