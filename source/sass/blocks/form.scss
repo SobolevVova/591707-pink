@@ -73,8 +73,15 @@ input[type="radio"] {
 }
 
 @media (min-width: 660px) {
+  .form__progress {
+    border: 2px solid #e5e5e5;
+  }
+}
+
+@media (min-width: 660px) {
   .form__wrapper--progress {
     order: 2;
+    padding: 0 20px;
   }
 }
 
@@ -89,6 +96,10 @@ input[type="radio"] {
   color: #d22856;
   text-align: center;
   text-transform: uppercase;
+
+  @media (min-width: 660px) {
+    padding-top: 2px;
+  }
 }
 
 .form__progress-input + .form__progress-label {
@@ -303,6 +314,10 @@ input[type="radio"] {
 
   @media (min-width: 660px) {
     order: 2;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #e5e5e5;
   }
 }
 
@@ -314,12 +329,23 @@ input[type="radio"] {
   line-height: 18px;
   color: #d22856;
   text-align: center;
+
+  @media (min-width: 660px) {
+    padding-top: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 
 .form__remember--wrapper {
   display: block;
   margin: 0;
   padding: 0;
+
+  @media (min-width: 660px) {
+    margin-left: 50px;
+    padding-top: 20px;
+  }
 }
 
 .form__textarea {
@@ -333,11 +359,20 @@ input[type="radio"] {
   color: #283645;
   border: 2px solid #e5e5e5;
   outline: 0;
+
+  @media (min-width: 660px) {
+    width: 500px;
+    padding: 15px;
+  }
 }
 
 @media (min-width: 660px) {
   .form__footer {
     order: 2;
+    display: flex;
+    box-sizing: border-box;
+    align-items: baseline;
+    margin-left: 20px;
   }
 }
 
@@ -351,6 +386,12 @@ input[type="radio"] {
 
 .form__required {
   color: #d22856;
+}
+
+@media (min-width: 660px) {
+  .form__button {
+    margin-right: 240px;
+  }
 }
 
 .button-form {
@@ -373,5 +414,10 @@ input[type="radio"] {
 
   &:active {
     color: rgba(255, 255, 255, 0.3);
+  }
+
+  @media (min-width: 660px) {
+    width: 300px;
+    height: 70px;
   }
 }

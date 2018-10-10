@@ -25,6 +25,18 @@
 .upload-form__img {
   margin-bottom: 40px;
   text-align: center;
+
+  @media (min-width: 660px) {
+    display: flex;
+  }
+}
+
+.upload-form__filter {
+  @media (min-width: 660px) {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
 }
 
 .upload-form__lists {
@@ -34,6 +46,11 @@
   width: 280px;
   margin-left: 13px;
   margin-bottom: 40px;
+
+  @media (min-width: 660px) {
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 .upload-form__list {
@@ -47,6 +64,14 @@
 .upload-form__control {
   position: relative;
   border-bottom: 1px solid #dddfe0;
+}
+
+.upload-form__control--hidden {
+  display: none;
+
+  @media (min-width: 660px) {
+    display: block;
+  }
 }
 
 .upload-form__scale {
