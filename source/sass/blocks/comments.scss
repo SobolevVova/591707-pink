@@ -37,6 +37,10 @@
   font-size: 18px;
   font-weight: bold;
   color: #000000;
+
+  @media (min-width: 960px) {
+    font-size: 24px;
+  }
 }
 
 .comments__text {
@@ -61,6 +65,16 @@
     margin: 0;
     padding: 0;
     display: block;
+  }
+
+  @media (min-width: 960px) {
+    font-size: 18px;
+  }
+}
+
+.slider__toggles-wrapper {
+  @media (min-width: 960px) {
+    display: none;
   }
 }
 
@@ -91,4 +105,8 @@
   border: 3px solid #283645;
   background-color: #ffffff;
   cursor: default;
+}
+
+.comments-button {
+  display: none;
 }

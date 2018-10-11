@@ -22,6 +22,18 @@
   }
 }
 
+.container {
+  display: none;
+
+  @media (min-width: 660px) {
+    display: none;
+  }
+
+  @media (min-width: 960px) {
+    display: block;
+  }
+}
+
 .intro-app picture {
   display: block;
   width: 304px;
@@ -46,7 +58,6 @@
 
   @media (min-width: 960px) {
     top: 146px;
-    margin-left: 329px;
   }
 }
 

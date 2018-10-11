@@ -17,6 +17,13 @@
     font-size: 40px;
     line-height: 48px;
   }
+
+  @media (min-width: 960px) {
+    padding-right: 115px;
+    padding-left: 115px;
+    font-size: 50px;
+    line-height: 60px;
+  }
 }
 
 .contacts__list {
@@ -48,11 +55,27 @@
   @media (min-width: 660px) {
     width: 50%;
   }
+
+  @media (min-width: 960px) {
+    width: 310px;
+  }
 }
 
 @media (min-width: 660px) {
-  .contacts__item--first {
+  .contacts__item--phone {
     margin-bottom: 35px;
+  }
+}
+
+@media (min-width: 960px) {
+  .contacts__item--mail {
+    order: 1;
+  }
+}
+
+@media (min-width: 960px) {
+  .contacts__item--go {
+    margin-top: 10px;
   }
 }
 

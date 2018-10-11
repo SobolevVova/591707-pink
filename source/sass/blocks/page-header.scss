@@ -38,6 +38,12 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.page-header__logo {
+  display: block;
+  margin-left: 380px;
+  margin-top: 24px;
+}
+
 .main-navigation {
   position: relative;
   width: 100%;
@@ -173,6 +179,9 @@
   }
 
   @media (min-width: 960px) {
+    width: 640px;
+    margin: 0;
+    margin-right: 338px;
     background-color: transparent;
   }
 }
@@ -194,6 +203,13 @@
     justify-content: space-between;
     width: 640px;
     border-top: none;
+  }
+}
+
+@media (min-width: 960px) {
+  .site-list__item--active {
+    height: 39px;
+    border-bottom: 2px solid #ffffff;
   }
 }
 
@@ -232,6 +248,8 @@
   text-align: center;
 
   @media (min-width: 960px) {
+    padding: 0;
+    padding-top: 10px;
     line-height: 18px;
     font-weight: normal;
     text-transform: none;
