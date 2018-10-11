@@ -2,13 +2,16 @@
   background-color: #283645;
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
-  background-position: 2px -61px;
-  background-size: 367px 368px;
-  padding-bottom: 14px;
+  background-position: 50% 0;
 
   @media (min-width: 660px) {
     background-image: url("../img/bg-back-tablet@1x.jpg");
-    background-position: -217px -110px;
+    background-position: 50% 0;
+  }
+
+  @media (min-width: 960px) {
+    background-image: url("../img/bg-back-desktop@1x.jpg");
+    background-position: 50% 0;
   }
 }
 
@@ -32,6 +35,10 @@
     font-size: 50px;
     line-height: 60px;
   }
+
+  @media (min-width: 960px) {
+    padding-top: 190px;
+  }
 }
 
 .page-form__text {
@@ -47,4 +54,19 @@
     padding-left: 140px;
     padding-right: 140px;
   }
+
+  @media (min-width: 960px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.page-form__text--hidden {
+  display: none;
+}
+
+.page-form__text .page-form__text--hidden {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 0;
 }

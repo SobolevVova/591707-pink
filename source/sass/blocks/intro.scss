@@ -2,21 +2,21 @@
   background-color: #283645;
   background-image: url("../img/iphone-hand-mobile@1x.png"), url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
-  background-position: -2px 102px, -7px -55px;
-  background-size: 277px 247px, 367px 418px;
+  background-position: -2px 102px, 50% 0;
+  background-size: 277px 247px;
   padding-top: 350px;
   margin: 0 auto;
 
   @media (min-width: 660px) {
     background-image: url("../img/iphone-hand-tablet@1x.png"), url("../img/bg-back-tablet@1x.jpg");
-    background-position: 44px 61px, -327px -91px;
-    background-size: 617px 398px, 1351px 613px;
+    background-position: 44px 61px, 50% 0;
+    background-size: 617px 398px;
     padding-top: 460px;
   }
 
   @media (min-width: 960px) {
     background-image: url("../img/iphone-hand-desktop@1x.png"), url("../img/bg-back-desktop@1x.jpg");
-    background-position: 411px 176px, -219px 23px;
+    background-position: 411px 176px, 50% 0;
     background-size: 716px 439px, cover;
     padding-top: 615px;
   }
