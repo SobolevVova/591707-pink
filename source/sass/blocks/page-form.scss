@@ -65,8 +65,10 @@
   display: none;
 }
 
-.page-form__text .page-form__text--hidden {
-  display: inline-block;
-  vertical-align: top;
-  padding-top: 0;
+@media (min-width: 660px) {
+  .page-form__text .page-form__text--hidden {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 0;
+  }
 }

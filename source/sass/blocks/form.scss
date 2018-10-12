@@ -3,6 +3,11 @@
   flex-direction: column;
   width: auto;
   margin: 0 auto;
+
+  @media (min-width: 960px) {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 }
 
 .form__fieldset {
@@ -14,6 +19,13 @@
 input[type="checkbox"],
 input[type="radio"] {
   display: none;
+}
+
+@media (min-width: 960px) {
+  .form__info {
+    width: 50%;
+    margin-top: 22px;
+  }
 }
 
 .form__info-registration {
@@ -59,8 +71,25 @@ input[type="radio"] {
   }
 
   @media (min-width: 660px) {
-    width: 574px;
+    width: 610px;
     font-size: 18px;
+  }
+
+  @media (min-width: 960px) {
+    width: 320px;
+    margin-bottom: 52px;
+  }
+}
+
+@media (min-width: 660px) {
+  .form__info-input--name {
+    width: 650px;
+  }
+}
+
+@media (min-width: 960px) {
+  .form__info-input--name {
+    width: 360px;
   }
 }
 
@@ -78,10 +107,43 @@ input[type="radio"] {
   }
 }
 
+@media (min-width: 960px) {
+  .form__progress-content:nth-child(6) {
+    margin-right: 47px;
+  }
+}
+
+@media (min-width: 960px) {
+  .form__progress-content:nth-child(5) {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 960px) {
+  .form__progress-content:nth-child(3) {
+    margin-right: 16px;
+  }
+}
+
 @media (min-width: 660px) {
   .form__wrapper--progress {
     order: 2;
     padding: 0 20px;
+  }
+}
+
+@media (min-width: 960px) {
+  .form__wrapper--progress {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 960px) {
+  .form__progress-shell {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 940px;
   }
 }
 
@@ -161,8 +223,19 @@ input[type="radio"] {
     margin: 15px 20px 20px;
     border: 2px solid #e5e5e5;
   }
+
+  @media (min-width: 960px) {
+    width: 940px;
+    margin-bottom: 60px;
+  }
 }
 
+.form__information-wrapper {
+  @media (min-width: 960px) {
+    display: flex;
+    align-items: baseline;
+  }
+}
 
 .form__information-title--hidden {
   display: none;
@@ -217,6 +290,11 @@ input[type="radio"] {
     margin-bottom: 15px;
     font-size: 18px;
   }
+
+  @media (min-width: 960px) {
+    width: 370px;
+    margin-left: 35px;
+  }
 }
 
 .form__information-telephone {
@@ -239,6 +317,10 @@ input[type="radio"] {
 
 .form__wrapper--apps {
   min-height: 340px;
+
+  @media (min-width: 960px) {
+    width: 430px;
+  }
 }
 
 .form__app {
@@ -246,6 +328,10 @@ input[type="radio"] {
     margin: 15px 20px 20px;
     padding: 0 50px;
     border: 2px solid #e5e5e5;
+  }
+
+  @media (min-width: 960px) {
+    width: 430px;
   }
 }
 
@@ -319,6 +405,10 @@ input[type="radio"] {
     margin-bottom: 30px;
     border: 2px solid #e5e5e5;
   }
+
+  @media (min-width: 960px) {
+    width: 940px;
+  }
 }
 
 .form__remember-title {
@@ -364,15 +454,27 @@ input[type="radio"] {
     width: 500px;
     padding: 15px;
   }
+
+  @media (min-width: 960px) {
+    width: 700px;
+  }
 }
 
 @media (min-width: 660px) {
   .form__footer {
     order: 2;
     display: flex;
+    justify-content: space-between;
     box-sizing: border-box;
     align-items: baseline;
     margin-left: 20px;
+    width: 725px;
+  }
+}
+
+@media (min-width: 960px) {
+  .form__footer {
+    width: 940px;
   }
 }
 
