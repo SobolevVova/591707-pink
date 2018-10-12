@@ -5,7 +5,7 @@
   flex-direction: column;
   margin: 0 auto;
   z-index: 1;
-  margin-bottom: -68px;
+  margin-bottom: -93px;
 
   @media (min-width: 660px) {
     margin-bottom: -136px;
@@ -26,7 +26,7 @@
   background-color: #283645;
 
   @media (min-width: 660px) {
-    height: 90px;
+    height: 60px;
   }
 
   @media (min-width: 960px) {
@@ -40,7 +40,6 @@
 
 .page-header__logo {
   display: block;
-  margin-left: 380px;
   margin-top: 24px;
 }
 
