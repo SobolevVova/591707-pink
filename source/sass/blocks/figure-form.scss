@@ -1,0 +1,31 @@
+.figure-form__text {
+  margin: 0;
+  padding: 0;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 50px;
+  text-align: center;
+
+  @media (min-width: 660px) {
+    font-size: 18px;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+
+  @media (min-width: 960px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.figure-form__text--hidden {
+  display: none;
+}
+
+@media (min-width: 660px) {
+  .figure-form__text .figure-form__text--hidden {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 0;
+  }
+}

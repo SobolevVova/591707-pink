@@ -23,21 +23,19 @@
   }
 }
 
-@media (min-width: 660px) {
-  .clock__wrapper {
+.clock__wrapper {
+  @media (min-width: 660px) {
     width: 310px;
+    margin-left: 358px;
   }
-}
 
-@media (min-width: 960px) {
-  .clock__wrapper {
-    padding-left: 390px;
+  @media (min-width: 960px) {
     width: 410px;
   }
 }
 
-@media (min-width: 660px) {
-  .clock__title {
+.clock__title {
+  @media (min-width: 660px) {
     margin: 0;
     padding: 0;
     padding-top: 98px;
@@ -53,8 +51,8 @@
   }
 }
 
-@media (min-width: 660px) {
-  .clock__text {
+.clock__text {
+  @media (min-width: 660px) {
     margin: 0;
     padding: 0;
     line-height: 24px;
@@ -68,8 +66,8 @@
   }
 }
 
-@media (min-width: 660px) {
-  .clock__link {
+.clock__link {
+  @media (min-width: 660px) {
     line-height: 24px;
     color: #d22856;
   }
