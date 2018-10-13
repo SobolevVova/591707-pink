@@ -6,31 +6,72 @@
   @media (min-width: 960px) {
     background-color: #f2f2f2;
   }
-}
 
-@media (min-width: 660px) {
-  .clock--hidden {
+  @media (min-width: 660px) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 20px;
   }
+
+  @media (min-width: 960px) {
+    margin: 0;
+  }
 }
 
-@media (min-width: 960px) {
-  .clock--hidden {
-    margin: 0;
+.clock__img {
+  @media (min-width: 660px) {
+    position: relative;
+    width: 300px;
+    margin-right: 90px;
+  }
+}
+
+.clock__timer {
+  @media (min-width: 660px) {
+    width: 238px;
+    height: 276px;
+    fill: #dedede;
+  }
+}
+
+.clock__hour {
+  @media (min-width: 660px) {
+    position: absolute;
+    top: 55px;
+    left: 18px;
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #ffffff;
+    border: 13px solid #d22856;
+    border-radius: 50%;
+    font-size: 94px;
+    line-height: 168px;
+    color: #d22856;
+    font-weight: bold;
   }
 }
 
 .clock__wrapper {
   @media (min-width: 660px) {
     width: 310px;
-    margin-left: 358px;
+    margin-top: -61px;
   }
 
   @media (min-width: 960px) {
     width: 410px;
+  }
+}
+
+.clock .container {
+  @media (min-width: 660px) {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+    margin-right: 17px;
   }
 }
 

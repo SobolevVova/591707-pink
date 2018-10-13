@@ -49,14 +49,13 @@ input[type="radio"] {
 }
 
 .form__info-input {
+  width: 280px;
   box-sizing: border-box;
-  width: 320px;
   height: 60px;
   padding-right: 15px;
   padding-bottom: 7px;
   padding-left: 15px;
   margin-bottom: 25px;
-  margin-left: 20px;
   border: 2px solid #e5e5e5;
   background-color: transparent;
   font: inherit;
@@ -151,8 +150,8 @@ input[type="radio"] {
   margin: 0;
   padding: 0;
   padding-top: 38px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 39px;
   line-height: 18px;
   color: #d22856;
@@ -215,7 +214,6 @@ input[type="radio"] {
   background-color: #ffffff;
   border: 0;
   outline: 0;
-  padding: 0 20px;
   margin-bottom: 25px;
 
   @media (min-width: 660px) {
@@ -263,8 +261,8 @@ input[type="radio"] {
 }
 
 .form__information-input {
+  width: 280px;
   box-sizing: border-box;
-  width: 320px;
   height: 60px;
   padding-right: 15px;
   padding-bottom: 7px;
@@ -315,15 +313,10 @@ input[type="radio"] {
   }
 }
 
-.form__wrapper--apps {
-  min-height: 340px;
-
-  @media (min-width: 960px) {
-    width: 430px;
-  }
-}
 
 .form__app {
+  background-color: #f2f2f2;
+
   @media (min-width: 660px) {
     margin: 15px 20px 20px;
     padding: 0 50px;
@@ -344,8 +337,8 @@ input[type="radio"] {
   line-height: 18px;
   font-weight: 400;
   color: #d22856;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-align: center;
   text-transform: uppercase;
 
@@ -439,9 +432,7 @@ input[type="radio"] {
 }
 
 .form__textarea {
-  min-width: 280px;
   margin-bottom: 30px;
-  margin-left: 50px;
   padding: 15px 20px 20px 15px;
   min-height: 200px;
   box-sizing: border-box;

@@ -4,11 +4,13 @@
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: 100% 54%;
+  margin-top: -68px;
 
   @media (min-width: 660px) {
     background-image: url("../img/bg-back-tablet@1x.jpg");
     background-position: 50% 0;
     background-size: auto 100%;
+    margin-top: -105px;
   }
 
   @media (min-width: 960px) {
@@ -50,7 +52,6 @@
 }
 
 .intro-app__wrapper {
-  width: 315px;
   padding-bottom: 20px;
   padding-top: 479px;
 
@@ -95,8 +96,7 @@
 }
 
 .intro-app__link {
-  padding: 40px 25px 32px 25px;
-  margin-bottom: 10px;
+  margin-bottom: 27px;
   text-align: center;
 
   @media (min-width: 660px) {
@@ -112,7 +112,7 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 18px;
-  padding: 15px 28px;
+  padding: 15px 35px;
 
   &:hover {
     background-color: #ffffff;
@@ -128,7 +128,7 @@
   display: flex;
   justify-content: space-between;
   width: 210px;
-  padding-left: 53px;
+  margin-left: 33px;
   margin-bottom: 20px;
   align-items: baseline;
 

@@ -3,15 +3,13 @@
 }
 
 .information-app__draw {
-  height: 800px;
-  margin-bottom: 45px;
   background-color: #f2f2f2;
 
   @media (min-width: 660px) {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    height: 430px;
+    height: 530px;
     overflow: hidden;
   }
 
@@ -32,6 +30,7 @@
 
   @media (min-width: 660px) {
     padding-left: 367px;
+    height: 439px;
     text-align: left;
     background-image: url("../img/iphone-screen-3-tablet@1x.png");
     background-position: 55px 30px;
@@ -48,8 +47,6 @@
 }
 
 .information-app__item {
-  padding-left: 20px;
-  padding-right: 20px;
   padding-bottom: 34px;
 
   &--friends {

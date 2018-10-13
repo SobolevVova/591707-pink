@@ -1,7 +1,9 @@
+.upload-photo {
+  background-color: #f2f2f2;
+}
+
 .upload-photo__text {
   margin: 0;
-  padding-left: 20px;
-  padding-right: 20px;
   background-color: #ffffff;
   color: #283645;
   font-weight: 400;
@@ -43,8 +45,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 280px;
-  margin-left: 13px;
   margin-bottom: 40px;
 
   @media (min-width: 660px) {
@@ -99,8 +99,8 @@
 }
 
 .upload-photo__button {
+  width: 100%;
   padding: 18px 0;
-  margin-left: 20px;
   font-size: 18px;
   line-height: 18px;
   font-weight: bold;

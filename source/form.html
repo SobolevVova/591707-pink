@@ -38,6 +38,7 @@
   </header>
 
   <main>
+
     <section class="photography-form">
       <div class="container">
         <div class="photography-form__title-wrapper">
@@ -45,6 +46,7 @@
             Конкурс на самое безбашенное путешествие с Пинк
           </h1>
         </div>
+      </div>
     </section>
 
     <section class="figure-form">
@@ -57,115 +59,121 @@
     </section>
 
     <section class="page-form">
-      <div class="container">
         <form class="form" action="https://echo.htmlacademy.ru" method="post">
           <fieldset class="form__fieldset form__info">
-            <div class="form__info-registration">
-              <label class="form__info-label" for="surname">Фамилия:</label>
-              <input class="form__info-input" type="text" id="surname" name="surname" placeholder="Укажите фамилию *" required>
-            </div>
-            <div class="form__info-registration">
-              <label class="form__info-label" for="name">Имя:</label>
-              <input class="form__info-input form__info-input--name" type="text" id="name" name="name" placeholder="Введите ваше имя *" required>
-            </div>
-            <div class="form__info-registration">
-              <label class="form__info-label" for="patronymic">Отчество:</label>
-              <input class="form__info-input" type="text" id="patronymic" name="patronymic" placeholder="Ну и отчество тоже" required>
+            <div class="container">
+              <div class="form__info-registration">
+                <label class="form__info-label" for="surname">Фамилия:</label>
+                <input class="form__info-input" type="text" id="surname" name="surname" placeholder="Укажите фамилию *" required>
+              </div>
+              <div class="form__info-registration">
+                <label class="form__info-label" for="name">Имя:</label>
+                <input class="form__info-input form__info-input--name" type="text" id="name" name="name" placeholder="Введите ваше имя *" required>
+              </div>
+              <div class="form__info-registration">
+                <label class="form__info-label" for="patronymic">Отчество:</label>
+                <input class="form__info-input" type="text" id="patronymic" name="patronymic" placeholder="Ну и отчество тоже" required>
+              </div>
             </div>
           </fieldset>
 
           <div class="form__wrapper form__wrapper--progress">
-            <fieldset class="form__fieldset form__progress">
-              <legend class="form__progress-title">
-                Ваши безбашенные достижения в путешествии
-              </legend>
-              <div class="form__progress-shell">
-                <div class="form__progress-content">
-                  <input class="form__progress-input" type="checkbox" id="selfie" name="selfie" checked>
-                  <label class="form__progress-label" for="selfie">Сделал селфи с акулой</label>
+              <fieldset class="form__fieldset form__progress">
+                <div class="container">
+                  <legend class="form__progress-title">
+                    Ваши безбашенные достижения в путешествии
+                  </legend>
+                  <div class="form__progress-shell">
+                    <div class="form__progress-content">
+                      <input class="form__progress-input" type="checkbox" id="selfie" name="selfie" checked>
+                      <label class="form__progress-label" for="selfie">Сделал селфи с акулой</label>
+                    </div>
+                    <div class="form__progress-content">
+                      <input class="form__progress-input" type="checkbox" id="burn" name="burn" checked>
+                      <label class="form__progress-label" for="burn">Обгорел на пляже</label>
+                    </div>
+                    <div class="form__progress-content">
+                      <input class="form__progress-input" type="checkbox" id="chuck" name="chuck">
+                      <label class="form__progress-label" for="chuck">Видел Чака Норриса</label>
+                    </div>
+                    <div class="form__progress-content">
+                      <input class="form__progress-input" type="checkbox" id="souvenirs" name="souvenirs">
+                      <label class="form__progress-label" for="souvenirs">Накупил сувениров</label>
+                    </div>
+                    <div class="form__progress-content">
+                      <input class="form__progress-input" type="checkbox" id="turret" name="turret" checked>
+                      <label class="form__progress-label" for="turret">Удержал башню</label>
+                    </div>
+                    <div class="form__progress-content">
+                      <input class="form__progress-input" type="checkbox" id="hotel" name="tour">
+                      <label class="form__progress-label" for="hotel">Разгромил отель</label>
+                    </div>
+                  </div>
                 </div>
-                <div class="form__progress-content">
-                  <input class="form__progress-input" type="checkbox" id="burn" name="burn" checked>
-                  <label class="form__progress-label" for="burn">Обгорел на пляже</label>
-                </div>
-                <div class="form__progress-content">
-                  <input class="form__progress-input" type="checkbox" id="chuck" name="chuck">
-                  <label class="form__progress-label" for="chuck">Видел Чака Норриса</label>
-                </div>
-                <div class="form__progress-content">
-                  <input class="form__progress-input" type="checkbox" id="souvenirs" name="souvenirs">
-                  <label class="form__progress-label" for="souvenirs">Накупил сувениров</label>
-                </div>
-                <div class="form__progress-content">
-                  <input class="form__progress-input" type="checkbox" id="turret" name="turret" checked>
-                  <label class="form__progress-label" for="turret">Удержал башню</label>
-                </div>
-                <div class="form__progress-content">
-                  <input class="form__progress-input" type="checkbox" id="hotel" name="tour">
-                  <label class="form__progress-label" for="hotel">Разгромил отель</label>
-                </div>
-              </div>
             </fieldset>
           </div>
 
           <fieldset class="form__fieldset form__information">
-            <legend class="form__information-title form__information-title--hidden">
-              Контактная информация
-            </legend>
-            <div class="form__information-wrapper">
-              <div class="form__information-telephone">
-                <label class="form__information-label" for="number">Номер телефона</label>
-                <input class="form__information-input" type="tel" id="number" placeholder="Номер, пожалуйста">
+              <legend class="form__information-title form__information-title--hidden">
+                Контактная информация
+              </legend>
+              <div class="form__information-wrapper">
+                <div class="form__information-telephone">
+                  <label class="form__information-label" for="number">Номер телефона</label>
+                  <input class="form__information-input" type="tel" id="number" placeholder="Номер, пожалуйста">
+                </div>
+                <div class="form__information-contact">
+                  <label class="form__information-label" for="email">Адрес почты</label>
+                  <input class="form__information-input" type="tel" id="email" placeholder="Введите почту *" required>
+                </div>
               </div>
-              <div class="form__information-contact">
-                <label class="form__information-label" for="email">Адрес почты</label>
-                <input class="form__information-input" type="tel" id="email" placeholder="Введите почту *" required>
-              </div>
-            </div>
           </fieldset>
 
-          <div class="form__wrapper form__wrapper--apps">
-            <fieldset class="form__fieldset form__app">
-              <legend class="form__app-title">
-                С каким приложением путешествовали?
-              </legend>
-              <div class="form__app-wrapper">
-                <div class="form__app-radio">
-                  <input class="form__app-input form__press-input--pink" type="radio" id="ios" name="program" value="ios" checked>
-                  <label class="form__app-label" for="ios">Pink для iOS</label>
+              <fieldset class="form__fieldset form__app">
+                <div class="container">
+                  <legend class="form__app-title">
+                    С каким приложением путешествовали?
+                  </legend>
+                  <div class="form__app-wrapper">
+                    <div class="form__app-radio">
+                      <input class="form__app-input form__press-input--pink" type="radio" id="ios" name="program" value="ios" checked>
+                      <label class="form__app-label" for="ios">Pink для iOS</label>
+                    </div>
+                    <div class="form__app-radio">
+                      <input class="form__app-input" type="radio" id="android" name="program" value="android">
+                      <label class="form__app-label" for="android">Pink на Android</label>
+                    </div>
+                    <div class="form__app-radio">
+                      <input class="form__app-input" type="radio" id="windows" name="program" value="windows-phone">
+                      <label class="form__app-label" for="windows">Windows Phone</label>
+                    </div>
+                  </div>
                 </div>
-                <div class="form__app-radio">
-                  <input class="form__app-input" type="radio" id="android" name="program" value="android">
-                  <label class="form__app-label" for="android">Pink на Android</label>
-                </div>
-                <div class="form__app-radio">
-                  <input class="form__app-input" type="radio" id="windows" name="program" value="windows-phone">
-                  <label class="form__app-label" for="windows">Windows Phone</label>
-                </div>
-              </div>
-            </fieldset>
-          </div>
+              </fieldset>
 
           <fieldset class="form__fieldset form__remember">
-            <legend class="form__remember-title">
-              Опишите свои эмоции
-            </legend>
-            <div class="form__remember--wrapper">
-              <textarea class="form__textarea" rows="5" cols="25" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+            <div class="container">
+              <legend class="form__remember-title">
+                Опишите свои эмоции
+              </legend>
+              <div class="form__remember--wrapper">
+                <textarea class="form__textarea" rows="5" cols="25" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+              </div>
             </div>
           </fieldset>
 
           <div class="form__footer">
-            <div class="form__button">
-              <button class="button-form" type="submit">Отправить форму</button>
+            <div class="container">
+              <div class="form__button">
+                <button class="button-form" type="submit">Отправить форму</button>
+              </div>
+              <p class="form__field">
+                <sup class="form__required">*</sup>
+                — обязательные поля
+              </p>
             </div>
-            <p class="form__field">
-              <sup class="form__required">*</sup>
-              — обязательные поля
-            </p>
           </div>
         </form>
-      </div>
     </section>
 
   </main>
