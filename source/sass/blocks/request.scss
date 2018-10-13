@@ -1,0 +1,50 @@
+.request {
+  margin-top: 45px;
+
+  @media (min-width: 660px) {
+    margin-top: 60px;
+  }
+}
+
+.request__texts {
+  color: #283645;
+  background-color: #ffffff;
+}
+
+.request__text {
+  margin: 0;
+  padding-right: 6px;
+  padding-left: 6px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+
+  @media (min-width: 660px) {
+    margin: 0;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  @media (min-width: 960px) {
+    font-size: 50px;
+    line-height: 62px;
+  }
+}
+
+.request__text:last-child {
+  padding-bottom: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  @media (min-width: 660px) {
+    padding-left: 95px;
+    padding-right: 95px;
+    margin-bottom: 60px;
+  }
+
+  @media (min-width: 960px) {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+}
