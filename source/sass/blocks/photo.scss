@@ -3,7 +3,7 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
   background-color: #ffffff;
   list-style: none;
 
@@ -31,13 +31,85 @@
   }
 }
 
-.photo__img--panorama img {
+.photo__art img {
   width: 100%;
 }
 
-.photo__img--reiew {
+.photo__art--reiew {
   display: block;
-  height: 164px;
+  height: 123px;
+}
+
+.photo__art--wrapper {
+  margin-bottom: 22px;
+  background-color: #f2f2f2;
+}
+
+.photo__art--name span {
+  display: block;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.photo__art--description {
+  margin-left: 18px;
+}
+
+.photo__art--descriptive {
+  margin: 0;
+  padding-top: 29px;
+  margin-bottom: -2px;
+}
+
+.photo__description .photo__book--neighbor {
+  padding-bottom: 10px;
+}
+
+.photo__description .photo__like--enjoy {
+  padding-bottom: 21px;
+}
+
+.photo__description .photo__book--can {
+  padding-bottom: 9px;
+}
+
+.photo__description .photo__like--happy {
+  padding-bottom: 21px;
+}
+
+.photo__description .photo__descriptive--visual {
+  padding-top: 15px;
+}
+
+.photo__description .photo__book--most {
+  padding-bottom: 11px;
+}
+
+.photo__description .photo__book--snow {
+  padding-bottom: 12px;
+}
+
+.photo__description .photo__book--gm {
+  padding-bottom: 9px;
+}
+
+.photo__art--book {
+  margin: 0;
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+.photo__art--like {
+  display: block;
+  margin-left: 32px;
+  padding-bottom: 20px;
+  color: #d22856;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
 }
 
 .photo__img {
@@ -45,10 +117,13 @@
   text-align: center;
 }
 
+.photo__item img {
+  width: 100%;
+}
+
 .photo__description {
   display: flex;
   flex-direction: column;
-  margin: 0 20px;
   background-color: #f2f2f2;
   box-sizing: border-box;
 
@@ -61,8 +136,10 @@
 .photo__descriptive {
   display: flex;
   align-items: baseline;
-  padding-left: 10px;
-  padding-top: 10px;
+  margin: 0;
+  margin-left: 18px;
+  padding-top: 14px;
+  margin-bottom: -2px;
 }
 
 .photo__name {
@@ -75,15 +152,18 @@
 }
 
 .photo__name span {
+  display: block;
   font-size: 12px;
   line-height: 24px;
   text-transform: uppercase;
 }
 
 .photo__book {
-  display: block;
   margin: 0;
   padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 8px;
+  padding-bottom: 8px;
   line-height: 24px;
   font-weight: 400;
   color: #283645;
@@ -91,6 +171,8 @@
 
 .photo__like {
   padding-left: 40px;
+  margin-left: 10px;
+  padding-bottom: 20px;
   font-size: 12px;
   line-height: 24px;
   color: #d22856;

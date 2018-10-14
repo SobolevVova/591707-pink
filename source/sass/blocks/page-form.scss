@@ -39,24 +39,28 @@ input[type="radio"] {
 
 .form__info-label {
   margin-bottom: 4px;
-  margin-left: 40px;
+  margin-left: 23px;
   text-transform: uppercase;
   color: #d22856;
 
   @media (min-width: 660px) {
-    margin-top: 14px;
+    margin-top: 18px;
+    margin-right: 18px;
+    margin-left: 0;
   }
 }
 
+.form__info-registration input {
+  font-size: 18px;
+}
+
 .form__info-input {
-  width: 276px;
+  width: 278px;
   box-sizing: border-box;
-  height: 60px;
-  margin-left: 2px;
+  height: 63px;
   padding-right: 15px;
-  padding-bottom: 7px;
   padding-left: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 18px;
   border: 2px solid #e5e5e5;
   background-color: transparent;
   font: inherit;
@@ -71,8 +75,8 @@ input[type="radio"] {
   }
 
   @media (min-width: 660px) {
-    width: 498px;
-    font-size: 18px;
+    width: 525px;
+    margin-bottom: 52px;
   }
 
   @media (min-width: 960px) {
@@ -83,7 +87,7 @@ input[type="radio"] {
 
 @media (min-width: 660px) {
   .form__info-input--name {
-    width: 540px;
+    width: 565px;
   }
 }
 
@@ -93,12 +97,20 @@ input[type="radio"] {
   }
 }
 
+.form__info {
+  margin-bottom: 25px;
+}
+
 .form__wrapper {
   background-color: #f2f2f2;
 
   @media (min-width: 660px) {
     background-color: #ffffff;
   }
+}
+
+.form__wrapper--progress {
+  margin-bottom: 29px;
 }
 
 @media (min-width: 660px) {
@@ -153,7 +165,7 @@ input[type="radio"] {
   padding-top: 38px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 39px;
+  margin-bottom: 45px;
   line-height: 18px;
   color: #d22856;
   text-align: center;
@@ -166,7 +178,7 @@ input[type="radio"] {
 
 .form__progress-input + .form__progress-label {
   position: relative;
-  padding-left: 90px;
+  padding-left: 70px;
   display: block;
   font-size: 18px;
   color: #283645;
@@ -177,7 +189,7 @@ input[type="radio"] {
     content: "";
     position: absolute;
     top: -5px;
-    left: 20px;
+    left: 0;
     width: 35px;
     height: 35px;
     background-color: #ffffff;
@@ -189,8 +201,8 @@ input[type="radio"] {
   content: "";
   display: block;
   position: absolute;
-  top: 15px;
-  left: 29px;
+  top: 7px;
+  left: 9px;
   width: 20px;
   height: 8px;
   border-bottom: 2px solid #d22856;
@@ -208,7 +220,7 @@ input[type="radio"] {
 
 .form__progress-content {
   padding-bottom: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 42px;
 }
 
 .form__information {
@@ -250,8 +262,9 @@ input[type="radio"] {
 }
 
 .form__information-label {
-  margin-bottom: 4px;
-  margin-left: 40px;
+  display: block;
+  margin-bottom: 6px;
+  margin-left: 23px;
   text-transform: uppercase;
   color: #d22856;
 
@@ -260,15 +273,17 @@ input[type="radio"] {
   }
 }
 
+.form__information-contact input {
+  font-size: 18px;
+}
+
 .form__information-input {
-  width: 276px;
+  width: 278px;
   box-sizing: border-box;
-  height: 60px;
-  margin-left: 2px;
+  height: 63px;
   padding-right: 15px;
-  padding-bottom: 7px;
   padding-left: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 17px;
   border: 2px solid #e5e5e5;
   background-color: transparent;
   font: inherit;
@@ -296,18 +311,16 @@ input[type="radio"] {
   }
 }
 
-.form__information-telephone {
-  padding-top: 35px;
-
-  @media (min-width: 660px) {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-}
+// // .form__information-telephone {
+// //   padding-top: 29px;
+// //
+// //   @media (min-width: 660px) {
+// //     display: flex;
+// //     flex-direction: column-reverse;
+// //   }
+// }
 
 .form__information-contact {
-  padding-bottom: 35px;
-
   @media (min-width: 660px) {
     display: flex;
     flex-direction: column-reverse;
@@ -320,6 +333,7 @@ input[type="radio"] {
 
   @media (min-width: 660px) {
     border: 2px solid #e5e5e5;
+    background-color: #ffffff;
   }
 
   @media (min-width: 960px) {
@@ -331,8 +345,8 @@ input[type="radio"] {
   display: block;
   margin: 0;
   padding: 0;
-  padding-top: 33px;
-  margin-bottom: 35px;
+  padding-top: 36px;
+  margin-bottom: 41px;
   line-height: 18px;
   font-weight: 400;
   color: #d22856;
@@ -349,8 +363,8 @@ input[type="radio"] {
 .form__app-input + .form__app-label {
   position: relative;
   display: block;
-  padding-left: 90px;
-  margin-bottom: 50px;
+  padding-left: 70px;
+  margin-bottom: 45px;
   font-size: 18px;
   color: #283645;
   cursor: pointer;
@@ -358,8 +372,8 @@ input[type="radio"] {
   &::before {
     content: "";
     position: absolute;
-    top: -3px;
-    left: 20px;
+    top: -4px;
+    left: 0;
     width: 35px;
     height: 35px;
     background: #ffffff;
@@ -371,8 +385,8 @@ input[type="radio"] {
 .form__app-input:checked + .form__app-label::after {
   content: "";
   position: absolute;
-  top: 9px;
-  left: 32px;
+  top: 8px;
+  left: 12px;
   width: 15px;
   height: 15px;
   background-color: #d22856;
@@ -404,8 +418,8 @@ input[type="radio"] {
 }
 
 .form__remember-title {
-  padding-top: 38px;
-  padding-bottom: 15px;
+  padding-top: 40px;
+  padding-bottom: 17px;
   margin: 0 auto;
   text-transform: uppercase;
   line-height: 18px;
@@ -432,8 +446,11 @@ input[type="radio"] {
 }
 
 .form__textarea {
-  margin-bottom: 30px;
-  padding: 14px 16px 14px 14px;
+  width: 278px;
+  margin-bottom: 40px;
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-top: 20px;
   min-height: 200px;
   box-sizing: border-box;
   font-size: 18px;
@@ -470,7 +487,8 @@ input[type="radio"] {
 .form__field {
   margin: 0;
   padding: 0;
-  margin-top: 35px;
+  margin-top: 30px;
+  margin-bottom: 53px;
   text-transform: uppercase;
   text-align: center;
 }

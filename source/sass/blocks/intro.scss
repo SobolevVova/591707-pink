@@ -3,7 +3,7 @@
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-size: 100% 54%;
+  background-size: 105% 72%;
   margin-top: -68px;
 
   @media (min-width: 660px) {
@@ -23,8 +23,8 @@
 .intro-app__container {
   background-image: url("../img/iphone-hand-mobile@1x.png");
   background-repeat: no-repeat;
-  background-position: 6px 150px;
-  background-size: 77% 34%;
+  background-position: 0 172px;
+  background-size: 80% 45%;
 
   @media (min-width: 660px) {
     background-image: url("../img/iphone-hand-tablet@1x.png");
@@ -53,7 +53,7 @@
 
 .intro-app__wrapper {
   padding-bottom: 20px;
-  padding-top: 479px;
+  padding-top: 428px;
 
   @media (min-width: 660px) {
     width: 315px;
@@ -112,7 +112,7 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 18px;
-  padding: 15px 35px;
+  padding: 13px 35px;
 
   &:hover {
     background-color: #ffffff;
