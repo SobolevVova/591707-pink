@@ -8,9 +8,10 @@
 
   @media (min-width: 660px) {
     background-image: url("../img/bg-back-tablet@1x.jpg");
-    background-position: 50% 0;
-    background-size: auto 100%;
+    background-position: 50% -40px;
+    background-size: 180% 94%;
     margin-top: -105px;
+    padding-bottom: 65px;
   }
 
   @media (min-width: 960px) {
@@ -28,8 +29,8 @@
 
   @media (min-width: 660px) {
     background-image: url("../img/iphone-hand-tablet@1x.png");
-    background-position: -37px 282px;
-    background-size: 100% 61%;
+    background-position: -20px 143px;
+    background-size: 106% 77%;
   }
 
   @media (min-width: 960px) {
@@ -64,8 +65,14 @@
   @media (min-width: 960px) {
     width: 350px;
     margin-left: 50px;
-    padding-bottom: 130px;
     padding-top: 130px;
+  }
+}
+
+.intro-app__other {
+  @media (min-width: 660px) {
+    margin-top: -38px;
+    margin-bottom: 16px;
   }
 }
 
@@ -75,7 +82,7 @@
   @media (min-width: 660px) {
     display: block;
     margin: 0;
-    margin-left: 42px;
+    margin-left: 53px;
     padding-top: 5px;
     padding-bottom: 30px;
     width: 193px;
@@ -102,7 +109,7 @@
   @media (min-width: 660px) {
     padding: 0;
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 54px;
   }
 }
 
@@ -112,7 +119,7 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 18px;
-  padding: 13px 35px;
+  padding: 13px 46px;
 
   &:hover {
     background-color: #ffffff;
@@ -133,7 +140,9 @@
   align-items: baseline;
 
   @media (min-width: 660px) {
-    padding-left: 20px;
+    width: 204px;
+    margin-left: 46px;
+    margin-bottom: 28px;
   }
 
   @media (min-width: 960px) {
@@ -148,9 +157,11 @@
   line-height: 24px;
   color: #ffffff;
   text-align: center;
+  font-weight: lighter;
 
   @media (min-width: 660px) {
-    text-align: left;
+    width: 296px;
+    font-size: 18px;
   }
 
   @media (min-width: 960px) {

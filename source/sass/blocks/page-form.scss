@@ -21,9 +21,15 @@ input[type="radio"] {
   display: none;
 }
 
-@media (min-width: 960px) {
-  .form__info {
-    width: 50%;
+.form__info {
+  margin-bottom: 25px;
+
+  @media (min-width: 660px) {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 960px) {
+    width: 430px;
     margin-top: 22px;
   }
 }
@@ -95,14 +101,6 @@ input[type="radio"] {
 @media (min-width: 960px) {
   .form__info-input--name {
     width: 360px;
-  }
-}
-
-.form__info {
-  margin-bottom: 25px;
-
-  @media (min-width: 660px) {
-    margin-bottom: 0;
   }
 }
 

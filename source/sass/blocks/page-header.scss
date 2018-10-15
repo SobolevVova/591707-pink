@@ -25,6 +25,7 @@
   }
 
   @media (min-width: 960px) {
+    height: 66px;
     background-color: transparent;
   }
 }
@@ -56,7 +57,8 @@
 
   @media (min-width: 960px) {
     display: block;
-    margin-left: 300px;
+    margin-left: 270px;
+    margin-top: 12px;
   }
 }
 
@@ -195,9 +197,10 @@
   }
 
   @media (min-width: 960px) {
-    width: 640px;
+    width: 622px;
     margin: 0;
-    margin-right: 338px;
+    margin-top: 6px;
+    margin-right: 289px;
     background-color: transparent;
   }
 }
