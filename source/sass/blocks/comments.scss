@@ -13,6 +13,7 @@
 }
 
 .comments__list {
+  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -33,7 +34,7 @@
 }
 
 .comments__name {
-  margin-bottom: 10px;
+  margin-bottom: 14px;
   font-size: 18px;
   font-weight: bold;
   color: #000000;
@@ -80,8 +81,8 @@
 .slider__toggles {
   display: flex;
   justify-content: space-around;
-  width: 60px;
-  margin: 0 auto;
+  width: 76px;
+  margin-left: 62px;
 
   @media (min-width: 660px) {
     margin: auto;

@@ -1,10 +1,13 @@
 .information-app {
+  background-image: url("../img/bg-triangle-white.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 42px;
   background-color: #f2f2f2;
 }
 
 .information-app__draw {
-  background-color: #f2f2f2;
-
   @media (min-width: 660px) {
     display: flex;
     flex-direction: row-reverse;
@@ -22,8 +25,8 @@
 .information-app__list {
   margin: 0;
   padding: 0;
-  padding-top: 90px;
-  height: 710px;
+  padding-top: 46px;
+  height: 704px;
   overflow: hidden;
   text-align: center;
   list-style: none;
@@ -47,10 +50,10 @@
 }
 
 .information-app__item {
-  padding-bottom: 34px;
+  padding-bottom: 31px;
 
   &--friends {
-    padding-bottom: 380px;
+    padding-bottom: 360px;
     background-image: url("../img/iphone-screen-mobile@1x.png");
     background-position: 50% 100%;
     background-repeat: no-repeat;
@@ -115,8 +118,6 @@
 
 .information-app__item-text {
   margin: 0;
-  padding-left: 20px;
-  padding-right: 20px;
   line-height: 24px;
 
   @media (min-width: 960px) {
