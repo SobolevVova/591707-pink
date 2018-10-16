@@ -30,12 +30,12 @@
     background-image: url("../img/iphone-hand-tablet@1x.png");
     background-position: -20px 414px;
   }
-  //
-  // @media (min-width: 960px) {
-  //   background-image: url("../img/iphone-hand-desktop@1x.png");
-  //   background-position: 181px 158px;
-  //   background-size: 80% 77%;
-  // }
+
+  @media (min-width: 960px) {
+    background-image: url("../img/iphone-hand-desktop@1x.png");
+    background-position: 181px 158px;
+    background-size: 80% 77%;
+  }
 }
 
 
