@@ -2,11 +2,11 @@
   background-color: #283645;
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: 50% 22%;
 
   @media (min-width: 660px) {
     background-image: url("../img/bg-back-tablet@1x.jpg");
-    background-position: 50% 0;
+    background-position: 50% 2%;
     margin-top: -105px;
     margin-bottom: 93px;
   }
@@ -20,17 +20,17 @@
 
 .photography-form__title {
   margin: 0;
-  padding-top: 96px;
+  padding-top: 31px;
   padding-bottom: 53px;
-  margin-bottom: 46px;
+  margin-bottom: 44px;
   font-size: 24px;
   font-weight: 300;
   color: #ffffff;
   text-align: center;
 
   @media (min-width: 660px) {
-    padding-bottom: 81px;
-    padding-top: 181px;
+    padding-bottom: 80px;
+    padding-top: 174px;
     font-size: 50px;
     line-height: 60px;
   }

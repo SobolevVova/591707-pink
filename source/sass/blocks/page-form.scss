@@ -25,18 +25,21 @@ input[type="radio"] {
   margin-bottom: 25px;
 
   @media (min-width: 660px) {
-    margin-bottom: 0;
+    margin-bottom: 3px;
   }
 
   @media (min-width: 960px) {
     width: 430px;
+    margin-right: 70px;
     margin-top: 22px;
+    margin-bottom: 0;
   }
 }
 
 .form__info-registration {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1px;
 
   @media (min-width: 660px) {
     flex-direction: row;
@@ -87,7 +90,7 @@ input[type="radio"] {
   }
 
   @media (min-width: 960px) {
-    width: 320px;
+    width: 341px;
     margin-bottom: 52px;
   }
 }
@@ -100,33 +103,62 @@ input[type="radio"] {
 
 @media (min-width: 960px) {
   .form__info-input--name {
-    width: 360px;
-  }
-}
-
-.form__wrapper {
-  background-color: #f2f2f2;
-
-  @media (min-width: 660px) {
-    background-color: #ffffff;
+    width: 381px;
   }
 }
 
 .form__wrapper--progress {
+  background-color: #f2f2f2;
+  margin: 0 -20px;
   margin-bottom: 29px;
+
+  @media (min-width: 660px) {
+    background-color: #ffffff;
+    order: 2;
+  }
+
+  @media (min-width: 960px) {
+    margin: 0;
+    margin-bottom: 17px;
+  }
 }
 
-@media (min-width: 660px) {
-  .form__progress {
-    margin-top: 29px;
-    padding-bottom: 3px;
-    border: 2px solid #e5e5e5;
+.form__progress {
+  @media (min-width: 660px) {
+    border: 2px solid #f2f2f2;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 31px;
+  }
+
+  @media (min-width: 960px) {
+    height: 235px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 960px) {
+  .form__progress-content--burn {
+    order: 1;
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 960px) {
+  .form__progress-content--souvenirs {
+    order: 1;
+  }
+}
+
+@media (min-width: 960px) {
+  .form__progress-content--hotel {
+    order: 3;
   }
 }
 
 @media (min-width: 960px) {
   .form__progress-content:nth-child(6) {
-    margin-right: 47px;
+    margin-right: 63px;
   }
 }
 
@@ -138,20 +170,7 @@ input[type="radio"] {
 
 @media (min-width: 960px) {
   .form__progress-content:nth-child(3) {
-    margin-right: 16px;
-  }
-}
-
-@media (min-width: 660px) {
-  .form__wrapper--progress {
-    order: 2;
-    margin: 15px 20px 20px;
-  }
-}
-
-@media (min-width: 960px) {
-  .form__wrapper--progress {
-    margin-bottom: 40px;
+    margin-right: 53px;
   }
 }
 
@@ -160,16 +179,15 @@ input[type="radio"] {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 940px;
   }
 }
 
 .form__progress-title {
   margin: 0;
   padding: 0;
-  padding-top: 38px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 36px;
+  padding-left: 35px;
+  padding-right: 35px;
   margin-bottom: 45px;
   line-height: 18px;
   color: #d22856;
@@ -184,11 +202,15 @@ input[type="radio"] {
     margin-bottom: 49px;
     background-color: #ffffff;
   }
+
+  @media (min-width: 960px) {
+    padding-right: 4px;
+  }
 }
 
 .form__progress-input + .form__progress-label {
   position: relative;
-  padding-left: 97px;
+  padding-left: 89px;
   display: block;
   font-size: 18px;
   color: #283645;
@@ -199,16 +221,26 @@ input[type="radio"] {
     content: "";
     position: absolute;
     top: -5px;
-    left: 0;
+    left: 20px;
     width: 35px;
     height: 35px;
     background-color: #ffffff;
     border: 2px solid #e5e5e5;
   }
+}
 
-  @media (min-width: 660px) {
-    padding-left: 58px;
-    margin-left: 39px;
+
+@media (min-width: 660px) {
+  .form__progress-input + .form__progress-label {
+    padding-left: 79px;
+    margin-left: 38px;
+  }
+}
+
+@media (min-width: 960px) {
+  .form__progress-input + .form__progress-label {
+    padding-left: 78px;
+    margin-left: 38px;
   }
 }
 
@@ -217,7 +249,7 @@ input[type="radio"] {
   display: block;
   position: absolute;
   top: 7px;
-  left: 9px;
+  left: 29px;
   width: 20px;
   height: 8px;
   border-bottom: 2px solid #d22856;
@@ -236,6 +268,10 @@ input[type="radio"] {
 .form__progress-content {
   padding-bottom: 10px;
   margin-bottom: 42px;
+
+  @media (min-width: 660px) {
+    padding-bottom: 11px;
+  }
 }
 
 .form__information {
@@ -245,8 +281,7 @@ input[type="radio"] {
   margin-bottom: 25px;
 
   @media (min-width: 660px) {
-    margin: 15px 20px 20px;
-    margin-top: 46px;
+    margin-top: 53px;
     padding-bottom: 21px;
     order: 1;
     border: 2px solid #e5e5e5;
@@ -254,7 +289,9 @@ input[type="radio"] {
 
   @media (min-width: 960px) {
     width: 940px;
-    margin-bottom: 60px;
+    height: 152px;
+    margin-top: -3px;
+    margin-bottom: 57px;
   }
 }
 
@@ -280,6 +317,10 @@ input[type="radio"] {
     background-color: #ffffff;
     text-transform: uppercase;
   }
+
+  @media (min-width: 960px) {
+    margin-bottom: 29px;
+  }
 }
 
 .form__information-label {
@@ -290,7 +331,11 @@ input[type="radio"] {
   color: #d22856;
 
   @media (min-width: 660px) {
-    margin-left: 57px;
+    margin-left: 77px;
+  }
+
+  @media (min-width: 960px) {
+    margin-left: 54px;
   }
 }
 
@@ -320,14 +365,14 @@ input[type="radio"] {
 
   @media (min-width: 660px) {
     width: 500px;
-    margin-left: 38px;
+    margin-left: 57px;
     padding-right: 60px;
     margin-bottom: 9px;
     padding-left: 18px;
   }
 
   @media (min-width: 960px) {
-    width: 370px;
+    width: 374px;
     margin-left: 35px;
   }
 }
@@ -339,10 +384,14 @@ input[type="radio"] {
     flex-direction: column-reverse;
   }
 
+  @media (min-width: 960px) {
+    margin-left: 23px;
+  }
+
   &::before {
     content: "";
     position: absolute;
-    right: 40px;
+    right: 60px;
     top: 1px;
     width: 60px;
     height: 60px;
@@ -353,15 +402,25 @@ input[type="radio"] {
   }
 }
 
+@media (min-width: 960px) {
+  .form__information-contact::before {
+    right: 2px;
+  }
+}
+
 .form__information-contact--number {
   @media (min-width: 660px) {
     margin-bottom: 24px;
   }
 
+  @media (min-width: 960px) {
+    margin-right: 14px;
+  }
+
   &::before {
     content: "";
     position: absolute;
-    right: 40px;
+    right: 60px;
     top: 1px;
     width: 60px;
     height: 60px;
@@ -372,11 +431,30 @@ input[type="radio"] {
   }
 }
 
-.form__app {
+@media (min-width: 960px) {
+  .form__information-contact--number::before {
+    right: 1px;
+  }
+}
+
+
+.form__wrapper--app {
   background-color: #f2f2f2;
+  margin: 0 -20px;
 
   @media (min-width: 660px) {
-    margin: 15px 20px 20px;
+    background-color: #ffffff;
+  }
+
+  @media (min-width: 960px) {
+    margin-top: 7px;
+  }
+}
+
+.form__app {
+  @media (min-width: 660px) {
+    margin-right: 20px;
+    margin-left: 20px;
     padding-bottom: 11px;
     border: 2px solid #e5e5e5;
     background-color: #ffffff;
@@ -384,6 +462,7 @@ input[type="radio"] {
 
   @media (min-width: 960px) {
     width: 430px;
+    margin-bottom: 15px;
   }
 }
 
@@ -391,7 +470,7 @@ input[type="radio"] {
   display: block;
   margin: 0;
   padding: 0;
-  padding-top: 36px;
+  padding-top: 37px;
   margin-bottom: 41px;
   line-height: 18px;
   font-weight: 400;
@@ -403,51 +482,76 @@ input[type="radio"] {
 
   @media (min-width: 660px) {
     width: 392px;
-    margin-left: 91px;
-    margin-top: -11px;
     margin-bottom: 48px;
     padding: 0;
     padding-top: 1px;
     background-color: #ffffff;
+  }
+
+  @media (min-width: 960px) {
+    width: 370px;
+    margin-bottom: 50px;
   }
 }
 
 .form__app-input + .form__app-label {
   position: relative;
   display: block;
-  padding-left: 70px;
+  padding-left: 89px;
   margin-bottom: 45px;
   font-size: 18px;
   color: #283645;
   cursor: pointer;
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: -4px;
-    left: 38px;
-    width: 35px;
-    height: 35px;
-    background: #ffffff;
-    border: 2px solid #e5e5e5;
-    border-radius: 50%;
+  @media (min-width: 660px) {
+    padding-left: 117px;
+    margin-bottom: 46px;
   }
 
-  @media (min-width: 660px) {
-    padding-left: 97px;
-    margin-bottom: 46px;
+  @media (min-width: 960px) {
+    padding-left: 133px;
   }
 }
 
 .form__app-input:checked + .form__app-label::after {
   content: "";
   position: absolute;
-  top: 8px;
-  left: 50px;
+  top: 6px;
+  left: 32px;
   width: 15px;
   height: 15px;
   background-color: #d22856;
   border-radius: 50%;
+
+  @media (min-width: 660px) {
+    left: 70px;
+    top: 8px;
+  }
+
+  @media (min-width: 960px) {
+    left: 86px;
+  }
+}
+
+.form__app-input + .form__app-label::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 21px;
+  width: 35px;
+  height: 35px;
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-radius: 50%;
+
+  @media (min-width: 660px) {
+    top: -4px;
+    left: 58px;
+  }
+
+  @media (min-width: 960px) {
+    left: 74px;
+  }
 }
 
 .form__app-input + .form__app-label:hover::before {
@@ -463,11 +567,9 @@ input[type="radio"] {
 
   @media (min-width: 660px) {
     order: 2;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 50px;
-    margin-top: 45px;
-    border: 2px solid #e5e5e5;
+    margin-bottom: 52px;
+    margin-top: 28px;
+    border: 2px solid #f2f2f2;
   }
 
   @media (min-width: 960px) {
@@ -486,7 +588,8 @@ input[type="radio"] {
 
   @media (min-width: 660px) {
     width: 255px;
-    margin-top: -51px;
+    padding: 0;
+    margin-bottom: 26px;
     background-color: #ffffff;
   }
 }
@@ -498,14 +601,14 @@ input[type="radio"] {
   padding: 0;
 
   @media (min-width: 660px) {
-    margin-left: 38px;
-    padding-top: 21px;
+    margin-left: 57px;
+    padding-top: 9px;
   }
 }
 
 .form__textarea {
   width: 278px;
-  margin-bottom: 40px;
+  margin-bottom: 39px;
   padding-right: 14px;
   padding-left: 14px;
   padding-top: 20px;
@@ -539,6 +642,7 @@ input[type="radio"] {
   .form__footer {
     order: 2;
     display: flex;
+    justify-content: space-between;
     margin-bottom: 48px;
     box-sizing: border-box;
     align-items: baseline;
@@ -562,12 +666,6 @@ input[type="radio"] {
 
 .form__required {
   color: #d22856;
-}
-
-@media (min-width: 660px) {
-  .form__button {
-    margin-right: 30px;
-  }
 }
 
 .button-form {

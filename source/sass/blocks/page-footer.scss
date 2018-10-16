@@ -11,6 +11,10 @@
   }
 }
 
+.page-footer__hidden {
+  display: none;
+}
+
 .copyright__link {
   display: inline-block;
   vertical-align: middle;
@@ -76,6 +80,7 @@
 }
 
 .social__link--twitter {
+  margin-top: 5px;
   margin-left: 14px;
   fill: #d22856;
 
@@ -85,12 +90,14 @@
 }
 
 .social__link--facebook {
-  margin-left: 19px;
+  margin-left: 18px;
   fill: #d22856;
+  margin-top: 3px;
 }
 
 .social__link--youtube {
-  margin-left: 18px;
+  margin-left: 17px;
+  margin-top: 1px;
   fill: #d22856;
 }
 
