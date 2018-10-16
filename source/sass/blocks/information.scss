@@ -5,6 +5,10 @@
   background-size: contain;
   margin-bottom: 42px;
   background-color: #f2f2f2;
+
+  @media (min-width: 660px) {
+    margin-bottom: 59px;
+  }
 }
 
 .information-app__draw {
@@ -12,7 +16,7 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    height: 530px;
+    height: 485px;
     overflow: hidden;
   }
 
@@ -25,20 +29,20 @@
 .information-app__list {
   margin: 0;
   padding: 0;
-  padding-top: 46px;
+  padding-top: 80px;
   height: 704px;
   overflow: hidden;
   text-align: center;
   list-style: none;
 
   @media (min-width: 660px) {
-    padding-left: 367px;
-    height: 439px;
+    padding-left: 288px;
+    padding-top: 75px;
     text-align: left;
     background-image: url("../img/iphone-screen-3-tablet@1x.png");
-    background-position: 55px 30px;
+    background-position: 0 5px;
     background-repeat: no-repeat;
-    background-size: 215px 399px;
+    background-size: 270px 479px;
   }
 
   @media (min-width: 960px) {
@@ -54,13 +58,17 @@
 
   &--friends {
     padding-bottom: 360px;
+    margin-bottom: 10px;
     background-image: url("../img/iphone-screen-mobile@1x.png");
     background-position: 50% 100%;
     background-repeat: no-repeat;
+
+    @media (min-width: 660px) {
+      margin-left: 23px;
+    }
   }
 
   @media (min-width: 660px) {
-    padding-bottom: 0;
     background-image: none;
   }
 }
@@ -81,8 +89,12 @@
   }
 }
 
-@media (min-width: 960px) {
-  .information-app__item--world {
+.information-app__item--world {
+  @media (min-width: 660px) {
+    margin-bottom: 4px;
+  }
+
+  @media (min-width: 960px) {
     background-image: url("../img/iphone-screen-2-desktop@1x.png");
     background-position: 50% 5%;
     background-repeat: no-repeat;
@@ -90,8 +102,12 @@
   }
 }
 
-@media (min-width: 960px) {
-  .information-app__item--mood {
+.information-app__item--mood {
+  @media (min-width: 660px) {
+    margin-bottom: 3px;
+  }
+
+  @media (min-width: 960px) {
     background-image: url("../img/iphone-screen-1-desktop@1x.png");
     background-position: 50% 5%;
     background-repeat: no-repeat;
@@ -107,12 +123,34 @@
   line-height: 24px;
   color: #000000;
 
-  @media (min-width: 660px) {
-    margin-left: 20px;
-  }
-
   @media (min-width: 960px) {
     font-size: 30px;
+  }
+}
+
+.information-app__item-title--mood {
+  @media (min-width: 660px) {
+    margin-left: 21px;
+  }
+}
+
+.information-app__item-text--mood {
+  @media (min-width: 660px) {
+    padding-left: 21px;
+  }
+}
+
+.information-app__item-title--world {
+  @media (min-width: 660px) {
+    margin-left: 21px;
+    margin-bottom: 10px;
+  }
+}
+
+.information-app__item-text--world {
+  @media (min-width: 660px) {
+    padding-left: 22px;
+    padding-bottom: 2px;
   }
 }
 

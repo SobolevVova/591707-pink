@@ -2,16 +2,15 @@
   background-color: #283645;
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: 100% 63%;
+  background-position: 50% 24px;
+  background-size: 100% 60%;
   margin-top: -68px;
 
   @media (min-width: 660px) {
     background-image: url("../img/bg-back-tablet@1x.jpg");
-    background-position: 50% 191px;
-    background-size: 180% 80%;
+    background-position: 50% 229px;
+    background-size: 180% 76%;
     margin-top: -105px;
-    padding-bottom: 65px;
   }
 
   @media (min-width: 960px) {
@@ -22,17 +21,15 @@
   }
 }
 
-.intro-app__img {
+.intro-app__container {
   background-image: url("../img/iphone-hand-mobile@1x.png");
   background-repeat: no-repeat;
-  background-position: 1px 176px;
-  min-height: 464px;
+  background-position: 1px 195px;
 
-  // @media (min-width: 660px) {
-  //   background-image: url("../img/iphone-hand-tablet@1x.png");
-  //   background-position: -20px 143px;
-  //   background-size: 106% 77%;
-  // }
+  @media (min-width: 660px) {
+    background-image: url("../img/iphone-hand-tablet@1x.png");
+    background-position: -20px 414px;
+  }
   //
   // @media (min-width: 960px) {
   //   background-image: url("../img/iphone-hand-desktop@1x.png");
@@ -55,12 +52,12 @@
 
 .intro-app__wrapper {
   padding-bottom: 30px;
-  padding-top: 68px;
+  padding-top: 551px;
 
   @media (min-width: 660px) {
     width: 315px;
-    padding-bottom: 0;
-    padding-top: 0;
+    padding-bottom: 109px;
+    padding-top: 428px;
   }
 
   @media (min-width: 960px) {
@@ -79,6 +76,7 @@
     margin-left: 53px;
     padding-top: 5px;
     padding-bottom: 30px;
+    margin-bottom: 41px;
     width: 193px;
     color: #ffffff;
     font-size: 40px;
@@ -141,7 +139,7 @@
   @media (min-width: 660px) {
     width: 204px;
     margin-left: 46px;
-    margin-bottom: 28px;
+    margin-bottom: 29px;
   }
 
   @media (min-width: 960px) {
@@ -160,6 +158,7 @@
 
   @media (min-width: 660px) {
     width: 296px;
+    margin-left: 2px;
     font-size: 18px;
   }
 
