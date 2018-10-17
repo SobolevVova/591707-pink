@@ -2,21 +2,18 @@
   background-color: #283645;
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
-  background-position: 50% 24px;
-  background-size: 100% 60%;
+  background-position: 50% 5px;
   margin-top: -68px;
 
   @media (min-width: 660px) {
     background-image: url("../img/bg-back-tablet@1x.jpg");
-    background-position: 50% 229px;
-    background-size: 180% 76%;
+    background-position: 50% -6px;
     margin-top: -105px;
   }
 
   @media (min-width: 960px) {
     background-image: url("../img/bg-back-desktop@1x.jpg");
-    background-position: 50% 0;
-    background-size: cover;
+    background-position: 50% 1%;
     margin-top: -111px;
   }
 }
@@ -24,17 +21,16 @@
 .intro-app__container {
   background-image: url("../img/iphone-hand-mobile@1x.png");
   background-repeat: no-repeat;
-  background-position: 1px 195px;
+  background-position: 0 181px;
 
   @media (min-width: 660px) {
     background-image: url("../img/iphone-hand-tablet@1x.png");
-    background-position: -20px 414px;
+    background-position: -20px 180px;
   }
 
   @media (min-width: 960px) {
     background-image: url("../img/iphone-hand-desktop@1x.png");
-    background-position: 181px 158px;
-    background-size: 80% 77%;
+    background-position: 26px 215px;
   }
 }
 
@@ -52,18 +48,19 @@
 
 .intro-app__wrapper {
   padding-bottom: 30px;
-  padding-top: 551px;
+  padding-top: 536px;
 
   @media (min-width: 660px) {
     width: 315px;
     padding-bottom: 109px;
-    padding-top: 428px;
+    padding-top: 194px;
   }
 
   @media (min-width: 960px) {
     width: 350px;
-    margin-left: 50px;
-    padding-top: 130px;
+    margin-left: 13px;
+    padding-top: 215px;
+    padding-bottom: 120px;
   }
 }
 
@@ -91,6 +88,7 @@
     margin-left: 12px;
     font-size: 50px;
     line-height: 62px;
+    margin-bottom: 62px;
   }
 }
 
@@ -103,6 +101,11 @@
     padding: 0;
     text-align: left;
     margin-bottom: 54px;
+  }
+
+  @media (min-width: 660px) {
+    margin-left: -13px;
+    margin-bottom: 76px;
   }
 }
 
@@ -143,7 +146,8 @@
   }
 
   @media (min-width: 960px) {
-    margin-left: 18px;
+    margin-left: 33px;
+    margin-bottom: 47px;
   }
 }
 
@@ -164,5 +168,6 @@
 
   @media (min-width: 960px) {
     font-size: 18px;
+    margin-left: -11px;
   }
 }
