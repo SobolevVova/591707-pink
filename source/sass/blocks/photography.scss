@@ -2,14 +2,15 @@
   background-color: #283645;
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: 50% 22%;
   padding-bottom: 4px;
 
   @media (min-width: 660px) {
     background-image: url("../img/bg-back-tablet@1x.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    background-position: 50% 1%;
     margin-top: -105px;
+    margin-bottom: 47px;
   }
 
   @media (min-width: 960px) {
@@ -21,7 +22,7 @@
 
 .photo__title {
   margin: 0;
-  padding-top: 94px;
+  padding-top: 33px;
   padding-bottom: 75px;
   margin-bottom: 3px;
   font-size: 24px;
@@ -30,10 +31,8 @@
   text-align: center;
 
   @media (min-width: 660px) {
-    width: 400px;
-    padding-bottom: 125px;
-    padding-top: 191px;
-    margin-left: 148px;
+    padding-bottom: 133px;
+    padding-top: 176px;
     font-size: 50px;
     line-height: 60px;
   }
