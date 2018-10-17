@@ -1,6 +1,10 @@
 .upload-photo {
   margin-bottom: 40px;
   background-color: #f2f2f2;
+
+  @media (min-width: 960px) {
+    margin-bottom: 105px;
+  }
 }
 
 .upload-photo__text {
@@ -41,6 +45,11 @@
     margin-right: 38px;
     margin-top: 60px;
   }
+
+  @media (min-width: 960px) {
+    margin-left: 80px;
+    margin-right: 84px;
+  }
 }
 
 .upload-form__img img {
@@ -53,6 +62,10 @@
   @media (min-width: 660px) {
     margin-top: 60px;
   }
+
+  @media (min-width: 960px) {
+    margin-top: 47px;
+  }
 }
 
 .upload-form__filter {
@@ -60,6 +73,10 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
+  }
+
+  @media (min-width: 960px) {
+    margin-bottom: 78px;
   }
 }
 
@@ -79,6 +96,10 @@
     height: 164px;
     margin: 0;
   }
+
+  @media (min-width: 960px) {
+    height: 185px;
+  }
 }
 
 .upload-form__list {
@@ -93,6 +114,17 @@
   @media (min-width: 660px) {
     margin-left: 25px;
     margin-top: 18px;
+  }
+
+  @media (min-width: 960px) {
+    margin-left: 58px;
+    margin-top: 31px;
+  }
+}
+
+@media (min-width: 960px) {
+  .upload-form__list--contrast {
+    margin-left: 7px;
   }
 }
 
@@ -136,6 +168,10 @@
   @media (min-width: 660px) {
     width: 200px;
   }
+
+  @media (min-width: 960px) {
+    width: 288px;
+  }
 }
 
 .upload-form__toggle {
@@ -172,6 +208,10 @@
   @media (min-width: 660px) {
     margin-left: 6px;
   }
+
+  @media (min-width: 960px) {
+    width: 183px;
+  }
 }
 
 .upload-photo__button-submit {
@@ -181,6 +221,10 @@
 
   @media (min-width: 660px) {
     margin-bottom: 13px;
+  }
+
+  @media (min-width: 960px) {
+    margin-right: 34px;
   }
 
   &:hover {
@@ -216,6 +260,11 @@
     width: 24px;
     height: 24px;
   }
+
+  @media (min-width: 960px) {
+    width: 48px;
+    height: 48px;
+  }
 }
 
 .upload-photo--fill {
@@ -227,6 +276,11 @@
     width: 24px;
     height: 24px;
     fill: #d22856;
+  }
+
+  @media (min-width: 960px) {
+    width: 48px;
+    height: 48px;
   }
 }
 
@@ -240,6 +294,11 @@
     height: 16px;
     fill: #d22856;
   }
+
+  @media (min-width: 960px) {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 .upload-photo--copyright__color {
@@ -250,5 +309,10 @@
     width: 16px;
     height: 16px;
     fill: #d22856;
+  }
+
+  @media (min-width: 960px) {
+    width: 32px;
+    height: 32px;
   }
 }
