@@ -13,8 +13,10 @@
 
   @media (min-width: 960px) {
     background-image: url("../img/bg-back-desktop@1x.jpg");
-    background-position: 50% 1%;
+    background-position: 50% 0;
+    background-size: cover;
     margin-top: -111px;
+    margin-bottom: 66px;
   }
 }
 
@@ -103,7 +105,7 @@
     margin-bottom: 54px;
   }
 
-  @media (min-width: 660px) {
+  @media (min-width: 960px) {
     margin-left: -13px;
     margin-bottom: 76px;
   }
@@ -117,6 +119,16 @@
   line-height: 18px;
   padding: 13px 35px;
 
+  @media (min-width: 660px) {
+    padding: 13px 46px;
+  }
+
+  @media (min-width: 960px) {
+    padding: 12px 29px;
+    margin-left: 0;
+    font-size: 21px;
+  }
+
   &:hover {
     background-color: #ffffff;
     color: #d22856;
@@ -124,10 +136,6 @@
 
   &:active {
     color: rgba(210, 40, 86, 0.3);
-  }
-
-  @media (min-width: 660px) {
-    padding: 13px 46px;
   }
 }
 

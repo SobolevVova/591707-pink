@@ -1,6 +1,24 @@
 .comments {
   width: 100%;
   margin: 0 auto;
+
+  @media (min-width: 960px) {
+    position: relative;
+  }
+}
+
+.comments__quotes {
+  display: none;
+
+  @media (min-width: 960px) {
+    display: block;
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-40px);
+    width: 79px;
+    height: 64px;
+  }
 }
 
 .comments__wrapper {
@@ -31,6 +49,10 @@
     flex-direction: column-reverse;
     padding-top: 90px;
   }
+
+  @media (min-width: 960px) {
+    margin-left: 80px;
+  }
 }
 
 .slider__item--hidden {
@@ -50,6 +72,8 @@
 
   @media (min-width: 960px) {
     font-size: 24px;
+    margin-left: 240px;
+    width: 300px;
   }
 }
 
@@ -64,6 +88,7 @@
 
   @media (min-width: 960px) {
     width: 780px;
+    margin-bottom: 36px;
   }
 }
 
@@ -77,6 +102,8 @@
   }
 
   @media (min-width: 960px) {
+    width: 300px;
+    margin-left: 237px;
     font-size: 18px;
   }
 }
@@ -118,4 +145,45 @@
 
 .comments-button {
   display: none;
+
+  @media (min-width: 960px) {
+    display: block;
+  }
+}
+
+.comments-button__prev,
+.comments-button__next {
+  @media (min-width: 960px) {
+    position: absolute;
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+  }
+}
+
+.comments-button__next {
+  @media (min-width: 960px) {
+    right: 290px;
+    top: 115px;
+  }
+}
+
+.comments-button__prev {
+  @media (min-width: 960px) {
+    left: 290px;
+    top: 115px;
+  }
+}
+
+@media (min-width: 960px) {
+  .comments-button__color:hover {
+    fill: #7e868f;
+  }
+}
+
+@media (min-width: 960px) {
+  .comments-button__color:active {
+    fill: #bec2c7;
+  }
 }

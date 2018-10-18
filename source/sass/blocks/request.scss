@@ -5,6 +5,11 @@
     margin-top: 49px;
     margin-bottom: 42px;
   }
+
+  @media (min-width: 960px) {
+    margin-top: 0;
+    margin-bottom: 58px;
+  }
 }
 
 .request__texts {
