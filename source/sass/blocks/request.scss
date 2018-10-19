@@ -8,7 +8,7 @@
 
   @media (min-width: 960px) {
     margin-top: 0;
-    margin-bottom: 58px;
+    margin-bottom: 61px;
   }
 }
 
@@ -25,27 +25,38 @@
   text-align: center;
 
   @media (min-width: 660px) {
-    margin: 0;
+    margin-bottom: 0;
     font-size: 40px;
     line-height: 48px;
   }
 
   @media (min-width: 960px) {
+    margin-bottom: -4px;
     font-size: 50px;
     line-height: 62px;
   }
 }
 
-.request__text:last-child {
-  padding-bottom: 6px;
+.request__text--invite {
+  margin: 0;
+  padding-bottom: 33px;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
 
   @media (min-width: 660px) {
     padding-left: 95px;
     padding-right: 95px;
+    padding-bottom: 0;
+    margin-bottom: 6px;
+    font-size: 40px;
+    line-height: 48px;
   }
 
   @media (min-width: 960px) {
     padding-left: 110px;
     padding-right: 110px;
+    font-size: 50px;
+    line-height: 62px;
   }
 }
