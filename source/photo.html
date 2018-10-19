@@ -6,6 +6,7 @@
   <title>Пинк-фотографии</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/style.css" rel="stylesheet">
+  <script src="js/picturefill.js"></script>
 </head>
 
 <body class="inner">
@@ -109,8 +110,12 @@
     <section class="photo">
       <div class="photo__art">
         <a class="photo__art--reiew" href="#">
-          <img src="img/panorama-mobile@1x.jpg" width="320" height="137" alt="Панорама">
-        </a>
+          <picture>
+            <source media="(min-width: 960)" srcset="img/panorama-desktop@1x.jpg 1x, img/panorama-desktop@2x.jpg 2x">
+            <source media="(min-width: 660px)" srcset="img/panorama-tablet@1x.jpg 1x, img/panorama-tablet@2x.jpg 2x">
+            <img src="img/panorama-mobile@1x.jpg" srcset="img/panorama-mobile@1x.jpg 1x, img/panorama-mobile@2x.jpg 2x" alt="Панорама">
+          </a>
+          </picture>
         <div class="container">
           <div class="photo__art--wrapper">
             <div class="photo__art--description">
@@ -131,7 +136,11 @@
         <ul class="photo__list">
           <li class="photo__item">
             <a class="photo__img" href="#">
-              <img src="img/photo-car-mobile@1x.jpg" alt="Машина">
+              <picture>
+                <source media="(min-width:960px)" srcset="img/photo-car-desktop@1x.jpg 1x, img/photo-car-desktop@2x.jpg 2x">
+                <source media="(min-width: 660px)" srcset="img/photo-car-tablet@1x.jpg 1x, img/photo-car-tablet@2x.jpg 2x">
+                <img src="img/photo-car-mobile@1x.jpg" srcset="img/photo-car-mobile@1x.jpg 1x, img/photo-car-mobile@2x.jpg 2x" alt="Машина">
+              </picture>
             </a>
             <div class="photo__description">
               <p class="photo__descriptive">
@@ -147,7 +156,11 @@
           </li>
           <li class="photo__item">
             <a class="photo__img" href="#">
-              <img src="img/photo-drumset-mobile@1x.jpg" alt="Барабан">
+              <picture>
+                <source media="(min-width: 960px)" srcset="img/photo-drumset-desktop@1x.jpg 1x, img/photo-drumset-desktop@2x.jpg 2x">
+                <source media="(min-width: 660px)" srcset="img/photo-drumset-tablet@1x.jpg 1x, img/photo-drumset-tablet@2x.jpg 2x">
+                <img src="img/photo-drumset-mobile@1x.jpg" srcset="img/photo-drumset-mobile@1x.jpg 1x, img/photo-drumset-mobile@2x.jpg 2x" alt="Барабан">
+              </picture>
             </a>
             <div class="photo__description">
               <p class="photo__descriptive">
@@ -163,7 +176,11 @@
           </li>
           <li class="photo__item">
             <a class="photo__img" href="#">
-              <img src="img/photo-window-mobile@1x.jpg" alt="Окно">
+              <picture>
+                <source media="(min-width: 960px)" srcset="img/photo-window-desktop@1x.jpg 1x, img/photo-window-desktop@2x.jpg 2x">
+                <source media="(min-width: 660px)" srcset="img/photo-window-tablet@1x.jpg 1x, img/photo-window-tablet@2x.jpg 2x">
+                <img src="img/photo-window-mobile@1x.jpg" srcset="img/photo-window-mobile@1x.jpg 1x, photo-window-mobile@2x.jpg 2x" alt="Окно">
+              </picture>
             </a>
             <div class="photo__description">
               <p class="photo__descriptive photo__descriptive--visual">
@@ -179,7 +196,11 @@
           </li>
           <li class="photo__item">
             <a class="photo__img" href="#">
-              <img src="img/photo-fair-mobile@1x.jpg" alt="Рынок">
+              <picture>
+                <source media="(min-width: 960px)" srcset="img/photo-fair-desktop@1x.jpg 1x, img/photo-fair-desktop@2x.jpg 2x">
+                <source media="(min-width: 660px)" srcset="img/hoto-fair-tablet@1x.jpg 1x, img/hoto-fair-tablet@2x.jpg 2x">
+                <img src="img/photo-fair-mobile@1x.jpg" srcset="img/photo-fair-mobile@1x.jpg 1x, img/photo-fair-mobile@2x.jpg 2x" alt="Рынок">
+              </picture>
             </a>
             <div class="photo__description">
               <p class="photo__descriptive photo__descriptive--most">
@@ -195,7 +216,11 @@
           </li>
           <li class="photo__item">
             <a class="photo__img" href="#">
-              <img src="img/photo-pov-mobile@1x.jpg" alt="Обзор">
+              <picture>
+                <source media="(min-width: 960px)" srcset="img/photo-pov-desktop@1x.jpg 1x, img/photo-pov-desktop@2x.jpg 2x">
+                <source media="(min-width: 660px)" srcset="img/photo-pov-tablet@1x.jpg 1x, img/photo-pov-tablet@2x.jpg 2x">
+                <img src="img/photo-pov-mobile@1x.jpg" srcset="img/photo-pov-mobile@1x.jpg 1x, img/photo-pov-mobile@2x.jpg 2x" alt="Обзор">
+              </picture>
             </a>
             <div class="photo__description">
               <p class="photo__descriptive photo__descriptive--gm">
@@ -211,7 +236,11 @@
           </li>
           <li class="photo__item">
             <a class="photo__img" href="#">
-              <img src="img/photo-wing-mobile@1x.jpg" alt="Самолёт">
+              <picture>
+                <source media="(min-width:960px)" srcset="img/photo-wing-desktop@1x.jpg 1x, img/photo-wing-desktop@2x.jpg 2x">
+                <source media="(min-width: 660px)" srcset="img/photo-wing-tablet@1x.jpg 1x, img/photo-wing-tablet@2x.jpg 2x">
+                <img src="img/photo-wing-mobile@1x.jpg" srcset="img/photo-wing-mobile@1x.jpg 1x, img/photo-wing-mobile@2x.jpg 2x" alt="Самолёт">
+              </picture>
             </a>
             <div class="photo__description">
               <p class="photo__descriptive photo__descriptive--gm">
@@ -240,7 +269,11 @@
         <h2 class="visually-hidden">Загрузка фотографий</h2>
         <form class="upload-photo__form upload-form" action="https://echo.htmlacademy.ru" method="post">
           <div class="upload-form__img">
-            <img src="img/photo-road-mobile@1x.jpg" alt="Дорога">
+            <picture>
+              <source media="(min-width: 960px)" srcset="img/photo-road-desktop@1x.jpg 1x, img/photo-road-desktop@2x.jpg 2x">
+              <source media="(min-width: 660px)" srcset="img/photo-road-tablet@1x.jpg 1x, img/photo-road-tablet@2x.jpg 2x">
+              <img src="img/photo-road-mobile@1x.jpg" srcset="img/photo-road-mobile@1x.jpg 1x, img/photo-road-mobile@2x.jpg 2x" alt="Дорога">
+            </picture>
           </div>
           <div class="upload-form--wrapper">
             <div class="upload-form__filter">

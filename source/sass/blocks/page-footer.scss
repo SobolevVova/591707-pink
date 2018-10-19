@@ -17,6 +17,10 @@
 
 .page-footer--hidden {
   display: none;
+
+  @media (min-width: 660px) {
+    display: block;
+  }
 }
 
 .copyright__link {
