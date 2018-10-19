@@ -10,7 +10,7 @@
 
 <body>
   <header class="page-header">
-    <nav class="main-navigation main-menu--closed">
+    <nav class="main-navigation">
       <div class="page-header__top">
         <a class="page-header__logo">
           <svg class="page-header__logo-desktop" version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="146.3px" height="40.375px" viewBox="0 0 146.3 40.375" enable-background="new 0 0 146.3 40.375"
@@ -63,10 +63,10 @@
             </g>
           </svg>
         </a>
-        <button class="main-navigation__toggle" type="button"></button>
+        <button class="main-navigation__button main-navigation__toggle--cross" type="button"></button>
       </div>
       <div class="main-navigation__wrapper">
-        <ul class="main-navigation__list site-list">
+        <ul class="main-navigation__list site-list site-list--opened">
           <li class="site-list__item site-list__item--active">
             <a href="#" title="Главная страница">Главная</a>
           </li>
@@ -521,22 +521,24 @@
 
   </main>
 
-  <script>
-    var navMain = document.querySelector(".main-navigation");
-    var navToggle = document.querySelector(".main-navigation__toggle");
+<script>
+  var navButton = document.querySelector(".main-navigation__button");
+  var navMenu = document.querySelector(".site-list");
 
-    navMain.classList.remove("main-nav--nojs");
-
-    navToggle.addEventListener("click", function() {
-      if (navMain.classList.contains("main-navigation--closed")) {
-        navMain.classList.remove("main-navigation--closed");
-        navMain.classList.add("main-navigation--opened");
-      } else {
-        navMain.classList.add("main-navigation--closed");
-        navMain.classList.remove("main-navigation--opened");
-      }
-    })
-  </script>
+  navButton.addEventListener("click", function(){
+    if (navButton.classList.contains("main-navigation__toggle")) {
+      navButton.classList.remove("main-navigation__toggle");
+      navButton.classList.add("main-navigation__toggle--cross");
+      navMenu.classList.remove("site-list--closed");
+      navMenu.classList.add("site-list--opened");
+    } else {
+      navButton.classList.remove("main-navigation__toggle--cross");
+      navButton.classList.add ("main-navigation__toggle");
+      navMenu.classList.remove("site-list--opened");
+      navMenu.classList.add("site-list--closed");
+    }
+  })
+</script>
 
 </body>
 
