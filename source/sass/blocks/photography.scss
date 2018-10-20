@@ -21,6 +21,27 @@
   }
 }
 
+@media (min-width: 320px) and (min-resolution: 144dpi), (min-width: 320px) and (min-resolution: 1.5dppx) {
+  .photography {
+    background-image: url("../img/bg-back-mobile@2x.jpg");
+    background-size: auto 460px;
+  }
+}
+
+@media (min-width: 660px) and (min-resolution: 144dpi), (min-width: 660px) and (min-resolution: 1.5dppx) {
+  .photography {
+    background-image: url("../img/bg-back-tablet@2x.jpg");
+    background-size: auto 729px;
+  }
+}
+
+@media (min-width: 960px) and (min-resolution: 144dpi), (min-width: 960px) and (min-resolution: 1.5dppx) {
+  .photography {
+    background-image: url("../img/bg-back-desktop@2x.jpg");
+    background-size: cover;
+  }
+}
+
 .photo__title {
   margin: 0;
   padding-top: 33px;
