@@ -25,7 +25,7 @@
   }
 
   @media (min-width: 960px) {
-    margin-bottom: 40px;
+    margin-bottom: 39px;
   }
 }
 
@@ -101,16 +101,20 @@
   }
 }
 
-.photo__art--reiew {
+.photo__art-review {
   display: block;
   height: 123px;
 
   @media (min-width: 660px) {
     height: 510px;
   }
+
+  @media (min-width: 960px) {
+    height: 506px;
+  }
 }
 
-.photo__art--wrapper {
+.photo__art-wrapper {
   margin-bottom: 19px;
   padding-bottom: 20px;
   background-color: #f2f2f2;
@@ -120,49 +124,62 @@
   }
 }
 
-.photo__art--name span {
+.photo__art-name span {
   display: block;
   font-size: 12px;
   line-height: 24px;
   text-transform: uppercase;
 }
 
-.photo__art--description {
+.photo__art-description {
   margin-left: 17px;
 
   @media (min-width: 660px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 27px;
     margin-bottom: 52px;
+    padding-bottom: 24px;
+  }
+
+  @media (min-width: 960px) {
+    margin-left: 28px;
+    margin-top: 2px;
+    margin-bottom: 51px;
   }
 }
 
-.photo__art--descriptive {
+.photo__art-descriptive {
   margin: 0;
   padding-top: 29px;
   margin-bottom: -2px;
 
   @media (min-width: 660px) {
+    order: 1;
     padding-top: 20px;
   }
 
   @media (min-width: 960px) {
-    padding-top: 16px;
+    margin-top: -2px;
   }
 }
 
-.photo__art--book {
+.photo__art-book {
   margin: 0;
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 24px;
 
   @media (min-width: 660px) {
+    order: 3;
     margin: 0;
   }
 }
 
 
-.photo__art--like {
+.photo__art-like {
   display: block;
   padding-left: 32px;
   font-size: 12px;
@@ -172,7 +189,20 @@
   background: url("../img/icon-heart.svg") no-repeat left;
 
   @media (min-width: 660px) {
-    order: -1;
+    order: 2;
+  }
+}
+
+.photo__art-like--top {
+  @media (min-width: 660px) {
+    padding-right: 60px;
+    margin-top: 23px;
+    background-position: 140px 6px;
+  }
+
+  @media (min-width: 960px) {
+    margin-top: 21px;
+    padding-right: 62px;
   }
 }
 
@@ -197,6 +227,10 @@
 
   @media (min-width: 660px) {
     padding-top: 21px;
+  }
+
+  @media (min-width: 960px) {
+    margin-bottom: -3px;
   }
 }
 
@@ -270,7 +304,7 @@
   }
 
   @media (min-width: 960px) {
-    height: 399px;
+    height: 400px;
   }
 }
 
@@ -280,6 +314,10 @@
   background-color: #f2f2f2;
   box-sizing: border-box;
   padding-bottom: 20px;
+
+  @media (min-width: 660px) {
+    padding-bottom: 21px;
+  }
 }
 
 .photo__descriptive {

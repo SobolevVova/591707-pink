@@ -57,15 +57,13 @@
 
   @media (min-width: 960px) {
     display: block;
-    margin-left: 270px;
     margin-top: 12px;
   }
 }
 
 .main-navigation {
   position: relative;
-  width: 100%;
-  margin: 0 auto;
+  margin: 0 -20px;
 
   @media (min-width: 960px) {
     display: flex;
@@ -124,6 +122,8 @@
   position: absolute;
   top: 29px;
   right: 40px;
+  width: 30px;
+  height: 4px;
   cursor: pointer;
   border: none;
   background-color: transparent;
@@ -215,7 +215,7 @@
     width: 622px;
     margin: 0;
     margin-top: 6px;
-    margin-right: 289px;
+    margin-right: 19px;
     background-color: transparent;
   }
 }

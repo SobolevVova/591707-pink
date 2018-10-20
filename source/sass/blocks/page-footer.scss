@@ -75,6 +75,10 @@
     margin-left: 15px;
     margin-top: 8px;
   }
+
+  @media (min-width: 960px) {
+    margin-top: 11px;
+  }
 }
 
 .social__list {
@@ -99,7 +103,7 @@
   border: 3px solid #e9ebec;
 }
 
-.social__link--twitter {
+.social__link-twitter {
   margin-top: 5px;
   margin-left: 14px;
   fill: #d22856;
@@ -109,7 +113,7 @@
   }
 }
 
-.social__link--facebook {
+.social__link-facebook {
   margin-left: 18px;
   fill: #d22856;
   margin-top: 3px;
@@ -119,7 +123,7 @@
   }
 }
 
-.social__link--youtube {
+.social__link-youtube {
   margin-left: 17px;
   margin-top: 1px;
   fill: #d22856;
