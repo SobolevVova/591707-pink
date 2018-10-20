@@ -1,5 +1,148 @@
+.page-footer {
+  display: block;
+  padding-bottom: 40px;
+}
+
+.page-footer__wrapper {
+  @media (min-width: 660px) {
+    width: 630px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 960px) {
+    width: 952px;
+  }
+}
+
+.page-footer--hidden {
+  display: none;
+
+  @media (min-width: 660px) {
+    display: block;
+  }
+}
+
+.copyright__link {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 41px;
+}
+
+.footer-logo {
+  @media (min-width: 960px) {
+    margin-right: 34px;
+  }
+}
+
+.footer-logo a {
+  display: block;
+  margin-left: 66px;
+  margin-bottom: 30px;
+
+  @media (min-width: 660px) {
+    margin-left: 0;
+  }
+}
+
+.footer-logo__tablet {
+  @media (min-width: 960px) {
+    display: none;
+  }
+}
+
+.footer-logo__desktop {
+  display: none;
+
+  @media (min-width: 660px) {
+    display: none;
+  }
+
+  @media (min-width: 960px) {
+    display: block;
+  }
+}
+
+.page-footer__social {
+  margin-bottom: 36px;
+}
+
+.page-footer__copyright {
+  margin-left: 74px;
+
+  @media (min-width: 660px) {
+    margin-left: 15px;
+    margin-top: 8px;
+  }
+
+  @media (min-width: 960px) {
+    margin-top: 11px;
+  }
+}
+
+.social__list {
+  display: flex;
+  justify-content: space-between;
+  width: 176px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+
+  @media (min-width: 660px) {
+    margin-top: 3px;
+  }
+}
+
+.social__link {
+  display: flex;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 3px solid #e9ebec;
+}
+
+.social__link-twitter {
+  margin-top: 5px;
+  margin-left: 14px;
+  fill: #d22856;
+
+  @media (min-width: 660px) {
+    margin-top: 0;
+  }
+}
+
+.social__link-facebook {
+  margin-left: 18px;
+  fill: #d22856;
+  margin-top: 3px;
+
+  @media (min-width: 660px) {
+    margin-top: 0;
+  }
+}
+
+.social__link-youtube {
+  margin-left: 17px;
+  margin-top: 1px;
+  fill: #d22856;
+
+  @media (min-width: 660px) {
+    margin-top: 0;
+  }
+}
+
 .copyright__text {
   line-height: 18px;
   color: #283645;
   font-weight: 400;
+
+  @media (min-width: 960px) {
+    font-size: 18px;
+  }
+}
+
+.copyright__color {
+  fill: #d22856;
 }

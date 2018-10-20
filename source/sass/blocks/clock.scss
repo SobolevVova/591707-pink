@@ -3,34 +3,100 @@
     display: none;
   }
 
-  @media (min-width: 960px) {
-    background-color: #f2f2f2;
-  }
-}
-
-@media (min-width: 660px) {
-  .clock--hidden {
+  @media (min-width: 660px) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 20px;
   }
+
+  @media (min-width: 960px) {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding-bottom: 56px;
+    margin-bottom: 98px;
+  }
 }
 
-@media (min-width: 960px) {
-  .clock--hidden {
-    margin: 0;
+.clock__shell {
+  @media (min-width: 660px) {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 940px;
+    justify-content: space-between;
+  }
+}
+
+.clock__img {
+  @media (min-width: 660px) {
+    position: relative;
+  }
+
+  @media (min-width: 960px) {
+    margin-left: -10px;
+    margin-right: 0;
+  }
+}
+
+.clock__timer {
+  @media (min-width: 660px) {
+    width: 238px;
+    height: 276px;
+    fill: #dedede;
+  }
+
+  @media (min-width: 960px) {
+    width: 300px;
+    height: 345px;
+  }
+}
+
+.clock__hour {
+  @media (min-width: 660px) {
+    position: absolute;
+    top: 55px;
+    left: 18px;
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #ffffff;
+    border: 13px solid #d22856;
+    border-radius: 50%;
+    font-size: 94px;
+    line-height: 168px;
+    color: #d22856;
+    font-weight: bold;
+  }
+
+  @media (min-width: 960px) {
+    top: 68px;
+    left: 21px;
+    width: 220px;
+    height: 220px;
+    border: 17px solid #d22856;
+    font-size: 120px;
+    line-height: 210px;
   }
 }
 
 .clock__wrapper {
   @media (min-width: 660px) {
     width: 310px;
-    margin-left: 358px;
   }
 
   @media (min-width: 960px) {
-    width: 410px;
+    width: 584px;
+    padding-top: 57px;
+  }
+}
+
+.clock .container {
+  @media (min-width: 660px) {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
   }
 }
 
@@ -38,7 +104,7 @@
   @media (min-width: 660px) {
     margin: 0;
     padding: 0;
-    padding-top: 98px;
+    padding-top: 36px;
     width: 200px;
     font-size: 30px;
     line-height: 36px;
@@ -48,6 +114,7 @@
   @media (min-width: 960px) {
     line-height: 30px;
     width: 300px;
+    margin-bottom: 27px;
   }
 }
 
@@ -58,17 +125,20 @@
     line-height: 24px;
     font-weight: 400;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   @media (min-width: 960px) {
+    margin-bottom: 33px;
     font-size: 18px;
+    line-height: 30px;
   }
 }
 
 .clock__link {
   @media (min-width: 660px) {
     line-height: 24px;
+    text-decoration: underline;
     color: #d22856;
   }
 

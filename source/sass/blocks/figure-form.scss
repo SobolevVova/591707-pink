@@ -1,22 +1,31 @@
+.figure-form {
+  @media (min-width: 660px) {
+    margin-bottom: 71px;
+  }
+
+  @media (min-width: 960px) {
+    margin-bottom: 63px;
+  }
+}
+
 .figure-form__text {
   margin: 0;
   padding: 0;
-  padding-left: 35px;
-  padding-right: 35px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
   text-align: center;
 
   @media (min-width: 660px) {
     font-size: 18px;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   @media (min-width: 960px) {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
+
 
 .figure-form__text--hidden {
   display: none;
