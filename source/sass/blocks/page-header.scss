@@ -65,11 +65,17 @@
   @media (min-width: 960px) {
     display: block;
     margin-top: 12px;
+    color: #ffffff;
   }
 }
 
-.page-header__logo:hover .page-header__logo-desktop {
-  fill: #d22856;
+.page-header__logo-desktop:hover {
+  color: #d22856;
+}
+
+.page-header__logo-desktop:active {
+  color: #ffffff;
+  opacity: 0.3;
 }
 
 .main-navigation {

@@ -28,6 +28,15 @@
   vertical-align: middle;
   width: 50px;
   height: 41px;
+  color: #d22856;
+
+  &:hover {
+    color: #283645;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .footer-logo {
@@ -61,7 +70,17 @@
 
   @media (min-width: 960px) {
     display: block;
+    color: #283645;
   }
+}
+
+.footer-logo__desktop:hover {
+  color: #d22856;
+}
+
+.footer-logo__desktop:active {
+  color: #283645;
+  opacity: 0.3;
 }
 
 .page-footer__social {
@@ -101,6 +120,14 @@
   height: 45px;
   border-radius: 50%;
   border: 3px solid #e9ebec;
+
+  &:hover {
+    border-color: #283645;
+  }
+
+  &:active {
+    opacity: 0.1;
+  }
 }
 
 .social__link-twitter {
