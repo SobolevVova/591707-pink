@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/style.css" rel="stylesheet">
   <script src="js/picturefill.min.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=<57511d95-144e-4bee-b109-9acd55cee6b4>&lang=ru_RU" type="text/javascript"></script>
 </head>
 
 <body>
@@ -503,7 +504,8 @@
         </div>
       </div>
       <div class="contacts__map">
-        карта
+    <div id="map" class="map">
+    </div>
       </div>
     </section>
 
@@ -561,6 +563,16 @@
     </footer>
 
   </main>
+
+  <script type="text/javascript">
+        ymaps.ready(init);
+        function init(){
+            var myMap = new ymaps.Map("map", {
+                center: [59.938631, 30.323055],
+                zoom: 16
+            });
+        }
+    </script>
 
   <script>
     var navButton = document.querySelector(".main-navigation__button");
