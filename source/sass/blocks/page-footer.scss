@@ -41,7 +41,7 @@
 
 .footer-logo {
   @media (min-width: 960px) {
-    margin-right: 34px;
+    margin-right: 26px;
   }
 }
 
@@ -172,4 +172,10 @@
 
 .copyright__color {
   fill: #d22856;
+
+  @media (min-width: 960px) {
+    width: 40px;
+    height: 40px;
+    margin-left: 4px;
+  }
 }
