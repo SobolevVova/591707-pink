@@ -30,8 +30,8 @@
   }
 }
 
-.main-navigation--closed .page-header__top {
-  background-color: rgba(0, 0, 0, 0.3);
+.main-navigation__toggle .page-header__top {
+  opacity: 0.3;
 }
 
 .page-header__logo-mobile {
