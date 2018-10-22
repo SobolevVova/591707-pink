@@ -103,6 +103,12 @@
   }
 }
 
+@media (min-width: 660px) and (min-resolution: 144dpi), (min-width: 660px) and (min-resolution: 1.5dppx) {
+  .information-app__item--friends {
+    background-image: none;
+  }
+}
+
 @media (min-width: 960px) and (min-resolution: 144dpi), (min-width: 960px) and (min-resolution: 1.5dppx) {
   .information-app__item--friends {
     background-image: url("../img/iphone-screen-3-desktop@2x.png");
