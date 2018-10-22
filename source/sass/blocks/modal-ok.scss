@@ -1,16 +1,22 @@
 .modal-ok {
+  position: absolute;
+  top: 1900px;
+  left: 0;
+  width: 320px;
+  height: 380px;
   display: none;
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .modal-ok__words {
+  margin-top: 40px;
   background-color: #ffffff;
 }
 
 .modal-ok__title {
   margin: 0;
-  padding: 0;
+  margin-bottom: 40px;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -19,11 +25,14 @@
 
 .modal-ok__text {
   margin: 0;
-  padding: 0;
+  margin-bottom: 40px;
+  line-height: 24px;
   color: #283645;
   text-align: center;
 }
 
 .modal-ok__button {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #f2f2f2;
 }

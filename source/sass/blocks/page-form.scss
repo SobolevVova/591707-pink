@@ -375,8 +375,10 @@ input[type="radio"] {
   @media (min-width: 960px) {
     margin-left: 23px;
   }
+}
 
-  &::before {
+.form__information-contact::before {
+  @media (min-width: 660px) {
     content: "";
     position: absolute;
     right: 60px;
@@ -404,8 +406,11 @@ input[type="radio"] {
   @media (min-width: 960px) {
     margin-right: 14px;
   }
+}
 
-  &::before {
+
+.form__information-contact--number::before {
+  @media (min-width: 660px) {
     content: "";
     position: absolute;
     right: 60px;
