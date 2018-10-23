@@ -102,7 +102,6 @@
   width: 50px;
   height: 4px;
   background-color: #ffffff;
-  outline: none;
 
   @media (min-width: 660px) {
     top: 36px;
@@ -123,7 +122,6 @@
   width: 50px;
   height: 4px;
   background-color: #ffffff;
-  outline: none;
   box-shadow: 0 10px 0 0 #ffffff;
 }
 
@@ -148,7 +146,6 @@
   cursor: pointer;
   border: none;
   background-color: transparent;
-  outline: none;
 
   &::before {
     content: "";
@@ -157,7 +154,6 @@
     top: 0;
     width: 30px;
     height: 4px;
-    outline: none;
     background-color: #ffffff;
     transform: rotate(45deg);
   }
@@ -169,7 +165,6 @@
     top: 0;
     width: 30px;
     height: 4px;
-    outline: none;
     background-color: #ffffff;
     transform: rotate(-45deg);
   }

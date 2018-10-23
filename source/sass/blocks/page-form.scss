@@ -73,7 +73,6 @@ input[type="radio"] {
   border: 2px solid #e5e5e5;
   background-color: transparent;
   font: inherit;
-  outline: 0;
 
   &:hover {
     border: 2px solid #283645;
@@ -265,7 +264,6 @@ input[type="radio"] {
 .form__information {
   background-color: #ffffff;
   border: 0;
-  outline: 0;
   margin-bottom: 25px;
 
   @media (min-width: 660px) {
@@ -341,7 +339,6 @@ input[type="radio"] {
   border: 2px solid #e5e5e5;
   background-color: transparent;
   font: inherit;
-  outline: 0;
 
   &:hover {
     border: 2px solid #283645;
@@ -620,7 +617,6 @@ input[type="radio"] {
   font-size: 18px;
   color: #283645;
   border: 2px solid #e5e5e5;
-  outline: 0;
 
   @media (min-width: 660px) {
     width: 500px;
@@ -698,7 +694,6 @@ input[type="radio"] {
   background-color: #2aab6d;
   color: #ffffff;
   border: none;
-  outline: 0;
   border-radius: 3px;
 
   &:hover {
