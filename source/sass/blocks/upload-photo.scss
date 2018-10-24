@@ -266,7 +266,7 @@
   }
 }
 
-.upload-photo__crop use {
+.upload-photo__crop {
   fill: #d22856;
 
   @media (min-width: 660px) {
@@ -308,12 +308,12 @@
 .upload-photo__contrast {
   width: 32px;
   height: 32px;
-  fill: #b5b9be;
+  color: #b5b9be;
 
   @media (min-width: 660px) {
     width: 16px;
     height: 16px;
-    fill: #d22856;
+    color: #d22856;
   }
 
   @media (min-width: 960px) {
@@ -322,6 +322,6 @@
   }
 
   &:hover {
-    fill: #8d949b;
+    color: #8d949b;
   }
 }

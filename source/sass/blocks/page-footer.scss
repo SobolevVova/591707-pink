@@ -69,14 +69,13 @@
   }
 
   @media (min-width: 960px) {
+    color: #283645;
     display: block;
   }
 }
 
-.footer-logo:hover svg {
-  @media (min-width: 960px) {
-    fill: #d22856;
-  }
+.footer-logo__desktop:hover {
+  color: #d22856;
 }
 
 .footer-logo__desktop:active {
