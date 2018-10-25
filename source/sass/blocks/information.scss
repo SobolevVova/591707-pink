@@ -103,7 +103,7 @@
   }
 }
 
-@media (max-width: 660px) and (min-resolution: 144dpi), (max-width: 660px) and (min-resolution: 1.5dppx) {
+@media (min-width: 660px) and (min-resolution: 144dpi), (min-width: 660px) and (min-resolution: 1.5dppx) {
   .information-app__item--friends {
     background-image: none;
   }

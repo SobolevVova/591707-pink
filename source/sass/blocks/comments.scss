@@ -159,7 +159,7 @@
     padding: 0;
     background: none;
     border: none;
-    outline: none;
+    cursor: pointer;
   }
 }
 
@@ -167,6 +167,7 @@
   @media (min-width: 960px) {
     right: 290px;
     top: 115px;
+    color: #bec2c7;
   }
 }
 
@@ -174,17 +175,18 @@
   @media (min-width: 960px) {
     left: 290px;
     top: 115px;
+    color: #bec2c7;
   }
 }
 
 @media (min-width: 960px) {
   .comments-button__color:hover {
-    fill: #7e868f;
+    color: #7e868f;
   }
 }
 
 @media (min-width: 960px) {
   .comments-button__color:active {
-    fill: #bec2c7;
+    color: #bec2c7;
   }
 }

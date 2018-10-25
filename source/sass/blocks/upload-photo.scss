@@ -117,7 +117,6 @@
 
 .upload-form__list {
   border: 0;
-  outline: 0;
   font-size: 0;
   cursor: pointer;
   background-color: #f2f2f2;
@@ -197,6 +196,10 @@
   border: 2px solid #d22856;
   border-radius: 50%;
   cursor: pointer;
+
+  &:active {
+    background-color: #d22856;
+  }
 }
 
 .form-btn {
@@ -216,7 +219,6 @@
   text-align: center;
   background-color: #f2f2f2;
   border-radius: 50px;
-  outline: none;
 
   @media (min-width: 660px) {
     margin-left: 6px;
@@ -265,8 +267,6 @@
 }
 
 .upload-photo__crop {
-  width: 48px;
-  height: 48px;
   fill: #d22856;
 
   @media (min-width: 660px) {
@@ -277,6 +277,10 @@
   @media (min-width: 960px) {
     width: 48px;
     height: 48px;
+  }
+
+  &:hover {
+    fill: #8d949b;
   }
 }
 
@@ -295,37 +299,29 @@
     width: 48px;
     height: 48px;
   }
+
+  &:hover {
+    fill: #8d949b;
+  }
 }
 
 .upload-photo__contrast {
   width: 32px;
   height: 32px;
-  fill: #b5b9be;
+  color: #b5b9be;
 
   @media (min-width: 660px) {
     width: 16px;
     height: 16px;
-    fill: #d22856;
+    color: #d22856;
   }
 
   @media (min-width: 960px) {
     width: 32px;
     height: 32px;
   }
-}
 
-.upload-photo__color {
-  width: 48px;
-  height: 48px;
-
-  @media (min-width: 660px) {
-    width: 16px;
-    height: 16px;
-    fill: #d22856;
-  }
-
-  @media (min-width: 960px) {
-    width: 32px;
-    height: 32px;
+  &:hover {
+    color: #8d949b;
   }
 }

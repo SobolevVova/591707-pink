@@ -28,11 +28,20 @@
   vertical-align: middle;
   width: 50px;
   height: 41px;
+  color: #d22856;
+
+  &:hover {
+    color: #283645;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .footer-logo {
   @media (min-width: 960px) {
-    margin-right: 34px;
+    margin-right: 26px;
   }
 }
 
@@ -60,8 +69,17 @@
   }
 
   @media (min-width: 960px) {
+    color: #283645;
     display: block;
   }
+}
+
+.footer-logo__desktop:hover {
+  color: #d22856;
+}
+
+.footer-logo__desktop:active {
+  opacity: 0.3;
 }
 
 .page-footer__social {
@@ -73,7 +91,7 @@
 
   @media (min-width: 660px) {
     margin-left: 15px;
-    margin-top: 8px;
+    margin-top: 12px;
   }
 
   @media (min-width: 960px) {
@@ -101,6 +119,14 @@
   height: 45px;
   border-radius: 50%;
   border: 3px solid #e9ebec;
+
+  &:hover {
+    border-color: #283645;
+  }
+
+  &:active {
+    opacity: 0.1;
+  }
 }
 
 .social__link-twitter {
@@ -145,4 +171,19 @@
 
 .copyright__color {
   fill: #d22856;
+
+  @media (min-width: 660px) {
+    width: 40px;
+    height: 40px;
+    margin-left: 7px;
+  }
+}
+
+.copyright__color:hover use {
+  fill: #283645;
+}
+
+.copyright__color:active use {
+  opacity: 0.3;
+  fill: #283645;
 }
