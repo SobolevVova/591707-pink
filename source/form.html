@@ -144,7 +144,7 @@
     <div class="container">
       <nav class="main-navigation">
         <div class="page-header__top page-header__top--closed">
-          <a class="page-header__logo" href="index.html">
+          <a class="page-header__logo" href="index.html" title="Логотип">
             <svg class="page-header__logo-desktop" width="146.3px" height="40.375px">
               <use xlink:href="#logo-pink-white-desktop"></use>
             </svg>
@@ -204,15 +204,15 @@
         <h2 class="visually-hidden">Форма регистрации</h2>
         <form class="form" action="https://echo.htmlacademy.ru" method="post">
           <fieldset class="form__fieldset form__info">
-            <div class="form__info-registration">
+            <div class="form__info-registration" title="Фамилия">
               <label class="form__info-label" for="surname">Фамилия:</label>
               <input class="form__info-input" type="text" id="surname" name="surname" placeholder="Укажите фамилию *" required="">
             </div>
-            <div class="form__info-registration">
+            <div class="form__info-registration" title="Имя">
               <label class="form__info-label" for="name">Имя:</label>
               <input class="form__info-input form__info-input--name" type="text" id="name" name="name" placeholder="Введите ваше имя *" required="">
             </div>
-            <div class="form__info-registration">
+            <div class="form__info-registration" title="Отчество">
               <label class="form__info-label" for="patronymic">Отчество:</label>
               <input class="form__info-input" type="text" id="patronymic" name="patronymic" placeholder="Ну и отчество тоже" required="">
             </div>
@@ -257,11 +257,11 @@
               Контактная информация
             </legend>
             <div class="form__information-wrapper">
-              <div class="form__information-contact form__information-contact--number">
+              <div class="form__information-contact form__information-contact--number" title="Номер телефона">
                 <label class="form__information-label" for="number">Номер телефона</label>
                 <input class="form__information-input" type="tel" id="number" placeholder="Номер, пожалуйста">
               </div>
-              <div class="form__information-contact">
+              <div class="form__information-contact" title="Адрес электронной почты">
                 <label class="form__information-label" for="email">Адрес почты</label>
                 <input class="form__information-input" type="tel" id="email" placeholder="Введите почту *" required="">
               </div>
@@ -294,13 +294,13 @@
             <legend class="form__remember-title">
               Опишите свои эмоции
             </legend>
-            <div class="form__remember-wrap">
+            <div class="form__remember-wrap" title="Отзыв">
               <textarea class="form__textarea" rows="5" cols="25" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
             </div>
           </fieldset>
 
           <div class="form__footer">
-            <div class="form__button">
+            <div class="form__button" title="Кнопка отправить форму">
               <button class="button-form" type="submit">Отправить форму</button>
             </div>
             <p class="form__field">
@@ -318,10 +318,10 @@
 
   </main>
 
-  <footer class="page-footer">
+  <footer class="page-footer page-footer--hidden">
     <div class="container">
       <div class="page-footer__wrapper">
-        <div class="footer-logo">
+        <div class="footer-logo" title="Логотип">
           <a href="index.html">
             <svg class="footer-logo__tablet" width="146.3px" height="40.375px">
               <use xlink:href="#logo-pink-blue-mobile"></use>
@@ -333,7 +333,7 @@
         </div>
         <div class="page-footer__social social">
           <ul class="social__list">
-            <li class="social__item">
+            <li class="social__item" title="Твиттер">
               <a class="social__link" href="https://twitter.com/htmlacademy_ru">
                 <span class="visually-hidden">Твиттер</span>
                 <svg class="social__link-twitter" width="17.5px" height="14.663px">
@@ -341,7 +341,7 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li title="Фейсбук">
               <a class="social__link" href="https://www.facebook.com/htmlacademy">
                 <span class="visually-hidden">Фейсбук</span>
                 <svg class="social__link-facebook" width="8.673px" height="18.944px">
@@ -349,7 +349,7 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li title="Ютуб">
               <a class="social__link" href="https://www.youtube.com/user/htmlacademyru">
                 <span class="visually-hidden">Ютуб</span>
                 <svg class="social__link-youtube" width="14.64px" height="13.96px">
@@ -359,7 +359,7 @@
             </li>
           </ul>
         </div>
-        <div class="page-footer__copyright copyright">
+        <div class="page-footer__copyright copyright" title="htmlacademy">
           <span class="copyright__text">Разработано</span>
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             <svg class="copyright__color" width="26.943" height="34.09">
@@ -370,7 +370,6 @@
       </div>
     </div>
   </footer>
-
   <div class="modal-error">
     <div class="modal-error__words">
       <p class="modal-error__title">

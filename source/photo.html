@@ -144,7 +144,7 @@
     <div class="container">
       <nav class="main-navigation">
         <div class="page-header__top page-header__top--closed">
-          <a class="page-header__logo" href="index.html">
+          <a class="page-header__logo" href="index.html" title="Логотип">
             <svg class="page-header__logo-desktop" width="146.3px" height="40.375px">
               <use xlink:href="#logo-pink-white-desktop"></use>
             </svg>
@@ -202,7 +202,7 @@
     <section class="photo">
       <h2 class="visually-hidden">Лайки</h2>
       <div class="photo__art">
-        <a class="photo__art-review" href="#">
+        <a class="photo__art-review" href="#" title="Фотография">
           <picture>
             <source type="image/webp" media="(min-width: 960px)" srcset="img/panorama-desktop@1x.webp 1x, img/panorama-desktop@2x.webp 2x">
             <source type="image/webp" media="(min-width: 660px)" srcset="img/panorama-tablet@1x.webp 1x, img/panorama-tablet@2x.webp 2x">
@@ -231,7 +231,7 @@
       </div>
       <div class="container">
         <ul class="photo__list">
-          <li class="photo__item">
+          <li class="photo__item" title="Фотография">
             <a class="photo__img" href="#">
               <picture>
                 <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-car-desktop@1x.webp 1x, img/photo-car-desktop@2x.webp 2x">
@@ -255,7 +255,7 @@
                 Нравится: 356</a>
             </div>
           </li>
-          <li class="photo__item">
+          <li class="photo__item" title="Фотография">
             <a class="photo__img" href="#">
               <picture>
                 <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-drumset-desktop@1x.webp 1x, img/photo-drumset-desktop@2x.webp 2x">
@@ -279,7 +279,7 @@
                 Нравится: 666</a>
             </div>
           </li>
-          <li class="photo__item">
+          <li class="photo__item" title="Фотография">
             <a class="photo__img" href="#">
               <picture>
                 <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-window-desktop@1x.webp 1x, img/photo-window-desktop@2x.webp 2x">
@@ -303,7 +303,7 @@
                 Нравится: 215</a>
             </div>
           </li>
-          <li class="photo__item">
+          <li class="photo__item" title="Фотография">
             <a class="photo__img" href="#">
               <picture>
                 <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-fair-desktop@1x.webp 1x, img/photo-fair-desktop@2x.webp 2x">
@@ -327,7 +327,7 @@
                 Нравится: 4</a>
             </div>
           </li>
-          <li class="photo__item">
+          <li class="photo__item" title="Фотография">
             <a class="photo__img" href="#">
               <picture>
                 <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-pov-desktop@1x.webp 1x, img/photo-pov-desktop@2x.webp 2x">
@@ -351,7 +351,7 @@
                 Нравится: 150</a>
             </div>
           </li>
-          <li class="photo__item">
+          <li class="photo__item" title="Фотография">
             <a class="photo__img" href="#">
               <picture>
                 <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-wing-desktop@1x.webp 1x, img/photo-wing-desktop@2x.webp 2x">
@@ -403,17 +403,17 @@
           <div class="upload-form__wrapper">
             <div class="upload-form__filter">
               <div class="upload-form__lists">
-                <button class="upload-form__list upload-form__list--crop" type="button">
+                <button class="upload-form__list upload-form__list--crop" type="button" title="Редактор обрезки">
                   <svg class="upload-photo__crop" width="48px" height="48px">
                     <use xlink:href="#icon-editor-crop"></use>
                   </svg>
                 </button>
-                <button class="upload-form__list upload-form__list--fill" type="button">
+                <button class="upload-form__list upload-form__list--fill" type="button" title="Редактор цвета">
                   <svg class="upload-photo__fill" width="47.92px" height="48px">
                     <use xlink:href="#icon-editor-fill"></use>
                   </svg>
                 </button>
-                <button class="upload-form__list upload-form__list--contrast" type="button">
+                <button class="upload-form__list upload-form__list--contrast" type="button" title="Редактор контрастности">
                   <svg class="upload-photo__contrast" width="31.92px" height="31.92px">
                     <use xlink:href="#icon-editor-contrast"></use>
                   </svg>
@@ -435,8 +435,8 @@
               </div>
             </div>
             <div class="form-btn">
-              <button class="button upload-photo__button upload-photo__button-submit" type="submit">Запостить</button>
-              <button class="button upload-photo__button upload-photo__button-reset" type="reset">Отмена</button>
+              <button class="button upload-photo__button upload-photo__button-submit" type="submit" title="Кнопка запостить">Запостить</button>
+              <button class="button upload-photo__button upload-photo__button-reset" type="reset" title="Кнопка отмена">Отмена</button>
             </div>
           </div>
         </form>
@@ -445,10 +445,10 @@
 
   </main>
 
-  <footer class="page-footer">
+  <footer class="page-footer page-footer--hidden">
     <div class="container">
       <div class="page-footer__wrapper">
-        <div class="footer-logo">
+        <div class="footer-logo" title="Логотип">
           <a href="index.html">
             <svg class="footer-logo__tablet" width="146.3px" height="40.375px">
               <use xlink:href="#logo-pink-blue-mobile"></use>
@@ -460,7 +460,7 @@
         </div>
         <div class="page-footer__social social">
           <ul class="social__list">
-            <li class="social__item">
+            <li class="social__item" title="Твиттер">
               <a class="social__link" href="https://twitter.com/htmlacademy_ru">
                 <span class="visually-hidden">Твиттер</span>
                 <svg class="social__link-twitter" width="17.5px" height="14.663px">
@@ -468,7 +468,7 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li title="Фейсбук">
               <a class="social__link" href="https://www.facebook.com/htmlacademy">
                 <span class="visually-hidden">Фейсбук</span>
                 <svg class="social__link-facebook" width="8.673px" height="18.944px">
@@ -476,7 +476,7 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li title="Ютуб">
               <a class="social__link" href="https://www.youtube.com/user/htmlacademyru">
                 <span class="visually-hidden">Ютуб</span>
                 <svg class="social__link-youtube" width="14.64px" height="13.96px">
@@ -486,7 +486,7 @@
             </li>
           </ul>
         </div>
-        <div class="page-footer__copyright copyright">
+        <div class="page-footer__copyright copyright" title="htmlacademy">
           <span class="copyright__text">Разработано</span>
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             <svg class="copyright__color" width="26.943" height="34.09">
