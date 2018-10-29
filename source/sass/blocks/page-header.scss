@@ -251,6 +251,7 @@
   @media (min-width: 960px) {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 640px;
     border-top: none;
   }
