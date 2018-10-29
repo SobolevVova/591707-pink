@@ -340,15 +340,12 @@ input[type="radio"] {
   }
 
   @media (min-width: 660px) {
-    width: 500px;
-    margin-left: 57px;
     padding-right: 60px;
     margin-bottom: 9px;
     padding-left: 18px;
   }
 
   @media (min-width: 960px) {
-    width: 374px;
     margin-left: 35px;
   }
 }
@@ -358,6 +355,7 @@ input[type="radio"] {
     position: relative;
     display: flex;
     flex-direction: column-reverse;
+    padding: 0 57px;
   }
 
   @media (min-width: 960px) {
@@ -369,7 +367,7 @@ input[type="radio"] {
   @media (min-width: 660px) {
     content: "";
     position: absolute;
-    right: 60px;
+    right: 59px;
     top: 1px;
     width: 60px;
     height: 60px;

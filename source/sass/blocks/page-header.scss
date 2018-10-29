@@ -16,11 +16,12 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 28px;
   line-height: 0;
   background-color: #283645;
 
   @media (min-width: 660px) {
+    padding-bottom: 30px;
     height: 60px;
   }
 
@@ -54,6 +55,7 @@
     width: 146px;
     height: 40px;
     display: block;
+    margin-top: 7px;
   }
 
   @media (min-width: 960px) {
@@ -68,7 +70,7 @@
 
   @media (min-width: 960px) {
     display: block;
-    margin-top: 12px;
+    margin-top: 6px;
     color: #ffffff;
   }
 }
@@ -139,7 +141,7 @@
 
 .main-navigation__toggle--cross {
   position: absolute;
-  top: 29px;
+  top: 30px;
   right: 22px;
   width: 30px;
   height: 4px;
@@ -170,7 +172,7 @@
   }
 
   @media (min-width: 660px) {
-    top: 47px;
+    top: 55px;
   }
 
   @media (min-width: 960px) {
@@ -230,7 +232,7 @@
   @media (min-width: 960px) {
     width: 622px;
     margin: 0;
-    margin-top: 6px;
+    margin-top: 1px;
     margin-right: 19px;
     background-color: transparent;
   }

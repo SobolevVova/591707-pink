@@ -51,7 +51,7 @@
     padding-top: 75px;
     text-align: left;
     background-image: url("../img/iphone-screen-3-tablet@1x.png");
-    background-position: 0 5px;
+    background-position: 0 4px;
     background-repeat: no-repeat;
     background-size: 270px 479px;
   }
@@ -69,7 +69,7 @@
   padding-bottom: 31px;
 
   @media (min-width: 660px) {
-    margin-left: 23px;
+    margin-left: 24px;
     background-image: none;
   }
 }
@@ -182,7 +182,7 @@
 
 .information-app__item--mood {
   @media (min-width: 660px) {
-    margin-bottom: 3px;
+    margin-bottom: 5px;
   }
 
   @media (min-width: 960px) {
@@ -218,6 +218,7 @@
 .information-app__item-title--mood {
   @media (min-width: 660px) {
     margin-left: 21px;
+    margin-bottom: 10px;
   }
 
   @media (min-width: 960px) {
