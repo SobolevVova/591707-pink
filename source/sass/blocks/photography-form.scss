@@ -3,19 +3,19 @@
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: 50% -2%;
-  margin-top: -68px;
+  margin-top: -71px;
 
   @media (min-width: 660px) {
     background-image: url("../img/bg-back-tablet@1x.jpg");
     background-position: 50% 2%;
-    margin-top: -105px;
+    margin-top: -110px;
     margin-bottom: 93px;
   }
 
   @media (min-width: 960px) {
     background-image: url("../img/bg-back-desktop@1x.jpg");
     background-position: 50% 0;
-    margin-top: -111px;
+    margin-top: -116px;
   }
 }
 
@@ -44,7 +44,7 @@
   margin: 0;
   padding-top: 101px;
   padding-bottom: 53px;
-  margin-bottom: 44px;
+  margin-bottom: 46px;
   font-size: 24px;
   font-weight: 300;
   color: #ffffff;

@@ -4,21 +4,21 @@
   background-repeat: no-repeat;
   background-position: 50% -2%;
   padding-bottom: 4px;
-  margin-top: -68px;
+  margin-top: -71px;
 
   @media (min-width: 660px) {
     background-image: url("../img/bg-back-tablet@1x.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 1%;
-    margin-top: -105px;
-    margin-bottom: 47px;
+    background-position: 50% -1%;
+    margin-top: -110px;
+    margin-bottom: 49px;
   }
 
   @media (min-width: 960px) {
     background-image: url("../img/bg-back-desktop@1x.jpg");
     background-repeat: no-repeat;
     background-position: 50% -1%;
-    margin-top: -111px;
+    margin-top: -116px;
   }
 }
 
@@ -45,7 +45,7 @@
 
 .photo__title {
   margin: 0;
-  padding-top: 100px;
+  padding-top: 102px;
   padding-bottom: 75px;
   margin-bottom: 3px;
   font-size: 24px;
@@ -55,7 +55,7 @@
 
   @media (min-width: 660px) {
     padding-bottom: 133px;
-    padding-top: 176px;
+    padding-top: 181px;
     font-size: 50px;
     line-height: 60px;
   }
@@ -64,6 +64,6 @@
     padding-top: 176px;
     padding-left: 145px;
     padding-right: 145px;
-    padding-bottom: 95px;
+    padding-bottom: 91px;
   }
 }
