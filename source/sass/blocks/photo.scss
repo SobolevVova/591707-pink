@@ -52,6 +52,13 @@
 
 .photo__art {
   position: relative;
+}
+
+.container-photo__art {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
 
   &::before {
     content: "Панорама дня";
@@ -77,15 +84,16 @@
 }
 
 @media (min-width: 660px) {
-  .photo__art::before {
-    top: 56px;
+  .container-photo__art::before {
+    top: 57px;
+    left: 330px;
   }
 }
 
 @media (min-width: 960px) {
-  .photo__art::before {
+  .container-photo__art::before {
     top: 53px;
-    right: 289px;
+    left: 810px;
   }
 }
 
