@@ -54,7 +54,7 @@
   position: relative;
 }
 
-.container-photo__art {
+.photo__container {
   position: absolute;
   top: 0;
   left: 50%;
@@ -84,14 +84,14 @@
 }
 
 @media (min-width: 660px) {
-  .container-photo__art::before {
+  .photo__container::before {
     top: 57px;
     left: 330px;
   }
 }
 
 @media (min-width: 960px) {
-  .container-photo__art::before {
+  .photo__container::before {
     top: 53px;
     left: 810px;
   }
