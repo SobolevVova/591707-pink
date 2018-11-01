@@ -229,6 +229,24 @@
   }
 }
 
+.upload-form__list--fill {
+  @media (min-width: 660px) {
+    margin-left: 4px;
+    margin-top: 4px;
+  }
+
+  @media (min-width: 960px) {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+.upload-form__list--contrast {
+  @media (min-width: 660px) {
+    margin-left: 6px;
+  }
+}
+
 .upload-photo__button-submit {
   margin-bottom: 2px;
   border: 3px solid #d22856;

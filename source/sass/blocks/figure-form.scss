@@ -27,12 +27,12 @@
 }
 
 
-.figure-form__text--hidden {
+.figure-form__text-hidden {
   display: none;
 }
 
 @media (min-width: 660px) {
-  .figure-form__text .figure-form__text--hidden {
+  .figure-form__text .figure-form__text-hidden {
     display: inline-block;
     vertical-align: top;
     padding-top: 0;

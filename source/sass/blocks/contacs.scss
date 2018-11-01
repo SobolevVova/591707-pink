@@ -13,7 +13,7 @@
     padding-left: 100px;
     padding-right: 100px;
     margin-top: 43px;
-    margin-bottom: 40px;
+    margin-bottom: 41px;
     font-size: 40px;
     line-height: 48px;
   }
@@ -168,12 +168,25 @@
   }
 }
 
-.map-layer {
+.contacts__info::before {
+  content: "";
   position: absolute;
-  height: auto;
+  right: 0;
+  top: 0;
   width: 100%;
-  transform: translateY(0%);
+  height: 123px;
+  background-image: url("../img/bg-triangle-white-footer.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 28%;
   z-index: 5;
+
+  @media (min-width: 660px) {
+    background-size: 100% 53%;
+  }
+
+  @media (min-width: 960px) {
+    background-size: 100% 84%;
+  }
 }
 
 .contacts__map {

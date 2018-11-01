@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <title>Пинк-фотографии</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
   <script src="js/picturefill.min.js"></script>
   <script src="js/svg4everybody.min.js"></script>
 </head>
 
 <body class="inner">
 
-  <div style="display:none">
+  <div style="display: none;">
     <svg xmlns="http://www.w3.org/2000/svg">
       <symbol id="bg-hit-tablet" viewbox="0 6 61 61">
         <path fill="#D22856" d="M18.975 6L0 25.062V67L61.09 6z"></path>
@@ -33,14 +33,14 @@
         <path fill="currentColor" d="M-19.462-3.96c6.595 0 11.96 5.365 11.96 11.96s-5.365 11.96-11.96 11.96-11.96-5.365-11.96-11.96 5.365-11.96 11.96-11.96m0-4c-8.814 0-15.96 7.145-15.96 15.96 0 8.813 7.146 15.96 15.96 15.96S-3.502 16.813-3.502 8c0-8.815-7.146-15.96-15.96-15.96z"></path>
         <path fill="currentColor" d="M-19.462 16.331a8.519 8.519 0 0 0 8.52-8.52 8.518 8.518 0 0 0-8.52-8.519"></path>
       </symbol>
-      <symbol id="icon-editor-crop">
+      <symbol id="icon-editor-crop" viewbox="0 0 48 48">
         <path fill="none" d="M0 0h48v48H0V0z"></path>
         <path d="M34 30h4V14c0-2.21-1.79-4-4-4H18v4h16v16zm-20 4V2h-4v8H2v4h8v20c0 2.21 1.79 4 4 4h20v8h4v-8h8v-4H14z"></path>
       </symbol>
       <symbol id="icon-editor-diagram-fill" viewbox="22.5 69.048 253 253">
         <path fill="#231F20" d="M149 69.048c-69.864 0-126.5 56.636-126.5 126.5s56.636 126.5 126.5 126.5 126.5-56.636 126.5-126.5c0-69.863-56.636-126.5-126.5-126.5zm0 237.216c-60.844 0-110.167-49.323-110.167-110.167S88.156 85.93 149 85.93c60.843 0 110.167 49.323 110.167 110.167S209.843 306.264 149 306.264z"></path>
       </symbol>
-      <symbol id="icon-editor-fill">
+      <symbol id="icon-editor-fill" viewbox="0 0 48 48">
         <path fill="none" d="M0 0h48v48H0V0z"></path>
         <path d="M33.12 17.88L15.24 0l-2.83 2.83 4.76 4.76L6.88 17.88a3 3 0 0 0 0 4.24l11 11c.58.59 1.35.88 2.12.88s1.54-.29 2.12-.88l11-11a3 3 0 0 0 0-4.24zM10.41 20L20 10.42 29.59 20H10.41zM38 23s-4 4.33-4 7c0 2.21 1.79 4 4 4s4-1.79 4-4c0-2.67-4-7-4-7zM0 40h48v3H0z"></path>
       </symbol>
@@ -144,7 +144,7 @@
     <div class="container">
       <nav class="main-navigation">
         <div class="page-header__top page-header__top--closed">
-          <a class="page-header__logo">
+          <a class="page-header__logo" href="index.html" title="Логотип">
             <svg class="page-header__logo-desktop" width="146.3px" height="40.375px">
               <use xlink:href="#logo-pink-white-desktop"></use>
             </svg>
@@ -202,7 +202,7 @@
     <section class="photo">
       <h2 class="visually-hidden">Лайки</h2>
       <div class="photo__art">
-        <a class="photo__art-review" href="#">
+        <a class="photo__art-review" href="#" title="Фотография">
           <picture>
             <source type="image/webp" media="(min-width: 960px)" srcset="img/panorama-desktop@1x.webp 1x, img/panorama-desktop@2x.webp 2x">
             <source type="image/webp" media="(min-width: 660px)" srcset="img/panorama-tablet@1x.webp 1x, img/panorama-tablet@2x.webp 2x">
@@ -213,6 +213,8 @@
             <img src="img/panorama-mobile@1x.jpg" srcset="img/panorama-mobile@1x.jpg 1x, img/panorama-mobile@2x.jpg 2x" alt="Панорама">
           </picture>
         </a>
+        <div class="container photo__container">
+        </div>
         <div class="container">
           <div class="photo__art-wrapper">
             <div class="photo__art-description">
@@ -231,7 +233,7 @@
       </div>
       <div class="container">
         <ul class="photo__list">
-          <li class="photo__item">
+          <li class="photo__item" title="Фотография">
             <a class="photo__img" href="#">
               <picture>
                 <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-car-desktop@1x.webp 1x, img/photo-car-desktop@2x.webp 2x">
@@ -255,7 +257,7 @@
                 Нравится: 356</a>
             </div>
           </li>
-          <li class="photo__item">
+          <li class="photo__item" title="Фотография">
             <a class="photo__img" href="#">
               <picture>
                 <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-drumset-desktop@1x.webp 1x, img/photo-drumset-desktop@2x.webp 2x">
@@ -279,7 +281,7 @@
                 Нравится: 666</a>
             </div>
           </li>
-          <li class="photo__item">
+          <li class="photo__item" title="Фотография">
             <a class="photo__img" href="#">
               <picture>
                 <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-window-desktop@1x.webp 1x, img/photo-window-desktop@2x.webp 2x">
@@ -303,7 +305,7 @@
                 Нравится: 215</a>
             </div>
           </li>
-          <li class="photo__item">
+          <li class="photo__item" title="Фотография">
             <a class="photo__img" href="#">
               <picture>
                 <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-fair-desktop@1x.webp 1x, img/photo-fair-desktop@2x.webp 2x">
@@ -327,7 +329,7 @@
                 Нравится: 4</a>
             </div>
           </li>
-          <li class="photo__item">
+          <li class="photo__item" title="Фотография">
             <a class="photo__img" href="#">
               <picture>
                 <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-pov-desktop@1x.webp 1x, img/photo-pov-desktop@2x.webp 2x">
@@ -351,7 +353,7 @@
                 Нравится: 150</a>
             </div>
           </li>
-          <li class="photo__item">
+          <li class="photo__item" title="Фотография">
             <a class="photo__img" href="#">
               <picture>
                 <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-wing-desktop@1x.webp 1x, img/photo-wing-desktop@2x.webp 2x">
@@ -403,17 +405,17 @@
           <div class="upload-form__wrapper">
             <div class="upload-form__filter">
               <div class="upload-form__lists">
-                <button class="upload-form__list upload-form__list--crop" type="button">
+                <button class="upload-form__list upload-form__list--crop" type="button" title="Редактор обрезки">
                   <svg class="upload-photo__crop" width="48px" height="48px">
                     <use xlink:href="#icon-editor-crop"></use>
                   </svg>
                 </button>
-                <button class="upload-form__list upload-form__list--fill" type="button">
+                <button class="upload-form__list upload-form__list--fill" type="button" title="Редактор цвета">
                   <svg class="upload-photo__fill" width="47.92px" height="48px">
                     <use xlink:href="#icon-editor-fill"></use>
                   </svg>
                 </button>
-                <button class="upload-form__list upload-form__list--contrast" type="button">
+                <button class="upload-form__list upload-form__list--contrast" type="button" title="Редактор контрастности">
                   <svg class="upload-photo__contrast" width="31.92px" height="31.92px">
                     <use xlink:href="#icon-editor-contrast"></use>
                   </svg>
@@ -435,8 +437,8 @@
               </div>
             </div>
             <div class="form-btn">
-              <button class="button upload-photo__button upload-photo__button-submit" type="submit">Запостить</button>
-              <button class="button upload-photo__button upload-photo__button-reset" type="reset">Отмена</button>
+              <button class="button upload-photo__button upload-photo__button-submit" type="submit" title="Кнопка запостить">Запостить</button>
+              <button class="button upload-photo__button upload-photo__button-reset" type="reset" title="Кнопка отмена">Отмена</button>
             </div>
           </div>
         </form>
@@ -448,7 +450,7 @@
   <footer class="page-footer">
     <div class="container">
       <div class="page-footer__wrapper">
-        <div class="footer-logo">
+        <div class="footer-logo" title="Логотип">
           <a href="index.html">
             <svg class="footer-logo__tablet" width="146.3px" height="40.375px">
               <use xlink:href="#logo-pink-blue-mobile"></use>
@@ -460,7 +462,7 @@
         </div>
         <div class="page-footer__social social">
           <ul class="social__list">
-            <li class="social__item">
+            <li class="social__item" title="Твиттер">
               <a class="social__link" href="https://twitter.com/htmlacademy_ru">
                 <span class="visually-hidden">Твиттер</span>
                 <svg class="social__link-twitter" width="17.5px" height="14.663px">
@@ -468,7 +470,7 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li title="Фейсбук">
               <a class="social__link" href="https://www.facebook.com/htmlacademy">
                 <span class="visually-hidden">Фейсбук</span>
                 <svg class="social__link-facebook" width="8.673px" height="18.944px">
@@ -476,7 +478,7 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li title="Ютуб">
               <a class="social__link" href="https://www.youtube.com/user/htmlacademyru">
                 <span class="visually-hidden">Ютуб</span>
                 <svg class="social__link-youtube" width="14.64px" height="13.96px">
@@ -486,7 +488,7 @@
             </li>
           </ul>
         </div>
-        <div class="page-footer__copyright copyright">
+        <div class="page-footer__copyright copyright" title="htmlacademy">
           <span class="copyright__text">Разработано</span>
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             <svg class="copyright__color" width="26.943" height="34.09">

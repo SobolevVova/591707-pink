@@ -25,11 +25,11 @@ input[type="radio"] {
   margin-bottom: 25px;
 
   @media (min-width: 660px) {
-    margin-bottom: 3px;
+    margin-bottom: 6px;
   }
 
   @media (min-width: 960px) {
-    width: 430px;
+    width: 435px;
     margin-right: 70px;
     margin-top: 22px;
     margin-bottom: 0;
@@ -39,7 +39,6 @@ input[type="radio"] {
 .form__info-registration {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1px;
 
   @media (min-width: 660px) {
     flex-direction: row;
@@ -48,12 +47,12 @@ input[type="radio"] {
 
 .form__info-label {
   margin-bottom: 4px;
-  margin-left: 23px;
+  margin-left: 22px;
   text-transform: uppercase;
   color: #d22856;
 
   @media (min-width: 660px) {
-    margin-top: 18px;
+    margin-top: 19px;
     margin-right: 18px;
     margin-left: 0;
   }
@@ -64,7 +63,7 @@ input[type="radio"] {
 }
 
 .form__info-input {
-  width: 278px;
+  width: 100%;
   box-sizing: border-box;
   height: 63px;
   padding-right: 15px;
@@ -83,24 +82,12 @@ input[type="radio"] {
   }
 
   @media (min-width: 660px) {
-    width: 525px;
     margin-bottom: 52px;
     padding-left: 20px;
   }
 
   @media (min-width: 960px) {
-    width: 341px;
     margin-bottom: 52px;
-  }
-}
-
-.form__info-input--name {
-  @media (min-width: 660px) {
-    width: 565px;
-  }
-
-  @media (min-width: 960px) {
-    width: 381px;
   }
 }
 
@@ -112,6 +99,7 @@ input[type="radio"] {
   @media (min-width: 660px) {
     background-color: #ffffff;
     order: 2;
+    margin-bottom: 26px;
   }
 
   @media (min-width: 960px) {
@@ -129,8 +117,8 @@ input[type="radio"] {
   }
 
   @media (min-width: 960px) {
-    height: 235px;
     margin: 0;
+    flex-direction: column;
   }
 }
 
@@ -171,13 +159,15 @@ input[type="radio"] {
     flex-wrap: wrap;
     justify-content: space-between;
     flex-shrink: 0;
+    width: 936px;
+    padding-bottom: 7px;
   }
 }
 
 .form__progress-title {
   margin: 0;
   padding: 0;
-  padding-top: 36px;
+  padding-top: 38px;
   padding-left: 35px;
   padding-right: 35px;
   margin-bottom: 45px;
@@ -196,7 +186,7 @@ input[type="radio"] {
   }
 
   @media (min-width: 960px) {
-    padding-right: 4px;
+    padding-right: 2px;
   }
 }
 
@@ -275,9 +265,9 @@ input[type="radio"] {
 
   @media (min-width: 960px) {
     width: 940px;
-    height: 152px;
-    margin-top: -3px;
+    margin-top: 0;
     margin-bottom: 57px;
+    padding-bottom: 8px;
   }
 }
 
@@ -317,11 +307,11 @@ input[type="radio"] {
   color: #d22856;
 
   @media (min-width: 660px) {
-    margin-left: 77px;
+    margin-left: 20px;
   }
 
   @media (min-width: 960px) {
-    margin-left: 54px;
+    margin-left: 20px;
   }
 }
 
@@ -330,7 +320,7 @@ input[type="radio"] {
 }
 
 .form__information-input {
-  width: 278px;
+  width: 100%;
   box-sizing: border-box;
   height: 63px;
   padding-right: 15px;
@@ -349,16 +339,14 @@ input[type="radio"] {
   }
 
   @media (min-width: 660px) {
-    width: 500px;
-    margin-left: 57px;
     padding-right: 60px;
     margin-bottom: 9px;
     padding-left: 18px;
   }
 
   @media (min-width: 960px) {
-    width: 374px;
-    margin-left: 35px;
+    width: 378px;
+    margin-bottom: 10px;
   }
 }
 
@@ -367,10 +355,11 @@ input[type="radio"] {
     position: relative;
     display: flex;
     flex-direction: column-reverse;
+    padding: 0 57px;
   }
 
   @media (min-width: 960px) {
-    margin-left: 23px;
+    padding-right: 10px;
   }
 }
 
@@ -378,7 +367,7 @@ input[type="radio"] {
   @media (min-width: 660px) {
     content: "";
     position: absolute;
-    right: 60px;
+    right: 59px;
     top: 1px;
     width: 60px;
     height: 60px;
@@ -391,7 +380,7 @@ input[type="radio"] {
 
 @media (min-width: 960px) {
   .form__information-contact::before {
-    right: 2px;
+    right: 12px;
   }
 }
 
@@ -401,10 +390,9 @@ input[type="radio"] {
   }
 
   @media (min-width: 960px) {
-    margin-right: 14px;
+    margin-bottom: 0;
   }
 }
-
 
 .form__information-contact--number::before {
   @media (min-width: 660px) {
@@ -423,10 +411,9 @@ input[type="radio"] {
 
 @media (min-width: 960px) {
   .form__information-contact--number::before {
-    right: 1px;
+    right: 13px;
   }
 }
-
 
 .form__wrapper--app {
   background-color: #f2f2f2;
@@ -553,8 +540,6 @@ input[type="radio"] {
 }
 
 .form__remember {
-  min-height: 270px;
-
   @media (min-width: 660px) {
     order: 2;
     margin-bottom: 52px;
@@ -564,8 +549,7 @@ input[type="radio"] {
 
   @media (min-width: 960px) {
     width: 940px;
-    min-height: 222px;
-    margin-bottom: 47px;
+    margin-bottom: 49px;
   }
 }
 
@@ -581,15 +565,14 @@ input[type="radio"] {
   @media (min-width: 660px) {
     width: 255px;
     padding: 0;
-    margin-bottom: 26px;
+    margin-bottom: 28px;
     background-color: #ffffff;
   }
 
   @media (min-width: 960px) {
-    margin-bottom: 35px;
+    margin-bottom: 33px;
   }
 }
-
 
 .form__remember-wrap {
   display: block;
@@ -599,6 +582,7 @@ input[type="radio"] {
   @media (min-width: 660px) {
     margin-left: 57px;
     padding-top: 9px;
+    margin-right: 57px;
   }
 
   @media (min-width: 960px) {
@@ -607,27 +591,25 @@ input[type="radio"] {
 }
 
 .form__textarea {
-  width: 278px;
+  width: 100%;
+  padding-bottom: 68px;
   margin-bottom: 39px;
   padding-right: 14px;
   padding-left: 14px;
   padding-top: 20px;
-  min-height: 200px;
   box-sizing: border-box;
   font-size: 18px;
   color: #283645;
   border: 2px solid #e5e5e5;
 
   @media (min-width: 660px) {
-    width: 500px;
-    min-height: 195px;
+    padding-bottom: 63px;
   }
 
   @media (min-width: 960px) {
-    width: 821px;
-    min-height: 100px;
     padding-top: 14px;
     margin-bottom: 34px;
+    padding-bottom: 0;
   }
 }
 
@@ -640,21 +622,19 @@ input[type="radio"] {
   }
 }
 
-@media (min-width: 660px) {
-  .form__footer {
+.form__footer {
+  @media (min-width: 660px) {
     order: 2;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 48px;
+    margin-bottom: 46px;
     box-sizing: border-box;
     align-items: baseline;
   }
-}
 
-@media (min-width: 960px) {
-  .form__footer {
+  @media (min-width: 960px) {
     width: 940px;
-    margin-bottom: 32px;
+    margin-bottom: 31px;
   }
 }
 
@@ -662,7 +642,7 @@ input[type="radio"] {
   margin: 0;
   padding: 0;
   margin-top: 30px;
-  margin-bottom: 53px;
+  margin-bottom: 55px;
   text-transform: uppercase;
   text-align: center;
 

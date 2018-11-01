@@ -45,13 +45,20 @@
   }
 
   @media (min-width: 960px) {
-    margin-bottom: 55px;
+    margin-bottom: 56px;
   }
 }
 
 
 .photo__art {
   position: relative;
+}
+
+.photo__container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
 
   &::before {
     content: "Панорама дня";
@@ -77,23 +84,25 @@
 }
 
 @media (min-width: 660px) {
-  .photo__art::before {
-    top: 56px;
+  .photo__container::before {
+    top: 57px;
+    right: -150px;
   }
 }
 
 @media (min-width: 960px) {
-  .photo__art::before {
+  .photo__container::before {
     top: 53px;
-    right: 289px;
+    right: 10px;
   }
 }
 
 .photo__art img {
   width: 100%;
+  display: block;
 
   @media (min-width: 660px) {
-    height: 510px;
+    min-height: 510px;
   }
 
   @media (min-width: 960px) {
@@ -103,15 +112,6 @@
 
 .photo__art-review {
   display: block;
-  height: 123px;
-
-  @media (min-width: 660px) {
-    height: 510px;
-  }
-
-  @media (min-width: 960px) {
-    height: 506px;
-  }
 }
 
 .photo__art-wrapper {
@@ -146,14 +146,13 @@
 
   @media (min-width: 960px) {
     margin-left: 28px;
-    margin-top: 2px;
     margin-bottom: 51px;
   }
 }
 
 .photo__art-descriptive {
   margin: 0;
-  padding-top: 29px;
+  padding-top: 16px;
   margin-bottom: -2px;
 
   @media (min-width: 660px) {
@@ -263,7 +262,7 @@
 }
 
 .photo__like--most {
-  padding-bottom: 4px;
+  padding-bottom: 3px;
 }
 
 .photo__description .photo__book--snow {
@@ -285,19 +284,22 @@
 }
 
 .photo__img {
-  height: 180px;
+  display: block;
   text-align: center;
+  margin: 0 auto;
 
-  @media (min-width: 660px) {
-    height: 300px;
-  }
+  // @media (min-width: 660px) {
+  //   height: 300px;
+  // }
 
-  @media (min-width: 960px) {
-    height: 400px;
-  }
+  // @media (min-width: 960px) {
+  //   height: 400px;
+  // }
 }
 
 .photo__item img {
+  display: block;
+
   @media (min-width: 660px) {
     width: 300px;
     height: 300px;
@@ -314,10 +316,6 @@
   background-color: #f2f2f2;
   box-sizing: border-box;
   padding-bottom: 20px;
-
-  @media (min-width: 660px) {
-    padding-bottom: 21px;
-  }
 }
 
 .photo__descriptive {
@@ -337,7 +335,7 @@
 .photo__name {
   display: block;
   margin: 0;
-  margin-right: 5px;
+  margin-right: 2px;
   color: #283645;
   line-height: 24px;
   font-weight: 700;
