@@ -86,14 +86,14 @@
 @media (min-width: 660px) {
   .photo__container::before {
     top: 57px;
-    left: 330px;
+    right: -150px;
   }
 }
 
 @media (min-width: 960px) {
   .photo__container::before {
     top: 53px;
-    left: 810px;
+    right: 10px;
   }
 }
 
