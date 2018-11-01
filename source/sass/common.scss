@@ -44,10 +44,6 @@ input[type="radio"].visually-hidden {
   padding: 0 20px;
   box-sizing: border-box;
 
-  @media (min-width: 660px) {
-    padding: 0 20px;
-  }
-
   @media (min-width: 960px) {
     width: 960px;
     padding: 0 10px;
