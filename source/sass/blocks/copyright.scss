@@ -1,0 +1,46 @@
+.copyright__link {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 41px;
+  color: #d22856;
+
+  &:hover {
+    color: #283645;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.copyright__text {
+  line-height: 18px;
+  color: #283645;
+  font-weight: 400;
+
+  @media (min-width: 960px) {
+    font-size: 18px;
+  }
+}
+
+.copyright__color {
+  fill: #d22856;
+  margin-left: 11px;
+  margin-top: 3px;
+
+  @media (min-width: 660px) {
+    width: 40px;
+    height: 40px;
+    margin-left: 13px;
+  }
+}
+
+.copyright__color:hover use {
+  fill: #283645;
+}
+
+.copyright__color:active use {
+  opacity: 0.3;
+  fill: #283645;
+}

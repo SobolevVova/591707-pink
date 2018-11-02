@@ -1,0 +1,43 @@
+.footer-logo {
+  @media (min-width: 960px) {
+    margin-right: 26px;
+  }
+}
+
+.footer-logo a {
+  display: block;
+  margin-left: 66px;
+  margin-bottom: 30px;
+
+  @media (min-width: 660px) {
+    margin-left: 0;
+  }
+}
+
+.footer-logo__tablet {
+  @media (min-width: 960px) {
+    display: none;
+  }
+}
+
+.footer-logo__desktop {
+  display: none;
+
+  @media (min-width: 660px) {
+    display: none;
+  }
+
+  @media (min-width: 960px) {
+    color: #283645;
+    display: block;
+  }
+}
+
+.footer-logo__desktop:hover {
+  color: #d22856;
+}
+
+.footer-logo__desktop:active {
+  color: #283645;
+  opacity: 0.3;
+}
