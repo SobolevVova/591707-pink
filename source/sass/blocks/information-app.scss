@@ -12,7 +12,7 @@
 
   @media (min-width: 960px) {
     margin: 0;
-    padding-bottom: 45px;
+    padding-bottom: 29px;
   }
 }
 
@@ -39,7 +39,7 @@
   list-style: none;
 
   @media (min-width: 660px) {
-    height: 410px;
+    height: auto;
     padding-left: 264px;
     padding-top: 75px;
     text-align: left;
@@ -53,8 +53,6 @@
     display: flex;
     padding: 0;
     background-image: none;
-    padding-left: 0;
-    padding-bottom: 180px;
     text-align: center;
   }
 }
@@ -218,7 +216,7 @@
   @media (min-width: 960px) {
     width: 200px;
     margin-left: 50px;
-    margin-bottom: 27px;
+    margin-bottom: 25px;
   }
 }
 
