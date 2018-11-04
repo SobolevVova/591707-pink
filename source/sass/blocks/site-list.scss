@@ -21,6 +21,10 @@
   text-align: center;
 
   @media (min-width: 960px) {
+    display: inline-block;
+    max-width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
     padding: 10px 0;
     line-height: 18px;
     font-weight: normal;
