@@ -1,24 +1,7 @@
-.form {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  margin: 0 auto;
-
-  @media (min-width: 960px) {
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-}
-
 .form__fieldset {
   padding: 0;
   margin: 0;
   border: none;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  display: none;
 }
 
 .form__info {

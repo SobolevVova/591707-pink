@@ -1,0 +1,11 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 0 auto;
+
+  @media (min-width: 960px) {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
