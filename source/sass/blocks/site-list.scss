@@ -2,7 +2,16 @@
   font-weight: bold;
 
   @media (min-width: 960px) {
-    padding-top: 35px;
+    padding-top: 38px;
+  }
+}
+
+.site-list__item {
+  @media (min-width: 960px) {
+    text-align: left;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
@@ -22,11 +31,8 @@
 
   @media (min-width: 960px) {
     display: inline-block;
-    max-width: 200px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    padding: 10px 0;
-    line-height: 18px;
+    padding: 0;
+    line-height: 30px;
     font-weight: normal;
     text-transform: none;
     background-color: transparent;

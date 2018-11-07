@@ -1,0 +1,12 @@
+.check-yes {
+  width: 27px;
+  height: 21px;
+
+  @media (min-width: 660px) {
+    margin-top: -5px;
+  }
+
+  @media (min-width: 960px) {
+    margin-top: 8px;
+  }
+}

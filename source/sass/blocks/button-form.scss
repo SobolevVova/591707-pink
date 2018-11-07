@@ -1,0 +1,25 @@
+.button-form {
+  display: block;
+  width: 280px;
+  height: 63px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #2aab6d;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+
+  &:hover {
+    background-color: #1c9b5e;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  @media (min-width: 660px) {
+    width: 300px;
+  }
+}

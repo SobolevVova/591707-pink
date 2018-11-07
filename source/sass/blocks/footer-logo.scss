@@ -31,13 +31,13 @@
     color: #283645;
     display: block;
   }
-}
 
-.footer-logo__desktop:hover {
-  color: #d22856;
-}
+  &:hover {
+    color: #d22856;
+  }
 
-.footer-logo__desktop:active {
-  color: #283645;
-  opacity: 0.3;
+  &:active {
+    color: #283645;
+    opacity: 0.3;
+  }
 }

@@ -1,6 +1,14 @@
 .page-footer {
   display: block;
   padding-bottom: 40px;
+
+  &--hidden {
+    display: none;
+
+    @media (min-width: 660px) {
+      display: block;
+    }
+  }
 }
 
 .page-footer__wrapper {
@@ -12,14 +20,6 @@
 
   @media (min-width: 960px) {
     width: 952px;
-  }
-}
-
-.page-footer--hidden {
-  display: none;
-
-  @media (min-width: 660px) {
-    display: block;
   }
 }
 

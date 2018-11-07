@@ -1,10 +1,13 @@
 @import "../../node_modules/normalize-scss/sass/_normalize.scss";
+@import "blocks/button-form.scss";
 @import "blocks/button.scss";
+@import "blocks/check-yes.scss";
 @import "blocks/clock.scss";
 @import "blocks/comments-button.scss";
 @import "blocks/comments.scss";
 @import "blocks/contacs.scss";
 @import "blocks/copyright.scss";
+@import "blocks/cross-no.scss";
 @import "blocks/figure-form.scss";
 @import "blocks/footer-logo.scss";
 @import "blocks/form-btn.scss";
@@ -33,4 +36,4 @@
 @import "blocks/upload-form.scss";
 @import "blocks/upload-photo.scss";
 @import "common.scss";
-@import "fons.scss";
+@import "fonts.scss";

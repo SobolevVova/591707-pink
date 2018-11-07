@@ -37,25 +37,25 @@
     margin-left: -10px;
     margin-right: 0;
   }
-}
 
-.clock__img::before {
-  @media (min-width: 660px) {
-    content: "";
-    position: absolute;
-    right: -239px;
-    top: 0;
-    width: 238px;
-    height: 276px;
-    background-image: url("../img/icon-timer.svg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  }
+  &::before {
+    @media (min-width: 660px) {
+      content: "";
+      position: absolute;
+      right: -239px;
+      top: 0;
+      width: 238px;
+      height: 276px;
+      background-image: url("../img/icon-timer.svg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
 
-  @media (min-width: 960px) {
-    right: -300px;
-    width: 300px;
-    height: 345px;
+    @media (min-width: 960px) {
+      right: -300px;
+      width: 300px;
+      height: 345px;
+    }
   }
 }
 

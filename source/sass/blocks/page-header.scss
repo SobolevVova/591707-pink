@@ -74,13 +74,13 @@
     margin-top: 6px;
     color: #ffffff;
   }
-}
 
-.page-header__logo-desktop:hover {
-  color: #d22856;
-}
+  &:hover {
+    color: #d22856;
+  }
 
-.page-header__logo-desktop:active {
-  color: #ffffff;
-  opacity: 0.3;
+  &:active {
+    color: #ffffff;
+    opacity: 0.3;
+  }
 }

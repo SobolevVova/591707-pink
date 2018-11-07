@@ -7,6 +7,22 @@
   }
 }
 
+.upload-photo__form {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #f2f2f2;
+
+  @media (min-width: 660px) {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 11px;
+  }
+
+  @media (min-width: 960px) {
+    padding-bottom: 19px;
+  }
+}
+
 .upload-photo__text {
   margin: 0;
   margin-right: 4px;

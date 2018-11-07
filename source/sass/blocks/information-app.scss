@@ -115,6 +115,12 @@
   }
 }
 
+@media (min-width: 960px) and (min-resolution: 144dpi), (min-width: 960px) and (min-resolution: 1.5dppx) {
+  .information-app__list {
+    background-image: none;
+  }
+}
+
 .information-app__item .information-app__item-title--friends {
   @media (min-width: 660px) {
     margin-left: 24px;
@@ -188,7 +194,7 @@
 }
 
 @media (min-width: 960px) and (min-resolution: 144dpi), (min-width: 960px) and (min-resolution: 1.5dppx) {
-  .information-app__item--world {
+  .information-app__item--mood {
     background-image: url("../img/iphone-screen-1-desktop@2x.png");
     background-size: 270px auto;
   }
