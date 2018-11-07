@@ -9,6 +9,7 @@
 .site-list__item {
   @media (min-width: 960px) {
     text-align: left;
+    height: 38px;
     max-width: 250px;
     overflow: hidden;
     text-overflow: ellipsis;
